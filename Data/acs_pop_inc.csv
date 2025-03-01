@@ -1,0 +1,105 @@
+GEOID,NAME,variable,estimate
+1,Alabama,population,4876250
+1,Alabama,median_income,26596
+2,Alaska,population,737068
+2,Alaska,median_income,35957
+4,Arizona,population,7050299
+4,Arizona,median_income,30552
+5,Arkansas,population,2999370
+5,Arkansas,median_income,26137
+6,California,population,39283497
+6,California,median_income,32232
+8,Colorado,population,5610349
+8,Colorado,median_income,36644
+9,Connecticut,population,3575074
+9,Connecticut,median_income,38809
+10,Delaware,population,957248
+10,Delaware,median_income,34319
+11,District of Columbia,population,692683
+11,District of Columbia,median_income,50134
+12,Florida,population,20901636
+12,Florida,median_income,28291
+13,Georgia,population,10403847
+13,Georgia,median_income,30329
+15,Hawaii,population,1422094
+15,Hawaii,median_income,35632
+16,Idaho,population,1717750
+16,Idaho,median_income,28244
+17,Illinois,population,12770631
+17,Illinois,median_income,33460
+18,Indiana,population,6665703
+18,Indiana,median_income,30498
+19,Iowa,population,3139508
+19,Iowa,median_income,32357
+20,Kansas,population,2910652
+20,Kansas,median_income,31651
+21,Kentucky,population,4449052
+21,Kentucky,median_income,27136
+22,Louisiana,population,4664362
+22,Louisiana,median_income,26614
+23,Maine,population,1335492
+23,Maine,median_income,30412
+24,Maryland,population,6018848
+24,Maryland,median_income,41053
+25,Massachusetts,population,6850553
+25,Massachusetts,median_income,38897
+26,Michigan,population,9965265
+26,Michigan,median_income,30310
+27,Minnesota,population,5563378
+27,Minnesota,median_income,37101
+28,Mississippi,population,2984418
+28,Mississippi,median_income,24924
+29,Missouri,population,6104910
+29,Missouri,median_income,30303
+30,Montana,population,1050649
+30,Montana,median_income,29300
+31,Nebraska,population,1914571
+31,Nebraska,median_income,32572
+32,Nevada,population,2972382
+32,Nevada,median_income,31424
+33,New Hampshire,population,1348124
+33,New Hampshire,median_income,36840
+34,New Jersey,population,8878503
+34,New Jersey,median_income,39078
+35,New Mexico,population,2092454
+35,New Mexico,median_income,26191
+36,New York,population,19572319
+36,New York,median_income,34378
+37,North Carolina,population,10264876
+37,North Carolina,median_income,29456
+38,North Dakota,population,756717
+38,North Dakota,median_income,36327
+39,Ohio,population,11655397
+39,Ohio,median_income,30698
+40,Oklahoma,population,3932870
+40,Oklahoma,median_income,28348
+41,Oregon,population,4129803
+41,Oregon,median_income,31162
+42,Pennsylvania,population,12791530
+42,Pennsylvania,median_income,31628
+44,Rhode Island,population,1057231
+44,Rhode Island,median_income,32866
+45,South Carolina,population,5020806
+45,South Carolina,median_income,27945
+46,South Dakota,population,870638
+46,South Dakota,median_income,31686
+47,Tennessee,population,6709356
+47,Tennessee,median_income,28221
+48,Texas,population,28260856
+48,Texas,median_income,30993
+49,Utah,population,3096848
+49,Utah,median_income,31660
+50,Vermont,population,624313
+50,Vermont,median_income,32055
+51,Virginia,population,8454463
+51,Virginia,median_income,36003
+53,Washington,population,7404107
+53,Washington,median_income,36623
+54,West Virginia,population,1817305
+54,West Virginia,median_income,25669
+55,Wisconsin,population,5790716
+55,Wisconsin,median_income,32809
+56,Wyoming,population,581024
+56,Wyoming,median_income,32660
+72,Puerto Rico,population,3318447
+72,Puerto Rico,median_income,13641
