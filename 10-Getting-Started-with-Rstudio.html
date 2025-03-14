@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Adam Spiegler">
+
+<title>Module 10: Getting Started with RStudio</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="10-Getting-Started-with-Rstudio_files/libs/clipboard/clipboard.min.js"></script>
+<script src="10-Getting-Started-with-Rstudio_files/libs/quarto-html/quarto.js"></script>
+<script src="10-Getting-Started-with-Rstudio_files/libs/quarto-html/popper.min.js"></script>
+<script src="10-Getting-Started-with-Rstudio_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="10-Getting-Started-with-Rstudio_files/libs/quarto-html/anchor.min.js"></script>
+<link href="10-Getting-Started-with-Rstudio_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="10-Getting-Started-with-Rstudio_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="10-Getting-Started-with-Rstudio_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="10-Getting-Started-with-Rstudio_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="10-Getting-Started-with-Rstudio_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#welcome-to-rstudio-wait-why-are-we-here" id="toc-welcome-to-rstudio-wait-why-are-we-here" class="nav-link active" data-scroll-target="#welcome-to-rstudio-wait-why-are-we-here">Welcome to RStudio! Wait, Why Are We Here?</a>
+  <ul class="collapse">
+  <li><a href="#is-rstudio-or-colaboratory-better" id="toc-is-rstudio-or-colaboratory-better" class="nav-link" data-scroll-target="#is-rstudio-or-colaboratory-better">Is RStudio or Colaboratory Better?</a></li>
+  </ul></li>
+  <li><a href="#the-ingredients" id="toc-the-ingredients" class="nav-link" data-scroll-target="#the-ingredients">The Ingredients</a>
+  <ul class="collapse">
+  <li><a href="#the-programing-laguage-r" id="toc-the-programing-laguage-r" class="nav-link" data-scroll-target="#the-programing-laguage-r">The Programing Laguage: R</a></li>
+  <li><a href="#the-software-developers-posit" id="toc-the-software-developers-posit" class="nav-link" data-scroll-target="#the-software-developers-posit">The Software Developers: Posit</a></li>
+  <li><a href="#the-software-rstudio-or-posit-cloud" id="toc-the-software-rstudio-or-posit-cloud" class="nav-link" data-scroll-target="#the-software-rstudio-or-posit-cloud">The Software: RStudio (or Posit Cloud)</a></li>
+  <li><a href="#file-management-quarto" id="toc-file-management-quarto" class="nav-link" data-scroll-target="#file-management-quarto">File Management: Quarto</a></li>
+  <li><a href="#formatting-narrative-text-markdown" id="toc-formatting-narrative-text-markdown" class="nav-link" data-scroll-target="#formatting-narrative-text-markdown">Formatting Narrative Text: Markdown</a></li>
+  </ul></li>
+  <li><a href="#managing-post-cloud-projects" id="toc-managing-post-cloud-projects" class="nav-link" data-scroll-target="#managing-post-cloud-projects">Managing Post Cloud Projects</a></li>
+  <li><a href="#navigating-the-panes-of-an-rstudio-window" id="toc-navigating-the-panes-of-an-rstudio-window" class="nav-link" data-scroll-target="#navigating-the-panes-of-an-rstudio-window">Navigating the Panes of an RStudio Window</a>
+  <ul class="collapse">
+  <li><a href="#resources-for-getting-started-with-rstudio" id="toc-resources-for-getting-started-with-rstudio" class="nav-link" data-scroll-target="#resources-for-getting-started-with-rstudio">Resources for Getting Started with RStudio</a></li>
+  <li><a href="#source-and-visual-mode" id="toc-source-and-visual-mode" class="nav-link" data-scroll-target="#source-and-visual-mode">Source and Visual Mode</a></li>
+  <li><a href="#inserting-r-code-cells" id="toc-inserting-r-code-cells" class="nav-link" data-scroll-target="#inserting-r-code-cells">Inserting R Code Cells</a></li>
+  <li><a href="#installing-loading-managing-packages" id="toc-installing-loading-managing-packages" class="nav-link" data-scroll-target="#installing-loading-managing-packages">Installing, Loading, Managing Packages</a></li>
+  </ul></li>
+  <li><a href="#rendering-to-other-file-types" id="toc-rendering-to-other-file-types" class="nav-link" data-scroll-target="#rendering-to-other-file-types">Rendering to Other File Types</a></li>
+  <li><a href="#optional-installing-r-and-rstudio" id="toc-optional-installing-r-and-rstudio" class="nav-link" data-scroll-target="#optional-installing-r-and-rstudio">Optional: Installing R and RStudio</a></li>
+  <li><a href="#appendix-code-output-options" id="toc-appendix-code-output-options" class="nav-link" data-scroll-target="#appendix-code-output-options">Appendix: Code Output Options</a></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Module 10: Getting Started with RStudio</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Adam Spiegler </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>The Quarto file used to generate the html file can be obtained by clicking on the Code Links beneath the Table of Contents which will open the Math 3376 Posit Cloud Project where you can open the file <code>10-Getting-Started-with-RStudio.qmd</code>.</p>
+<section id="welcome-to-rstudio-wait-why-are-we-here" class="level1">
+<h1>Welcome to RStudio! Wait, Why Are We Here?</h1>
+<hr>
+<ul>
+<li><p><a href="https://posit.co/products/open-source/rstudio/">RStudio</a> is open-source (FREE) software for programming with R and other languages. RStudio can work with different file formats.</p></li>
+<li><p><a href="https://colab.research.google.com/">Google Colaboratory</a> is an open-source, cloud-based software for programming using interactive <a href="https://jupyter.org/">Jupyter notebooks</a> with file extension <code>*.ipynb</code>.</p></li>
+</ul>
+<p>Should we use RStudio, Colab, or some other software for programming in R? We can dwell on the question for a long time, and there are many technical details we can unpack about how the systems work. However, here is goal for any programmer in any language:</p>
+<blockquote class="blockquote">
+<p>As we become more proficient and fluent programming, what software or interface we use to code becomes more irrelevant. Ideally, our skills are solid enough to transfer knowledge and workflow to any software. The logic and techniques we learn in one language can be translated to learn other languages more efficiently and naturally.</p>
+</blockquote>
+<section id="is-rstudio-or-colaboratory-better" class="level2">
+<h2 class="anchored" data-anchor-id="is-rstudio-or-colaboratory-better">Is RStudio or Colaboratory Better?</h2>
+<hr>
+<p>This is a subjective question. Some people love vegemite and most (non-Australians) can’t stand it. <span style="color:dodgerblue"><strong>For creating documents that weave together code, narrative text, images, and videos then both Jupyter notebooks and Quarto documents are excellent options.</strong></span> The preference varies depending on the person and the task. There are many things we can choose to consider (or ignore).</p>
+<p>Similarities between Colab (Jupyter documents, <code>*.ipynb</code>) and RStudio (Quarto, <code>*.qmd</code>):</p>
+<ul>
+<li>Both are open-source.</li>
+<li>Both have cloud-based versions.</li>
+<li>Both have two types of cells (or chunks): text and code.</li>
+<li>Text is formatted using Markdown in both.</li>
+<li>Both can be used to program in multiple languages.</li>
+</ul>
+<section id="why-colab-instead-of-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="why-colab-instead-of-rstudio">Why Colab Instead of RStudio?</h3>
+<hr>
+<ul>
+<li>File sharing in Google Drive is excellent and very customizable.</li>
+<li><a href="https://jupyter.org/">Jupyter notebooks</a> are awesome and commonly used/shared in the world of data science.</li>
+<li>Integration with Google Drive sharing is great.</li>
+<li>Comments in Colab are useful when collaborating.</li>
+<li>Google is very stable and has a suite of other applications.</li>
+<li>Excellent for teaching/learning.</li>
+</ul>
+</section>
+<section id="why-rstudio-instead-of-colab" class="level3">
+<h3 class="anchored" data-anchor-id="why-rstudio-instead-of-colab">Why RStudio Instead of Colab?</h3>
+<hr>
+<ul>
+<li>RStudio has a free desktop version you can download and work offline.</li>
+<li>RStudio is the classic software most frequently used to program in R.</li>
+<li>We can work with multiple file types in RStudio and export to different file types with Quarto.</li>
+<li>Packages are more readily available and easier to manage in RStudio.</li>
+<li>More natural to work with files saved/written locally on your computer/cloud.</li>
+<li>Graphics are displayed better.</li>
+<li>There is a user-friendly spell check.</li>
+<li><strong>We can create interactive graphics with <code>plotly</code>!</strong></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="the-ingredients" class="level1">
+<h1>The Ingredients</h1>
+<hr>
+<section id="the-programing-laguage-r" class="level2">
+<h2 class="anchored" data-anchor-id="the-programing-laguage-r">The Programing Laguage: R</h2>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/128px-R_logo.svg.png?20240131042527" class="img-fluid figure-img" style="width:10.0%"></p>
+<figcaption class="figure-caption">R logo</figcaption>
+</figure>
+</div>
+<p><a href="https://www.r-project.org/">R</a> is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS.</p>
+<ul>
+<li>This is our same friend we have been getting to know!</li>
+<li>We can download R (go to <a href="https://cran.rstudio.com/" class="uri">https://cran.rstudio.com/</a>) onto our computer if we want to code using downloaded software such as <a href="https://posit.co/products/open-source/rstudio/">RStudio</a>.</li>
+</ul>
+</section>
+<section id="the-software-developers-posit" class="level2">
+<h2 class="anchored" data-anchor-id="the-software-developers-posit">The Software Developers: Posit</h2>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Posit_logo.svg/64px-Posit_logo.svg.png?20240517055706" class="img-fluid figure-img" style="width:10.0%"></p>
+<figcaption class="figure-caption">Posit logo</figcaption>
+</figure>
+</div>
+<p><a href="https://posit.co/">Posit</a> is software company that mainly develops open-source data science tools. They “help the world make sense of data”. Their mission is to create open-source software for data science, scientific research, and technical communication.</p>
+<ul>
+<li>A cloud based version of RStudio is available at <a href="https://posit.cloud/" class="uri">https://posit.cloud/</a>.
+<ul>
+<li>Our course materials are available at <a href="https://posit.cloud/content/9926677" class="uri">https://posit.cloud/content/9926677</a>.</li>
+</ul></li>
+<li>We can download a FREE desktop version at <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a>.</li>
+</ul>
+</section>
+<section id="the-software-rstudio-or-posit-cloud" class="level2">
+<h2 class="anchored" data-anchor-id="the-software-rstudio-or-posit-cloud">The Software: RStudio (or Posit Cloud)</h2>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/RStudio_logo_flat.svg/128px-RStudio_logo_flat.svg.png?20190314020554" class="img-fluid figure-img" style="width:10.0%"></p>
+<figcaption class="figure-caption">RStudio Logo</figcaption>
+</figure>
+</div>
+<p><a href="https://posit.co/products/open-source/rstudio/">RStudio</a> is an integrated development environment, or IDE, for R programming, which you can download from <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a>.</p>
+<ul>
+<li>If you’d like a comprehensive overview of all of RStudio’s features, see the RStudio User Guide at <a href="https://docs.posit.co/ide/user" class="uri">https://docs.posit.co/ide/user</a>.</li>
+</ul>
+</section>
+<section id="file-management-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="file-management-quarto">File Management: Quarto</h2>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://quarto.org/quarto.png" class="img-fluid figure-img" style="width:10.0%"></p>
+<figcaption class="figure-caption">Quarto Logo</figcaption>
+</figure>
+</div>
+<p><a href="https://quarto.org/">Quarto</a> provides a unified authoring framework for data science, combining your code, its results, and your prose. Quarto documents are fully reproducible and support dozens of output formats, like PDFs, Word files, presentations, and more.</p>
+<ul>
+<li>Getting started with Quarto tutorial: <a href="https://quarto.org/docs/get-started/hello/rstudio.html" class="uri">https://quarto.org/docs/get-started/hello/rstudio.html</a>.</li>
+<li>A comprehensive guide is available at <a href="https://quarto.org/docs/guide/" class="uri">https://quarto.org/docs/guide/</a>.</li>
+</ul>
+<section id="the-strange-heading-quarto-yaml" class="level3">
+<h3 class="anchored" data-anchor-id="the-strange-heading-quarto-yaml">The Strange Heading: Quarto YAML</h3>
+<hr>
+<p>Quarto provides a rich set of YAML metadata keys to describe <em>front matter</em> details such as the title and author.</p>
+<ul>
+<li>Quarto help with front matter: <a href="https://quarto.org/docs/authoring/front-matter.html" class="uri">https://quarto.org/docs/authoring/front-matter.html</a></li>
+<li>In addition to front matter, we can also set other options such as whether to display R code, whether to run the code when rendering, and what output (if any) to display from the code.</li>
+</ul>
+</section>
+</section>
+<section id="formatting-narrative-text-markdown" class="level2">
+<h2 class="anchored" data-anchor-id="formatting-narrative-text-markdown">Formatting Narrative Text: Markdown</h2>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Markdown-blue-solid.svg/128px-Markdown-blue-solid.svg.png?20201013215934" class="img-fluid figure-img" style="width:10.0%"></p>
+<figcaption class="figure-caption">Markdown Logo</figcaption>
+</figure>
+</div>
+<p><a href="https://www.markdownguide.org/">Markdown</a> is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages.</p>
+<ul>
+<li><a href="https://www.markdownguide.org/basic-syntax/">Markdown Guide: Basic Syntax Guide</a></li>
+<li><a href="https://www.markdownguide.org/cheat-sheet/">Markdown Guide: Cheatsheet</a></li>
+<li><a href="https://quarto.org/docs/authoring/markdown-basics.html">Quarto Markdown Basics Guide</a></li>
+</ul>
+<p>The raw Quarto code used to generate the html file can be obtained by toggling the “Code” box in the upper-right corner of the html file and selecting “Download Rmd” (which actually downloads a Quarto file <code>*.qmd</code>)</p>
+</section>
+</section>
+<section id="managing-post-cloud-projects" class="level1">
+<h1>Managing Post Cloud Projects</h1>
+<hr>
+<p>When we open a public Posit Cloud project that we have not created, we have view permissions. We look at the materials and run code, but we cannot save changes made to the shared files which we can only view.</p>
+<ul>
+<li>In order to save our own copy that we can edit and save, we need to first click the <code>Save a Permanent Copy</code> located at on the banner top of the page.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/save-to-cloud.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">Save Permanent Copy to Cloud</figcaption>
+</figure>
+</div>
+<ul>
+<li>We can then download the project from Posit Cloud by click the download link from the list of Workspaces in your account.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/download-project.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption class="figure-caption">Download Cloud Project</figcaption>
+</figure>
+</div>
+<ul>
+<li>See the Posit Cloud help resources at: <a href="https://docs.posit.co/cloud/" class="uri">https://docs.posit.co/cloud/</a> for more details.</li>
+</ul>
+</section>
+<section id="navigating-the-panes-of-an-rstudio-window" class="level1">
+<h1>Navigating the Panes of an RStudio Window</h1>
+<hr>
+<ul>
+<li><strong>Console</strong>: Where the code is executed.</li>
+<li><strong>Script Window</strong>: Where you prepare commands to be executed. <strong>This is the main pane!</strong></li>
+<li><strong>Workspace</strong>: Where you can see all the objects in your workspace and your command history.</li>
+<li><strong>Files/Plot/Packages/Help</strong>: Where you navigate between directories, view plots, manage packages, and <strong>get help</strong>.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://docs.posit.co/ide/user/ide/get-started/images/rstudio-panes-labeled.jpeg" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption class="figure-caption">The Panes of an RStudio Window</figcaption>
+</figure>
+</div>
+<section id="resources-for-getting-started-with-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="resources-for-getting-started-with-rstudio">Resources for Getting Started with RStudio</h2>
+<hr>
+<ul>
+<li>The RStudio User Guide: <a href="https://docs.posit.co/ide/user" class="uri">https://docs.posit.co/ide/user</a></li>
+<li><a href="https://r4ds.hadley.nz/workflow-scripts.html">Chapter 6 Workflow: scripts and projects</a> from R for Data Science 2nd edition.</li>
+</ul>
+</section>
+<section id="source-and-visual-mode" class="level2">
+<h2 class="anchored" data-anchor-id="source-and-visual-mode">Source and Visual Mode</h2>
+<hr>
+<p>When working with Markdown documents such as Quarto (<code>*.qmd</code>) and RMarkdown (<code>*.Rmd</code>) in RStudio, there are two available modes to view the document, namely <span style="color:dodgerblue"><strong>Source</strong></span> and <span style="color:dodgerblue"><strong>Visual</strong></span>. We can switch between the two viewing modes by selecting the buttons on the top-left of the document toolbar.</p>
+<ul>
+<li>Source mode: View raw, unrendered Markdown.
+<ul>
+<li><a href="https://www.markdownguide.org/basic-syntax/">Markdown Guide: Basic Syntax Guide</a></li>
+<li><a href="https://www.markdownguide.org/cheat-sheet/">Markdown Guide: Cheatsheet</a></li>
+</ul></li>
+<li>Visual: View the rendered output of Markdown.</li>
+</ul>
+<p>For those familiar with Colab, here is a useful analogy. When you activate a text cell in Colab, the left side is equivalent to Source mode and the right side is equivalent to Visual mode.</p>
+<ul>
+<li>There is an <span style="color:dodgerblue"><strong>Outline</strong></span> button on the top-right of the document toolbar which opens a table of contents.</li>
+</ul>
+</section>
+<section id="inserting-r-code-cells" class="level2">
+<h2 class="anchored" data-anchor-id="inserting-r-code-cells">Inserting R Code Cells</h2>
+<hr>
+<p>Code cells are also called code chunks and code blocks. We can insert a new code cell in various ways.</p>
+<ul>
+<li>We can type ``` {r} on a new line to insert a new R code cell (in either Source or View mode), enter code, and then close the code cell by typing ``` on a new line .</li>
+<li>If working in Visual mode, you can use the Insert drop down menu in the tool bar.</li>
+<li>In visual mode we can use keyboard shortcuts <code>Shift+Ctrl+\</code> on PC and <code>Shift+Command+\</code> on Mac.</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="dv">4</span>, <span class="fl">0.5</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2.5</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(storms<span class="sc">$</span>wind)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 50.04939</code></pre>
+</div>
+</div>
+<section id="running-code-cells" class="level3">
+<h3 class="anchored" data-anchor-id="running-code-cells">Running Code Cells</h3>
+<hr>
+<ul>
+<li>Running a single code cell can be done similar to Colab:
+<ul>
+<li>Click the play button in the upper right corner of the code cell.</li>
+<li>Keyboard shortcuts: <code>Shift + Ctrl + Enter</code> on PC or <code>Shift + Command + Return</code> on Mac.</li>
+</ul></li>
+<li>We can also use the Run button on right side of the toolbar for additional options.</li>
+<li>We can also access the various run options in the <code>Code</code> menu.</li>
+</ul>
+</section>
+</section>
+<section id="installing-loading-managing-packages" class="level2">
+<h2 class="anchored" data-anchor-id="installing-loading-managing-packages">Installing, Loading, Managing Packages</h2>
+<hr>
+<ul>
+<li>We only need to install a package with the <code>install.packages()</code> function once!
+<ul>
+<li>Source files are <strong>permanently</strong> downloaded into appropriate folders (either locally or on Posit Cloud).</li>
+<li>Install packages in the Console below as opposed to in script or Quarto file.</li>
+<li>We can view a list of all available packages in the <code>Packages</code> tab in the Output Pane.</li>
+</ul></li>
+<li>We still need to load a package with the <code>library()</code> function each time we start a new session in order to be able to access scripts, data, and other files in the package.</li>
+<li>Each loaded package appears with a check mark in the <code>Packages</code> tab in the Output Pane.</li>
+<li>We we open a new document that requires certain packages we have not installed, we often get asked if we would like to install all the required packages in a pop up!
+<ul>
+<li>The will run <code>install.packages()</code> but you will still need to load them with <code>library()</code>.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="rendering-to-other-file-types" class="level1">
+<h1>Rendering to Other File Types</h1>
+<hr>
+<p><a href="https://pandoc.org/">Pandoc</a> is a tool for converting files from one markup format into another. Pandoc supports a huge array of output formats, all of which can be used with Quarto.</p>
+<ul>
+<li>To use any Pandoc format set the <code>format</code> option in the YAML section.
+<ul>
+<li>The most universal file format is <code>html</code>, so we will use that as our default.</li>
+<li>You can also convert to a static pdf or word document as well as to an interactive Jupyter notebook that we can open in Colab.</li>
+</ul></li>
+<li>To convert to the indicated <code>format</code>, we can use any of the methods below:</li>
+<li>Click on the Render button on the toolbar.</li>
+<li>From the menu options, select <code>File/Render Document</code>.</li>
+<li>Keyboard shortcut: <code>Shift + Ctrl + K</code> on PC and <code>Shift + Command + K</code> on Mac.</li>
+<li>A new document is created by default in the same folder as the Quarto file.</li>
+<li>By default, the new file is opened on your computer.</li>
+<li>Or you may see an error message in the Console.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://quarto.org/docs/get-started/hello/images/rstudio-qmd-how-it-works.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption class="figure-caption">Render Workflow</figcaption>
+</figure>
+</div>
+</section>
+<section id="optional-installing-r-and-rstudio" class="level1">
+<h1>Optional: Installing R and RStudio</h1>
+<hr>
+<p>Posit Cloud works great. We do not need install additional software on our computer. With Posit Cloud, we will have no issues working with all documents and assignments in our course. <strong>You do not need to install R or RStudio on to your computer if you prefer not to.</strong></p>
+<p>It may be convenient to work with RStudio and program in R when we do not have an internet connection. You may prefer to download R and RStudio directly onto your computer and offline.</p>
+<p>If you want to install R and RStudio on your computer, you need to so in two steps (and the order is important):</p>
+<ol type="1">
+<li>First download and install R</li>
+<li>Then download and install RStudio.</li>
+</ol>
+<p>You can find links to download both R and RStudio at <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a>.</p>
+<ul>
+<li>Be sure you choose the correct operating system.</li>
+<li>Be sure you choose the most up to date version of R and RStudio that is <em>compatible with your operating system</em>.
+<ul>
+<li>The most recent release may not be compatible with your computer if your computer is running an older operating system.</li>
+<li>If you have an older computer, be sure to check the system requirements before choosing which version/release to download.</li>
+</ul></li>
+<li>I am happy to assist any students with process in office hours or over Zoom.</li>
+</ul>
+</section>
+<section id="appendix-code-output-options" class="level1">
+<h1>Appendix: Code Output Options</h1>
+<hr>
+<p>Code block options are included in a special comment at the top of the block (lines at the top prefaced with <code>#|</code> are considered options). Options available for customizing output include:</p>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>eval</code></td>
+<td>Evaluate the code chunk (if <code>false</code>, just echos the code into the output).</td>
+</tr>
+<tr class="even">
+<td><code>echo</code></td>
+<td>Include the source code in output</td>
+</tr>
+<tr class="odd">
+<td><code>output</code></td>
+<td>Include the results of executing the code in the output (<code>true</code>, <code>false</code>, or <code>asis</code> to indicate that the output is raw markdown and should not have any of Quarto’s standard enclosing markdown).</td>
+</tr>
+<tr class="even">
+<td><code>warning</code></td>
+<td>Include warnings in the output.</td>
+</tr>
+<tr class="odd">
+<td><code>error</code></td>
+<td>Include errors in the output (note that this implies that errors executing code will not halt processing of the document).</td>
+</tr>
+<tr class="even">
+<td><code>include</code></td>
+<td>Catch all for preventing any output (code or results) from being included (e.g.&nbsp;include: false suppresses all output from the code block).</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div>CC BY-NC-SA</div></div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
