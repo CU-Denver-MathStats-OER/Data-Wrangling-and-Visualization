@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Enter your name">
+
+<title>Homework 8</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="Homework8_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Homework8_files/libs/quarto-html/quarto.js"></script>
+<script src="Homework8_files/libs/quarto-html/popper.min.js"></script>
+<script src="Homework8_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Homework8_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Homework8_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Homework8_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Homework8_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Homework8_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Homework8_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Homework 8</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Enter your name </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="homework-8-due-wednesday-april-2-at-1159-pm" class="level1">
+<h1>Homework 8: Due Wednesday, April 2 at 11:59 PM</h1>
+<hr>
+<section id="instructions" class="level2">
+<h2 class="anchored" data-anchor-id="instructions">Instructions:</h2>
+<hr>
+<ol type="1">
+<li><p><span style="color:red">Be sure to download and save the file so you are working with your own private copy of the file (rather than the shared version posted in Posit Cloud for example).</span></p></li>
+<li><p><span style="color:green">After you have copied the Quarto file into your Posit Cloud workspace or onto your computer, you can begin editing and saving your work.</span></p></li>
+</ol>
+<p><strong>Submit your work electronically as two separate files:</strong></p>
+<ul>
+<li><strong>A Quarto markdown file with file extension <code>.qmd</code> with all code cells run and relevant output displayed in the document</strong>.</li>
+<li><strong>After you have completed all questions, render your completed work to an html file.</strong></li>
+<li><strong>Submit the html file that is created with file extension <code>.html</code></strong>.</li>
+</ul>
+<p>Upload your file into the Homework 8 assignment in Canvas before <span style="color:blue"><strong>11:59PM on Wednesday, April 2.</strong></span></p>
+<p><strong>You must provide supporting work for your all of your answers.</strong></p>
+<ul>
+<li><span style="color:blue">That work will include using R code cells.</span>
+<ul>
+<li><strong>Feel free to insert as much R code as you like.</strong></li>
+<li>When asked, you must interpret or explain how the output of a code cell is being utilized to solve the question.</li>
+<li><strong>Code with incomplete or missing explanations of why the output is useful may not receive full credit.</strong></li>
+<li><strong>Code that involves methods and commands we have not discussed this semester may not receive full credit.</strong></li>
+</ul></li>
+<li><span style="color:blue">Your work may also involve writing explanations and justifications in text cells.</span>
+<ul>
+<li><strong>Be sure to type/write out the steps of your work/explanation so I can see how you arrived at your answer.</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="important-academic-policies" class="level2">
+<h2 class="anchored" data-anchor-id="important-academic-policies">Important Academic Policies:</h2>
+<hr>
+<ul>
+<li><strong>Be your own work.</strong> Though you may collaborate with others, everyone is responsible for writing up the work in their own way using their own methods. Plagiarism of any form is not tolerated.</li>
+<li><strong>Be complete.</strong> You must provide all work and/or explanations needed to find the solution. Answers with insufficient or incomplete supporting work may lose credit.</li>
+<li><strong>Adhere to the Code of Academic Honesty.</strong></li>
+<li><strong>Be clearly written (and legible if written).</strong> Your solution to a question must be clear, written in complete sentences. You may lose credit for work that is unclear or hard to follow.</li>
+</ul>
+</section>
+<section id="let-me-know-if-you-need-help-and-good-luck" class="level2">
+<h2 class="anchored" data-anchor-id="let-me-know-if-you-need-help-and-good-luck"><span style="color:blue">Let me know if you need help, and <strong>GOOD LUCK!!!</strong></span></h2>
+<hr>
+</section>
+</section>
+<section id="introduction-to-assignment" class="level1">
+<h1>Introduction to Assignment</h1>
+<hr>
+<p>In this assignment you will create various interactive graphics based on the <code>starwars</code> and <code>franconia</code> data sets.</p>
+<p><span style="color:blue"><strong>Note 1: You must render the completed file to <code>html</code>. You will turn in both the <code>.qmd</code> and <code>.html</code> files through Canvas.</strong> Do not render to pdf or any other file type besides <code>html</code>.</span></p>
+<p>Note 2: Interactive graphics don’t always play very nicely with R Studio. You may encounter the following error: <code>dirname(to) : path too long</code> when attempting to run a code chunk. You may not have done anything wrong.</p>
+<ul>
+<li>The easiest work around is to simply render the file to an <code>html_document</code> instead of trying to run a code chunk.</li>
+<li>Alternatively, you can try running your commands from a standard <code>.R</code> file instead of a <code>.qmd</code> file.</li>
+<li>Lastly, you can <code>"Restart R"</code> and attempt to rerun your code chunks, which sometimes works.</li>
+</ul>
+<section id="the-starwars-data-set" class="level2">
+<h2 class="anchored" data-anchor-id="the-starwars-data-set">The <code>starwars</code> Data Set</h2>
+<hr>
+<p>We will practice creating interactive graphics using the <code>starwars</code> data set from the <code>dplyr</code> package. As stated in its documentation (<code>?dplyr::starwars</code>) the original data were obtained from the Star Wars API <a href="https://swapi.dev/" class="uri">https://swapi.dev/</a> and were updated based on additional research into gender and sex determinations of the characters.</p>
+<p>The <code>starwars</code> data set is a data frame (technically, a tibble data frame) with 87 rows and 14 variables:</p>
+<ul>
+<li><code>name</code>: the character’s name.</li>
+<li><code>height</code>: the character’s height (cm).</li>
+<li><code>mass</code>: the character’s mass (kg).</li>
+<li><code>hair_color</code>: the character’s hair color.</li>
+<li><code>skin_color</code>: the character’s skin color.</li>
+<li><code>eye_color</code>: the character’s eye color.</li>
+<li><code>birth_year</code>: the character’s birth year (BBY = Before Battle of Yavin).</li>
+<li><code>sex</code>: the character’s biological sex (male, female, hermaphroditic, or none (as in the case for Droids)).</li>
+<li><code>gender</code>: the character’s gender role or gender identity as determined by their personality or the way they were programmed (as in the case for Droids).</li>
+<li><code>homeworld</code>: the name of the character’s homeworld.</li>
+<li><code>species</code>: the character’s species.</li>
+<li><code>films</code>: the films the character appeared in.</li>
+<li><code>vehicles</code>: the vehicles the character has piloted.</li>
+<li><code>starships</code>: the starships the character has piloted.</li>
+</ul>
+</section>
+<section id="loading-required-packages-and-data" class="level2">
+<h2 class="anchored" data-anchor-id="loading-required-packages-and-data">Loading Required Packages and Data</h2>
+<hr>
+<p>Start by loading the <code>ggplot2</code> and <code>plotly</code> packages and <code>starwars</code> data set into memory.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2, <span class="at">quietly =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(plotly, <span class="at">quietly =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(starwars, <span class="at">package =</span> <span class="st">"dplyr"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="question-1" class="level1">
+<h1>Question 1</h1>
+<hr>
+<p>Create an interactive bar plot of the <code>sex</code> variable. Use your interactive graphic to determine the number of males, females, hermaphroditic, none, and <code>NA</code> values.</p>
+<p>Type your answer in the solution space below the output of your code.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># enter code to create the plot</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="solution-to-question-1" class="level2">
+<h2 class="anchored" data-anchor-id="solution-to-question-1">Solution to Question 1</h2>
+<hr>
+<p>What are the number of males, females, hermaphroditic, none, and <code>NA</code> values in the data?</p>
+</section>
+</section>
+<section id="question-2" class="level1">
+<h1>Question 2</h1>
+<hr>
+<p>Use the <code>plotly</code> package directly to create an interactive box plot of the <code>mass</code> variable for the <code>starwars</code> data frame. No credit will be given if you do this using <code>ggplot2</code> and the <code>ggplotly()</code> function. Set the name argument to <code>""</code>. Then type an answer to the question in the solution space below the code.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># enter code to create the plot</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="solution-to-question-2" class="level2">
+<h2 class="anchored" data-anchor-id="solution-to-question-2">Solution to Question 2</h2>
+<hr>
+<p>What is the value of the the largest outlier?</p>
+</section>
+</section>
+<section id="question-3" class="level1">
+<h1>Question 3</h1>
+<hr>
+<p>Create a new data set named <code>starwars_small</code> by:</p>
+<ol type="1">
+<li>Selecting the <code>height</code> and <code>gender</code> variables of the <code>starwars</code> data frame.</li>
+<li>Omitting any rows that having missing values.</li>
+</ol>
+<p>Make sure to do 1 before 2.</p>
+<p>After completing these steps, use the <code>summary()</code> function on <code>starwars_small</code> to display summary output to the screen.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># enter code to perform the indicated operation(s)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="question-4" class="level1">
+<h1>Question 4</h1>
+<hr>
+<p>Using the <code>starwars_small</code> data set, create an interactive density plot of <code>height</code> that colors the density based on <code>gender</code>.</p>
+<p>Make sure your fill color is semi-transparent.</p>
+<p>Then answer the question in the solution space below the output of your code.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># enter code to generate plot</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="solution-to-question-4" class="level2">
+<h2 class="anchored" data-anchor-id="solution-to-question-4">Solution to Question 4</h2>
+<hr>
+<p>What appears to be the <code>height</code> with the maximum density for those observations with feminine <code>gender</code>?</p>
+</section>
+</section>
+<section id="question-5" class="level1">
+<h1>Question 5</h1>
+<hr>
+<p>Using the <code>starwars_small</code> data set, use <code>ggplot2</code> and the <code>ggplotly()</code> function to create an interactive histogram of the <code>height</code> variable that fills the histogram color based on <code>gender</code>. Manually specify the bin positions of the histogram by specifying the following argument in <code>geom_histogram</code>: <code>breaks = seq(30, 270, by = 10)</code></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># enter code to generate plot</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="question-6" class="level1">
+<h1>Question 6</h1>
+<hr>
+<p>Using the <code>starwars_small</code> data set, use the <code>plotly</code> package directly to create an interactive histogram of the <code>height</code> variable that splits the histograms by <code>gender</code>. Make sure to use <code>alpha = 0.3</code> and specify 30 bins. Use the pipe operator (either native R or tidyverse-style) and add the following command to your plot: <code>layout(barmode = "stack")</code>. This plot should look similar to the previous plot except that <code>masculine</code> bars are stacked on top of <code>feminine</code> bars, while <code>ggplot2</code> stacks in the reverse order.</p>
+<p>Then answer the question in the solution space below the output of your code.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># enter code to generate plot</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="solution-to-question-6" class="level2">
+<h2 class="anchored" data-anchor-id="solution-to-question-6">Solution to Question 6</h2>
+<hr>
+<p>How many <code>masculine</code> and <code>feminine</code> observations have heights between 160 and 169 cm?</p>
+</section>
+</section>
+<section id="question-7" class="level1">
+<h1>Question 7</h1>
+<hr>
+<p>Use the <code>plotly</code> package directly to create an interactive scatter plot of <code>mass</code> (y-variable) versus <code>height</code> (x-variable) for the <code>starwars</code> data.</p>
+<p>Then answer the question in the solution space below the output of your code.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># enter code to generate plot</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="solution-to-question-7" class="level2">
+<h2 class="anchored" data-anchor-id="solution-to-question-7">Solution to Question 7</h2>
+<hr>
+<p>There is a single clear outlier in the data set. What is the <code>height</code> and <code>weight</code> of the outlier?</p>
+</section>
+</section>
+<section id="question-8" class="level1">
+<h1>Question 8</h1>
+<hr>
+<p>Create an interactive scatter plot of <code>mass</code> (y-variable) versus <code>height</code> (x-variable) for the <code>starwars</code> data that displays the character <code>name</code> associated with each observation when you hover a point.</p>
+<p>Then answer the question in the solution space below the output of your code.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># enter code to generate plot</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="solution-to-question-8" class="level2">
+<h2 class="anchored" data-anchor-id="solution-to-question-8">Solution to Question 8</h2>
+<hr>
+<p>There is a single clear outlier in the data set. What is the name of the character who is an outlier in this data set?</p>
+</section>
+</section>
+<section id="question-9" class="level1">
+<h1>Question 9</h1>
+<hr>
+<p>Use <code>plotly</code> to directly create a violin plot of the <code>height</code> variable for the <code>starwars</code> data set.</p>
+<p>Then answer the question in the solution space below the output of your code.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># enter code to generate plot</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="solution-to-question-9" class="level2">
+<h2 class="anchored" data-anchor-id="solution-to-question-9">Solution to Question 9</h2>
+<hr>
+<p>What is the <span class="math inline">\(0.75\)</span> quantile of <code>height</code>?</p>
+</section>
+</section>
+<section id="the-franconia-data-set" class="level1">
+<h1>The <code>franconia</code> Data Set</h1>
+<hr>
+<p>According to Wikipedia (<a href="https://en.wikipedia.org/wiki/Franconia" class="uri">https://en.wikipedia.org/wiki/Franconia</a>):</p>
+<blockquote class="blockquote">
+<p>Franconia is a region of Germany, characterised by its culture and Franconian dialect.</p>
+</blockquote>
+<p>The <code>mapview</code> package contains an <code>sf</code> data frame of Franconia. Install the <code>mapview</code> package and load the <code>franconia</code> data set. Relevant variables include:</p>
+<ul>
+<li><code>SHAPE_AREA</code>: the area of each region.</li>
+<li><code>NAME_ASCI</code>: the name of the region, and if followed by a comma, a designation (Kreisfreie Stadt = independent city, Landkreis = district)</li>
+<li><code>geometry</code>: the <code>MULTIPOLYGON</code> describing each region.</li>
+<li><code>district</code>: the district name of each region.</li>
+</ul>
+<p>Run <code>install.packages("mapview")</code> in the Console to install the <code>mapview</code> package.</p>
+<ul>
+<li><strong>Do not include an executable command <code>install.packages()</code> in the work you submit.</strong></li>
+<li>You do not want somebody to inadvertently install files when rendering your work to <code>html</code>!</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("mapview")</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(franconia, <span class="at">package =</span> <span class="st">"mapview"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="question-10" class="level1">
+<h1>Question 10</h1>
+<hr>
+<p>Use <code>plotly</code> to directly create an interactive map of the <code>franconia</code> data set that colors the regions according to <code>SHAPE_AREA</code> and provides the <code>NAME_ASCI</code> of each region when you hover over the region. Use the title “area” for the color bar.</p>
+<p>Then answer the question in the solution space below the output of your code.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># enter code to generate plot</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="solution-to-question-10" class="level2">
+<h2 class="anchored" data-anchor-id="solution-to-question-10">Solution to Question 10</h2>
+<hr>
+<p>What is the name of the largest region?</p>
+<hr>
+</section>
+</section>
+<section id="be-sure-to-do-the-following-once-completed" class="level1">
+<h1>Be Sure to Do the Following Once Completed</h1>
+<hr>
+<ul>
+<li>Be sure you have run ALL code cells before saving your work.</li>
+<li>Be sure all relevant code output is displayed in Quarto document.</li>
+<li>Then be sure to save the your work as a Quarto document.</li>
+<li>Finally, be sure you render your final work to a static <code>html</code> that you submit along with your Quarto file in Canvas.</li>
+</ul>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
