@@ -13,9 +13,6 @@ format:
         href: https://posit.cloud/content/9926677
 editor: visual
 warning: false
-bibliography:
-- dwv.bib
-- packages_interactive.bib
 editor_options: 
   markdown: 
     wrap: sentence
@@ -120,7 +117,7 @@ Their mission is to create open-source software for data science, scientific res
 
 [RStudio](https://posit.co/products/open-source/rstudio/) is an integrated development environment, or IDE, for R programming, which you can download from <https://posit.co/download/rstudio-desktop/>.
 
--   If you'd like a comprehensive overview of all of RStudio's features, see the RStudio User Guide at <https://docs.posit.co/ide/user>.
+-   If you’d like a comprehensive overview of all of RStudio’s features, see the RStudio User Guide at <https://docs.posit.co/ide/user>.
 
 ## File Management: Quarto
 
@@ -150,7 +147,7 @@ Quarto provides a rich set of YAML metadata keys to describe *front matter* deta
 ![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Markdown-blue-solid.svg/128px-Markdown-blue-solid.svg.png?20201013215934){width="10%"}
 
 [Markdown](https://www.markdownguide.org/) is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
-Created by John Gruber in 2004, Markdown is now one of the world's most popular markup languages.
+Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages.
 
 -   [Markdown Guide: Basic Syntax Guide](https://www.markdownguide.org/basic-syntax/)
 -   [Markdown Guide: Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
@@ -158,7 +155,7 @@ Created by John Gruber in 2004, Markdown is now one of the world's most popular 
 
 The raw Quarto code used to generate the html file can be obtained by toggling the "Code" box in the upper-right corner of the html file and selecting "Download Rmd" (which actually downloads a Quarto file `*.qmd`)
 
-# Managing Post Cloud Projects
+# Managing Posit Cloud Projects
 
 ------------------------------------------------------------------------
 
@@ -310,10 +307,10 @@ Code block options are included in a special comment at the top of the block (li
 Options available for customizing output include:
 
 | Option    | Description                                                                                                                                                                                       |
-|------------------|------------------------------------------------------|
+|------------|------------------------------------------------------------|
 | `eval`    | Evaluate the code chunk (if `false`, just echos the code into the output).                                                                                                                        |
 | `echo`    | Include the source code in output                                                                                                                                                                 |
-| `output`  | Include the results of executing the code in the output (`true`, `false`, or `asis` to indicate that the output is raw markdown and should not have any of Quarto's standard enclosing markdown). |
+| `output`  | Include the results of executing the code in the output (`true`, `false`, or `asis` to indicate that the output is raw markdown and should not have any of Quarto’s standard enclosing markdown). |
 | `warning` | Include warnings in the output.                                                                                                                                                                   |
 | `error`   | Include errors in the output (note that this implies that errors executing code will not halt processing of the document).                                                                        |
 | `include` | Catch all for preventing any output (code or results) from being included (e.g. include: false suppresses all output from the code block).                                                        |
