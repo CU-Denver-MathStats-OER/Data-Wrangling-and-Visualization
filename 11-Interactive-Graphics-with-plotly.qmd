@@ -334,7 +334,7 @@ plot_ly(penguins,  # data
 ```
 
 The histogram produced by the `plot_ly` function looks a bit different from the histogram produced by `ggplot2` because the locations of the bins are different.
-To make them the safe, we can use the `ggplot2::layer_data` to get the "under the hood" information `ggplot2` uses to produce its plot.
+To make them the same, we can use the `ggplot2::layer_data` to get the "under the hood" information `ggplot2` uses to produce its plot.
 
 In the code below, we use `layer_data` to access the internal data used by `ggplot2` to create a histogram.
 The `xmin` variable indicates the lower bound of each histogram bin.
@@ -700,8 +700,8 @@ The interactive graphic indicates the number of births in each county and the co
 ```{r}
 # plot sf object using ggplot2
 ggsf <-
-  ggplot(nc) +
-  geom_sf(aes(fill = BIR74, label = NAME)) +
+  ggplot(nc, aes(fill = BIR74, label = NAME)) +
+  geom_sf() +
   scale_fill_viridis_c()
 # make map interactive
 ggplotly(ggsf)
@@ -735,8 +735,8 @@ Now, we use `info` as the `label` aesthetic in `geom_sf` and specify `tooltip = 
 # create map that fills based on BIR74 but the tooltip
 # based on info
 ggsf <-
-  ggplot(nc) +
-  geom_sf(aes(fill = BIR74, label = info)) +
+  ggplot(nc, aes(fill = BIR74, label = info)) +
+  geom_sf() +
   scale_fill_viridis_c()
 # show only label tooltip
 ggplotly(ggsf, tooltip = "label")
