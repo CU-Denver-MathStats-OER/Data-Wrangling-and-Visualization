@@ -7,6 +7,7 @@ format:
     toc-location: left
     toc-depth: 2
     toc-expand: 1
+    embed-resources: true
     code-links:
       - text: Math 3376 Posit Cloud Project
         icon: file-code
