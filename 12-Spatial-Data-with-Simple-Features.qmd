@@ -172,7 +172,7 @@ library(ggplot2)
 The most common simple feature geometry objects used by data scientists are:
 
 | geometry  | function         | description                                                                                                                                               |
-|-----------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------|-----------|---------------------------------------------------|
 | `POINT`   | `sf::st_point`   | A geometry containing a single point                                                                                                                      |
 | `POLYGON` | `sf::st_polygon` | A geometry with a sequence of points that form a closed ring that doesn't intersect itself. Multiple rings form outer rings and holes within the polygon. |
 
@@ -259,7 +259,7 @@ Use the code cell below to construct and display a pentagon that has a triangula
 The other common geometry objects are:
 
 | geometry             | function                    | description                                                                       |
-|----------------------|-----------------------------|-----------------------------------------------------------------------------------|
+|----------------|----------------|-----------------------------------------|
 | `LINESTRING`         | `sf::st_linestring`         | A sequence of points that is connected with straight, non-self intersecting lines |
 | `MULTIPOINT`         | `sf::st_multipoint`         | A set of points                                                                   |
 | `MULTIPOLYGON`       | `sf::st_multipolygon`       | A set of polygons                                                                 |
@@ -891,11 +891,11 @@ ggplot(covid_us, aes(fill = death_rate_100k)) +
 
 `sf` help and tutorials from the package authors <https://r-spatial.github.io/sf/>
 
-*Geocomputation with R* by Robin Lovelace <https://bookdown.org/robinlovelace/geocompr/>.
+*Geocomputation with R* by Robin Lovelace <https://r.geocompx.org/>.
 This book covers tons of aspect of spatial data (not just from an R perspective, but general theory and concepts).
 This will help you to learn a lot more about representing and working with spatial data in general, not just working with it in R.
 
-*Spatial Data Science with applications in R* by Edzer Pebesma and Roger Bivand <https://keen-swartz-3146c4.netlify.app/>.
+*Spatial Data Science with applications in R* by Edzer Pebesma and Roger Bivand <https://r-spatial.org/book/>.
 Also covers much much about representing spatial data than you probably ever thought possible!
 The authors are the main creators of the `sf` package.
 
