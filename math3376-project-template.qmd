@@ -1,0 +1,33 @@
+---
+title: "My Title"
+subtitle: 'My Subtitle'
+author: "My Name"
+affiliation: "University of Colorado Denver"
+format:
+  html:
+    theme: cosmo  
+    # see for more themes https://quarto.org/docs/output-formats/html-themes.html
+page-layout: article
+editor: visual
+toc: true
+---
+
+# Introduction
+
+Add your intro section here
+
+# Packages Required
+
+Add your required package info/code here.
+
+# Data Preparation
+
+Add info/code related to data preparation. This would be the steps you performed to clean your data, maybe creating new variables, and putting it into a convenient, tidy form for data analysis in the next step.
+
+# Exploratory Data Analysis
+
+Add info/code related to exploratory data analysis. This would be the code you used to generate visualizations and summary statistics as well as narrative text that interprets and explains interesting features in the plots/statistics you generated.
+
+# Summary
+
+Add your summary here.
