@@ -1,18 +1,14 @@
 ---
 title: "Creating Websites with Quarto and GitHub"
-author: "Joshua French"
+author: "Joshua French and Adam Spiegler"
 format:
   html:
-    toc: true
-    toc-location: left
-    toc-depth: 2
-    toc-expand: 1
     embed-resources: true
     code-links:
       - text: Creating a Quarto Website Posit Cloud Project
         icon: file-code
         href: https://posit.cloud/content/10238221
-editor: visual
+editor: source
 editor_options: 
   markdown: 
     wrap: sentence
@@ -41,12 +37,20 @@ From <https://git-scm.com/>:
 
 > Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
+> Git allows and encourages you to have multiple local branches that can be entirely independent of each other. The creation, merging, and deletion of those lines of development takes seconds.
+
 By default, git tracks files changed in a directory or repository locally, i.e., on our actual computer, which can create some potential challenges:
 
 -   git does not backup your code or changes, which could potentially be problematic.
 -   A centralized repository must be available when multiple contributors are working on the same project. There needs to be a way of easily managing each person's contributions and keeping track of the development and stable branches of the code.
 
 GitHub provides one of the most population solutions for these two issues.
+
+## Verfiying and/or Installing git
+
+------------------------------------------------------------------------
+
+[See instructions](https://github.com/git-guides/install-git) for checking if you already have git installed or how to install git if you don't.
 
 # What is GitHub?
 
@@ -70,6 +74,31 @@ GitHub is a great place to:
 -   Make your software public and allow others to contribute and interact with your work.
 -   Put project repositories to demonstrate your coding skills and abilities.
 -   Host a professional website that advertises to potential employers or clients about how wonderful you are.
+
+## Setting Up an Account in GitHub
+
+------------------------------------------------------------------------
+
+To begin this process:
+
+-   From a web browser, go to <https://github.com/>.
+-   **Sign in** if you already have a GitHub account.
+-   Otherwise select **Sign up** and create a new account. It is FREE!
+
+
+## Creating a GitHub Repository
+
+----
+
+From the main page, create a GitHub repository.
+  
+-   For your personal website, the repository name should be `username.github.io`. Obviously, replace `username` with your actual user name). @fig-create-username-github-io-repository displays an example of this.
+-   For a project website, use the name of the project directory. I use "demosite" for the website we create in this module.
+
+
+![Creating a username.github.io respository from the GitHub homepage](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/create_username_github_io_respository.png){#fig-create-username-github-io-repository}
+
+
 
 # What is Quarto?
 
@@ -121,6 +150,7 @@ To open a new Quarto document in R Studio:
 3.  Click the Create button.
 
 Click the Render button, ![Render button](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/render_button.png){height="2em"}, to render the default Quarto document.
+
 
 # Creating a Starter Quarto website
 
@@ -244,26 +274,75 @@ If your GitHub username is `username` and your website is contained in the `demo
 
 If you are creating a personal website, then it is best to host it as `https://username.github.io`.
 
-To begin this process:
+## Pushing and Pulling Changes to the Remote (Main) GitHub Branch
 
--   Log in to GitHub.
--   From the main page, create a GitHub repository.
-    -   For your personal website, the repository name should be `username.github.io`. Obviously, replace `username` with your actual user name). @fig-create-username-github-io-repository displays an example of this.
-    -   For a project website, use the name of the project directory. As previously mentioned, I use "demosite" for the website we create.
+------------------------------------------------------------------------
 
-![Creating a username.github.io respository from the GitHub homepage](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/create_username_github_io_respository.png){#fig-create-username-github-io-repository}
+After creating your website locally on your computer, you need to `push` the changes to the remote (or main) repository you want to be hosted by GitHub pages. There are different methods for pushing the changes, I will present two possible methods. 
 
-After creating your website:
+1. Using terminal commands. This is slightly more advanced, but much more convenient (I think).
+2. Dragging files into the GitHub website. This is **much** easier, but much **less** convenient (I think).
 
--   Push the changes to the repository your want to be hosted by GitHub pages. If you're not familiar with doing this manually, then you can literally copy the contents of your project directory to GitHub.
--   On GitHub.com, navigate to your website's repository.
+If you are working from Posit Cloud, then syncing Posit Cloud directories with GitHub repositories is possible but more complicated. 
+
+- If you want to use terminal commands, see the [Posit Cloud documentation](https://docs.posit.co/cloud/guide/advanced/#working-with-github).
+- Or you can Export the Cloud Project to your computer. Then use the dragging files method outlined after the terminal commands section.  
+
+ 
+### Using Terminal Commands
+
+------------------------------------------------------------------------
+
+One way to sync changes back and forth between the main (remote) branch and the local branch is using terminal commands. Run each of the commands in sequence from the terminal (Mac/Linux) or command prompt (Windows):
+
+```
+git init
+git add *
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/aspiegler/practice.git
+git push -u origin main
+```
+
+
+Each time you make changes to a local file that you want to `commit` and  `push` the edits to the main branch, run the sequence of commands:
+
+```
+git commit -m "message explaining changes"
+git push
+```
+
+If you have added a new file or subdirectory, you need to first run the command `git add filename` then run the `commit` and `push` commands above.
+
+
+Each time changes have been made to the main branch (from another user or your own changes made from another computer), you need to `pull` on those changes to your local branch:
+
+```
+git pull
+```
+
+### Dragging Files into GitHub Website
+
+------------------------------------------------------------------------
+
+If you're not familiar with doing this manually, then you can literally copy the contents of your project directory to GitHub.
+
+-   On <https://GitHub.com>, navigate to your website's repository.
+-   Click `Add file -> Upload Files` and use a file manager on your computer to drag all files into the GitHub repo.
+
+
+## Publishing to GitHub Pages
+
+------------------------------------------------------------------------
+
+-   On <https://GitHub.com>, navigate to your website's repository.
 -   Click on the Settings button, ![GitHub Settings button](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/github_settings_button.png){height="2em"}.
 -   On the Navigation bar, click "Pages".
--   If you've set the output directory for your website to "docs" (which you should), then toggle the "/(root)" option to "/docs" and click the "Save" button. @fig-github-pages demonstrates this.
+-   If you've set the output directory for your website to "docs" (which you should have done earlier), then toggle the "/(root)" option to "/docs" and click the "Save" button. @fig-github-pages demonstrates this.
 
 ![Selecting GitHub Pages Settings](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/github_pages.png){#fig-github-pages}
 
-In a few minutes, you should see the initial version of your website at `https://username.github.io` or `https://username.github.io/name` depending on the type of site you created.
+**In a few minutes**, you should see the initial version of your website at `https://username.github.io` or `https://username.github.io/name` depending on the type of site you created.
 
 # Changing the Main Title of a Quarto website
 
