@@ -216,8 +216,6 @@ After clicking "Create Project", a new project will be created in the specified 
 
 The available files are enough to create an initial version of your website.
 
-Click the Render button, ![Render button](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/render_button.png){height="2em"}, to render the default Quarto website.
-
 A complete description of available website options is available at <https://quarto.org/docs/reference/projects/websites.html>.
 
 To host your Quarto website using GitHub pages, you will need to change the output directory of your project.
