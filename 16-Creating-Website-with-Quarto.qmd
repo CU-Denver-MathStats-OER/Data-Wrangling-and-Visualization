@@ -542,11 +542,12 @@ You can:
 -   Manually download the files from my GitHub page at <https://github.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/tree/main/Images>.
 -   Download the files by directly clicking the file names below.
 
-Add the following three files to your project directory:
+Go to the [Images directory in our course GitHub repository ](https://github.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/tree/main/Images) and download and then upload the following three files to your **project directory**:
 
 -   [`mypic.png`](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/mypic.png)
 -   [`dawgs.png`](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/dawgs.png)
 -   [`resume.pdf`](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/resume.pdf)
+
 
 ## Using the about Template and Adding an Image and Title
 
