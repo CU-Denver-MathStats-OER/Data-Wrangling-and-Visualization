@@ -303,21 +303,30 @@ git push -u origin main
 ```
 
 
-Each time you make changes to a local file that you want to `commit` and  `push` the edits to the main branch, run the sequence of commands:
+Each time you make changes to a local file that you want to `commit` and  `push` the edits to the main branch, run the sequence of commands below, where you replace `<filename>` with the name of the file:
 
 ```
-git commit -m "message explaining changes"
+git commit <filename> -m "message explaining changes" 
 git push
 ```
 
-If you have added a new file or subdirectory, you need to first run the command `git add filename` then run the `commit` and `push` commands above.
+**If you have made changes to several files** that you want to commit all at once, then you can add the option `-a` which specifies commit ALL changes. The options `-am` together specifies you want to commit *all* changes and will type a *message* to explain the commit.
+
+```
+git commit -am "message explaining changes"
+git push
+```
+
+If you have added a new file or subdirectory, you need to first run the command `git add filename` (for one file) or `git add *` to add all new files to version control. Then run the `git commit -am "my message"` and `git push`.
 
 
-Each time changes have been made to the main branch (from another user or your own changes made from another computer), you need to `pull` on those changes to your local branch:
+Each time changes have been made to the main branch (from another user or your own changes made from another computer), you need to `pull` those changes to your local branch:
 
 ```
 git pull
 ```
+
+The command `git status` is helpful when managing versions as well!
 
 ### Dragging Files into GitHub Website
 
