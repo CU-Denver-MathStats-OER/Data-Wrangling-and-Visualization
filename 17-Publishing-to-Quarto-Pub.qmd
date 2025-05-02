@@ -1,0 +1,150 @@
+---
+title: "Publishing Reports with Quarto Pub"
+author: "Adam Spiegler"
+format:
+  html:
+    embed-resources: true
+    theme: flatly  
+#    code-links:
+#      - text: Creating a Quarto Website Posit Cloud Project
+#        icon: file-code
+#        href: https://posit.cloud/content/10238221
+editor: source
+editor_options: 
+  markdown: 
+    wrap: sentence
+license: "CC BY-NC-SA"
+self-contained: true
+title-block-banner: true
+---
+
+
+According to the [Quarto help guide](https://quarto.org/docs/publishing/quarto-pub.html): 
+
+> Quarto Pub is a free publishing service for static content created with Quarto. Quarto Pub is ideal for blogs, course or project websites, books, presentations, and personal hobby sites.
+
+> It’s important to note that all documents and sites published to Quarto Pub are publicly visible. You should only publish content you wish to share publicly.
+
+
+The [Quarto help manual](https://quarto.org/docs/publishing/quarto-pub.html) covers two ways to publish content to Quarto Pub:
+
+
+1. Use the `quarto publish` command to publish content rendered on your local machine or Posit Cloud.
+  - This is the recommended method for getting started that we will walk through together.
+  
+2. If you are using GitHub, you can use a GitHub Action to automatically render your project and publish the resulting content whenever your code changes.
+  - We will not cover this method, though we have discussed GitHub Pages.
+
+Before attempting your first publish, be sure that you have created a free Quarto Pub account.
+
+::: {.callout-note}
+Quarto Pub have a storage limit and cannot exceed 100 MB and has a limit of 10 GB of bandwidth per month. To host larger sites, or use a custom domain, we need to use a professional web publishing service.
+:::
+
+## Linking a Free Quarto Pub Account to GitHub
+
+---
+
+- Go to <https://quartopub.com/>
+- Click the `Sign Up` button in the upper right corner.
+- Under `Sign up with`, select `GitHub`.
+
+
+## Callout Blocks in Quarto
+
+---
+
+The [Quarto Callout Block help page](https://quarto.org/docs/authoring/callouts.html) states:
+
+> Callouts are an excellent way to draw extra attention to certain concepts, or to more clearly indicate that certain content is supplemental or applicable to only some scenarios.
+
+There are five different callout types available for Quarto documents:
+
+- `note`
+- `warning`
+- `important`
+- `tip`
+- `caution`
+
+The syntax for a callout block is as follows:
+
+- A callout is block begins with `::: {.callout-<type>}`, where `<type>` is one of the five specified types above.
+- Then enter the text in the callout block.
+- Close the callout block with three colons `:::`.
+
+::: {.callout-note}
+We will be eating meat, mashed potatoes, and asparagus for dinner. Followed by a chocolate pudding for dessert.
+:::
+
+::: {.callout-warning}
+If you don't eat your meat, you can't have any pudding.
+:::
+
+::: {.callout-important}
+Asparagus is a good source of folate, vitamin K, and fiber.
+:::
+
+::: {.callout-tip}
+You can mix your asparagus with the mashed potatoes to help cover up the taste.
+:::
+
+::: {.callout-caution}
+How can you have any pudding if you you don't eat your meat?
+:::
+
+
+
+# Checking Version/Installing Quarto
+
+---
+
+You may already have installed Quarto on your device. To check what version of Quarto (if any) is installed on your device:
+
+- Open RStudio.
+- Click on the Terminal window below the main Source window.
+  - It is the tab next to the Console window.
+- From the command line, run `quarto --version` or `quarto check`.
+  - If a version number is displayed, Quarto is already installed!
+  - If you receive an error message or unknown message, you likely do not have Quarto installed.
+
+If Quarto has not been installed, then:
+
+- From the Console window, run the command `install.packages("quarto")`.
+  - You will only need to run this command once!
+- Then from the Terminal window, run the command `quarto --version`.
+
+
+# Publishing Reports to Quarto Pub
+
+---
+
+Once your report has been completed, render your Quarto document to html and make sure the webpage is as desired. Once your report is ready to be published, perform the following steps.
+
+- From the Terminal window in RStudio, run the command `quarto publish quarto-pub <filename>.qmd`.
+  - Replace `<filename>` with the name of your file.
+- Select `Y` (or click Enter/Return).
+- Choose an address for your webpage.
+  - We will customize the web address next.
+
+See <https://quarto.org/docs/publishing/quarto-pub.html> for more detailed instructions.
+
+
+## The `_publish.yml` File
+
+---
+
+Whenever you run a `quarto publish` command, a file with the name `_publish.yml` is created in the project or document directory. This file `_publish.yml` is used to specify the publishing destination. Here is a sample:
+
+```
+- source: project
+  quarto-pub:
+    - id: "5f3abafe-68f9-4c1d-835b-9d668b892001"
+      url: "https://adam-spieger.quarto.pub/my-report"
+```
+
+If you have an existing Quarto Pub site that you want to publish to, you can manually create a `_publish.yml` file that looks like the example above, but with the appropriate `id` and `url` values for your site.
+
+
+
+
+
