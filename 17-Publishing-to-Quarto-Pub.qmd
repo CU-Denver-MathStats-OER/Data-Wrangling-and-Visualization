@@ -145,6 +145,14 @@ Whenever you run a `quarto publish` command, a file with the name `_publish.yml`
 If you have an existing Quarto Pub site that you want to publish to, you can manually create a `_publish.yml` file that looks like the example above, but with the appropriate `id` and `url` values for your site.
 
 
+## Managing Content in Quarto Pub 
 
+---
 
+The site management interface at <https://quartopub.com> displays a list of all of your published sites. On this page, we can click on individual projects and:
+
+- Delete a page.
+- Change the “slug” (URL path) of a published site.
+- Set a "home page" which is the page people will see at <https://username.quarto.pub>.
+  - The default home page is a list of all your published sites in Quarto Pub.
 
