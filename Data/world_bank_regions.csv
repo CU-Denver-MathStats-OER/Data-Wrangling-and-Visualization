@@ -63,7 +63,7 @@ Equatorial Guinea,GNQ,Sub-Saharan Africa,Upper middle income,IBRD
 Eritrea,ERI,Sub-Saharan Africa,Low income,IDA
 Estonia,EST,Europe & Central Asia,High income,
 Eswatini,SWZ,Sub-Saharan Africa,Lower middle income,Blend
-Ethiopia,ETH,Sub-Saharan Africa,,IDA
+Ethiopia,ETH,Sub-Saharan Africa,NA,IDA
 Faroe Islands,FRO,Europe & Central Asia,High income,
 Fiji,FJI,East Asia & Pacific,Upper middle income,Blend
 Finland,FIN,Europe & Central Asia,High income,
@@ -210,7 +210,7 @@ United States,USA,North America,High income,
 Uruguay,URY,Latin America & Caribbean,High income,IBRD
 Uzbekistan,UZB,Europe & Central Asia,Lower middle income,Blend
 Vanuatu,VUT,East Asia & Pacific,Lower middle income,IDA
-"Venezuela, RB",VEN,Latin America & Caribbean,,IBRD
+"Venezuela, RB",VEN,Latin America & Caribbean,NA,IBRD
 Vietnam,VNM,East Asia & Pacific,Lower middle income,IBRD
 Virgin Islands (U.S.),VIR,Latin America & Caribbean,High income,
 West Bank and Gaza,PSE,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,
