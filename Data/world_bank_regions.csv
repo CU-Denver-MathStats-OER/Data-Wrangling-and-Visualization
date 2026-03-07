@@ -157,7 +157,7 @@ Peru,PER,LCN,UMC,IBRD
 Philippines,PHL,EAS,LMC,IBRD
 Poland,POL,ECS,HIC,IBRD
 Portugal,PRT,ECS,HIC,
-Puerto Rico (U.S.),PRI,LCN,HIC,
+Puerto Rico (U.S.),PRI,LCN,HIC,what?
 Qatar,QAT,MEA,HIC,
 Romania,ROU,ECS,HIC,IBRD
 Russian Federation,RUS,ECS,HIC,IBRD
@@ -171,9 +171,9 @@ Serbia,SRB,ECS,UMC,IBRD
 Seychelles,SYC,SSF,HIC,IBRD
 Sierra Leone,SLE,SSF,LIC,IDA
 Singapore,SGP,EAS,HIC,
-Sint Maarten (Dutch part),SXM,LCN,HIC,
+Sint Maarten (Dutch part),SXM,LCN,HIC,not sure
 Slovak Republic,SVK,ECS,HIC,
-Slovenia,SVN,ECS,HIC,
+Slovenia,SVN,ECS,HIC,not sure
 Solomon Islands,SLB,EAS,LMC,IDA
 Somalia,SOM,SSF,LIC,IDA
 South Africa,ZAF,SSF,UMC,IBRD
@@ -205,7 +205,7 @@ Tuvalu,TUV,EAS,UMC,IDA
 Uganda,UGA,SSF,LIC,IDA
 Ukraine,UKR,ECS,UMC,IBRD
 United Arab Emirates,ARE,MEA,HIC,
-United Kingdom,GBR,ECS,HIC,
+United Kingdom,GBR,ECS,HIC,???
 United States,USA,NAC,HIC,
 Uruguay,URY,LCN,HIC,IBRD
 Uzbekistan,UZB,ECS,LMC,Blend
