@@ -1,219 +1,219 @@
-﻿Economy,Code,Region,Income group,Lending category
-Afghanistan,AFG,MEA,LIC,IDA
-Albania,ALB,ECS,UMC,IBRD
-Algeria,DZA,MEA,UMC,IBRD
-American Samoa,ASM,EAS,HIC,999
-Andorra,AND,ECS,HIC,N/A
-Angola,AGO,SSF,LMC,IBRD
-Antigua and Barbuda,ATG,LCN,HIC,IBRD
-Argentina,ARG,LCN,UMC,IBRD
-Armenia,ARM,ECS,UMC,IBRD
-Aruba,ABW,LCN,HIC,missing
-Australia,AUS,EAS,HIC,NA
-Austria,AUT,ECS,HIC,
-Azerbaijan,AZE,ECS,UMC,IBRD
-"Bahamas, The",BHS,LCN,HIC,
-Bahrain,BHR,MEA,HIC,
-Bangladesh,BGD,SAS,LMC,IDA
-Barbados,BRB,LCN,HIC,IBRD
-Belarus,BLR,ECS,UMC,IBRD
-Belgium,BEL,ECS,HIC,
-Belize,BLZ,LCN,UMC,Blend
-Benin,BEN,SSF,LMC,IDA
-Bermuda,BMU,NAC,HIC,
-Bhutan,BTN,SAS,LMC,IDA
-Bolivia,BOL,LCN,LMC,IBRD
-Bosnia and Herzegovina,BIH,ECS,UMC,IBRD
-Botswana,BWA,SSF,UMC,IBRD
-Brazil,BRA,LCN,UMC,IBRD
-British Virgin Islands,VGB,LCN,HIC,
-Brunei Darussalam,BRN,EAS,HIC,
-Bulgaria,BGR,ECS,HIC,IBRD
-Burkina Faso,BFA,SSF,LIC,IDA
-Burundi,BDI,SSF,LIC,IDA
-Cabo Verde,CPV,SSF,UMC,Blend
-Cambodia,KHM,EAS,LMC,IDA
-Cameroon,CMR,SSF,LMC,Blend
-Canada,CAN,NAC,HIC,
-Cayman Islands,CYM,LCN,HIC,
-Central African Republic,CAF,SSF,LIC,IDA
-Chad,TCD,SSF,LIC,IDA
-Channel Islands,CHI,ECS,HIC,
-Chile,CHL,LCN,HIC,IBRD
-China,CHN,EAS,UMC,IBRD
-Colombia,COL,LCN,UMC,IBRD
-Comoros,COM,SSF,LMC,IDA
-"Congo, Dem. Rep.",COD,SSF,LIC,IDA
-"Congo, Rep.",COG,SSF,LMC,Blend
-Costa Rica,CRI,LCN,HIC,IBRD
-Côte d’Ivoire,CIV,SSF,LMC,Blend
-Croatia,HRV,ECS,HIC,IBRD
-Cuba,CUB,LCN,UMC,
-Curaçao,CUW,LCN,HIC,
-Cyprus,CYP,ECS,HIC,
-Czechia,CZE,ECS,HIC,
-Denmark,DNK,ECS,HIC,
-Djibouti,DJI,MEA,LMC,IDA
-Dominica,DMA,LCN,UMC,Blend
-Dominican Republic,DOM,LCN,UMC,IBRD
-Ecuador,ECU,LCN,UMC,IBRD
-"Egypt, Arab Rep.",EGY,MEA,LMC,IBRD
-El Salvador,SLV,LCN,UMC,IBRD
-Equatorial Guinea,GNQ,SSF,UMC,IBRD
-Eritrea,ERI,SSF,LIC,IDA
-Estonia,EST,ECS,HIC,
-Eswatini,SWZ,SSF,LMC,Blend
-Ethiopia,ETH,SSF,NA,IDA
-Faroe Islands,FRO,ECS,HIC,
-Fiji,FJI,EAS,UMC,Blend
-Finland,FIN,ECS,HIC,
-France,FRA,ECS,HIC,
-French Polynesia,PYF,EAS,HIC,
-Gabon,GAB,SSF,UMC,IBRD
-"Gambia, The",GMB,SSF,LIC,IDA
-Georgia,GEO,ECS,UMC,IBRD
-Germany,DEU,ECS,HIC,
-Ghana,GHA,SSF,LMC,IDA
-Gibraltar,GIB,ECS,HIC,
-Greece,GRC,ECS,HIC,
-Greenland,GRL,ECS,HIC,
-Grenada,GRD,LCN,UMC,Blend
-Guam,GUM,EAS,HIC,
-Guatemala,GTM,LCN,UMC,IBRD
-Guinea,GIN,SSF,LMC,IDA
-Guinea-Bissau,GNB,SSF,LIC,IDA
-Guyana,GUY,LCN,HIC,IDA
-Haiti,HTI,LCN,LMC,IDA
-Honduras,HND,LCN,LMC,IDA
-"Hong Kong SAR, China",HKG,EAS,HIC,
-Hungary,HUN,ECS,HIC,
-Iceland,ISL,ECS,HIC,
-India,IND,SAS,LMC,IBRD
-Indonesia,IDN,EAS,UMC,IBRD
-"Iran, Islamic Rep.",IRN,MEA,UMC,IBRD
-Iraq,IRQ,MEA,UMC,IBRD
-Ireland,IRL,ECS,HIC,
-Isle of Man,IMN,ECS,HIC,
-Israel,ISR,MEA,HIC,
-Italy,ITA,ECS,HIC,
-Jamaica,JAM,LCN,UMC,IBRD
-Japan,JPN,EAS,HIC,
-Jordan,JOR,MEA,LMC,IBRD
-Kazakhstan,KAZ,ECS,UMC,IBRD
-Kenya,KEN,SSF,LMC,Blend
-Kiribati,KIR,EAS,LMC,IDA
-"Korea, Dem. People's Rep.",PRK,EAS,LIC,
-"Korea, Rep.",KOR,EAS,HIC,
-Kosovo,XKX,ECS,UMC,IDA
-Kuwait,KWT,MEA,HIC,
-Kyrgyz Republic,KGZ,ECS,LMC,IDA
-Lao PDR,LAO,EAS,LMC,IDA
-Latvia,LVA,ECS,HIC,
-Lebanon,LBN,MEA,LMC,IBRD
-Lesotho,LSO,SSF,LMC,IDA
-Liberia,LBR,SSF,LIC,IDA
-Libya,LBY,MEA,UMC,IBRD
-Liechtenstein,LIE,ECS,HIC,
-Lithuania,LTU,ECS,HIC,
-Luxembourg,LUX,ECS,HIC,
-"Macao SAR, China",MAC,EAS,HIC,
-Madagascar,MDG,SSF,LIC,IDA
-Malawi,MWI,SSF,LIC,IDA
-Malaysia,MYS,EAS,UMC,IBRD
-Maldives,MDV,SAS,UMC,IDA
-Mali,MLI,SSF,LIC,IDA
-Malta,MLT,MEA,HIC,
-Marshall Islands,MHL,EAS,UMC,IDA
-Mauritania,MRT,SSF,LMC,IDA
-Mauritius,MUS,SSF,UMC,IBRD
-Mexico,MEX,LCN,UMC,IBRD
-"Micronesia, Fed. Sts.",FSM,EAS,LMC,IDA
-Moldova,MDA,ECS,UMC,IBRD
-Monaco,MCO,ECS,HIC,
-Mongolia,MNG,EAS,UMC,IBRD
-Montenegro,MNE,ECS,UMC,IBRD
-Morocco,MAR,MEA,LMC,IBRD
-Mozambique,MOZ,SSF,LIC,IDA
-Myanmar,MMR,EAS,LMC,IDA
-Namibia,NAM,SSF,LMC,IBRD
-Nauru,NRU,EAS,HIC,IBRD
-Nepal,NPL,SAS,LMC,IDA
-Netherlands,NLD,ECS,HIC,
-New Caledonia,NCL,EAS,HIC,
-New Zealand,NZL,EAS,HIC,
-Nicaragua,NIC,LCN,LMC,IDA
-Niger,NER,SSF,LIC,IDA
-Nigeria,NGA,SSF,LMC,Blend
-North Macedonia,MKD,ECS,UMC,IBRD
-Northern Mariana Islands,MNP,EAS,HIC,
-Norway,NOR,ECS,HIC,
-Oman,OMN,MEA,HIC,
-Pakistan,PAK,MEA,LMC,Blend
-Palau,PLW,EAS,HIC,IBRD
-Panama,PAN,LCN,HIC,IBRD
-Papua New Guinea,PNG,EAS,LMC,Blend
-Paraguay,PRY,LCN,UMC,IBRD
-Peru,PER,LCN,UMC,IBRD
-Philippines,PHL,EAS,LMC,IBRD
-Poland,POL,ECS,HIC,IBRD
-Portugal,PRT,ECS,HIC,
-Puerto Rico (U.S.),PRI,LCN,HIC,what?
-Qatar,QAT,MEA,HIC,
-Romania,ROU,ECS,HIC,IBRD
-Russian Federation,RUS,ECS,HIC,IBRD
-Rwanda,RWA,SSF,LIC,IDA
-Samoa,WSM,EAS,UMC,IDA
-San Marino,SMR,ECS,HIC,
-São Tomé and Príncipe,STP,SSF,LMC,IDA
-Saudi Arabia,SAU,MEA,HIC,
-Senegal,SEN,SSF,LMC,IDA
-Serbia,SRB,ECS,UMC,IBRD
-Seychelles,SYC,SSF,HIC,IBRD
-Sierra Leone,SLE,SSF,LIC,IDA
-Singapore,SGP,EAS,HIC,
-Sint Maarten (Dutch part),SXM,LCN,HIC,not sure
-Slovak Republic,SVK,ECS,HIC,
-Slovenia,SVN,ECS,HIC,not sure
-Solomon Islands,SLB,EAS,LMC,IDA
-Somalia,SOM,SSF,LIC,IDA
-South Africa,ZAF,SSF,UMC,IBRD
-South Sudan,SSD,SSF,LIC,IDA
-Spain,ESP,ECS,HIC,
-Sri Lanka,LKA,SAS,LMC,IDA
-St. Kitts and Nevis,KNA,LCN,HIC,IBRD
-St. Lucia,LCA,LCN,UMC,Blend
-St. Martin (French part),MAF,LCN,HIC,
-St. Vincent and the Grenadines,VCT,LCN,UMC,Blend
-Sudan,SDN,SSF,LIC,IDA
-Suriname,SUR,LCN,UMC,Blend
-Sweden,SWE,ECS,HIC,
-Switzerland,CHE,ECS,HIC,
-Syrian Arab Republic,SYR,MEA,LIC,IDA
-"Taiwan, China",TWN,EAS,HIC,
-Tajikistan,TJK,ECS,LMC,IDA
-Tanzania,TZA,SSF,LMC,IDA
-Thailand,THA,EAS,UMC,IBRD
-Timor-Leste,TLS,EAS,LMC,Blend
-Togo,TGO,SSF,LIC,IDA
-Tonga,TON,EAS,UMC,IDA
-Trinidad and Tobago,TTO,LCN,HIC,IBRD
-Tunisia,TUN,MEA,LMC,IBRD
-Türkiye,TUR,ECS,UMC,IBRD
-Turkmenistan,TKM,ECS,UMC,IBRD
-Turks and Caicos Islands,TCA,LCN,HIC,
-Tuvalu,TUV,EAS,UMC,IDA
-Uganda,UGA,SSF,LIC,IDA
-Ukraine,UKR,ECS,UMC,IBRD
-United Arab Emirates,ARE,MEA,HIC,
-United Kingdom,GBR,ECS,HIC,???
-United States,USA,NAC,HIC,
-Uruguay,URY,LCN,HIC,IBRD
-Uzbekistan,UZB,ECS,LMC,Blend
-Vanuatu,VUT,EAS,LMC,IDA
-"Venezuela, RB",VEN,LCN,NA,IBRD
-Vietnam,VNM,EAS,LMC,IBRD
-Virgin Islands (U.S.),VIR,LCN,HIC,
-West Bank and Gaza,PSE,MEA,LMC,
-"Yemen, Rep.",YEM,MEA,LIC,IDA
-Zambia,ZMB,SSF,LMC,IDA
-Zimbabwe,ZWE,SSF,LMC,Blend
+﻿Economy,Code,Region,Income group,Random,Lending category
+Afghanistan,AFG,MEA,LIC,121,IDA
+Albania,ALB,ECS,UMC,329,IBRD
+Algeria,DZA,MEA,UMC,,IBRD
+American Samoa,ASM,EAS,HIC,394,??
+Andorra,AND,ECS,HIC,NA,N/A
+Angola,AGO,SSF,LMC,342,IBRD
+Antigua and Barbuda,ATG,LCN,HIC,198,IBRD
+Argentina,ARG,LCN,UMC,??,IBRD
+Armenia,ARM,ECS,UMC,92,IBRD
+Aruba,ABW,LCN,HIC,350,missing
+Australia,AUS,EAS,HIC,324,NA
+Austria,AUT,ECS,HIC,47,
+Azerbaijan,AZE,ECS,UMC,349,IBRD
+"Bahamas, The",BHS,LCN,HIC,439,
+Bahrain,BHR,MEA,HIC,274,
+Bangladesh,BGD,SAS,LMC,351,IDA
+Barbados,BRB,LCN,HIC,431,IBRD
+Belarus,BLR,ECS,UMC,65,IBRD
+Belgium,BEL,ECS,HIC,122,
+Belize,BLZ,LCN,UMC,311,Blend
+Benin,BEN,SSF,LMC,162,IDA
+Bermuda,BMU,NAC,HIC,254,
+Bhutan,BTN,SAS,LMC,358,IDA
+Bolivia,BOL,LCN,LMC,35,IBRD
+Bosnia and Herzegovina,BIH,ECS,UMC,163,IBRD
+Botswana,BWA,SSF,UMC,419,IBRD
+Brazil,BRA,LCN,UMC,344,IBRD
+British Virgin Islands,VGB,LCN,HIC,235,
+Brunei Darussalam,BRN,EAS,HIC,62,
+Bulgaria,BGR,ECS,HIC,425,IBRD
+Burkina Faso,BFA,SSF,LIC,409,IDA
+Burundi,BDI,SSF,LIC,260,IDA
+Cabo Verde,CPV,SSF,UMC,320,Blend
+Cambodia,KHM,EAS,LMC,218,IDA
+Cameroon,CMR,SSF,LMC,222,Blend
+Canada,CAN,NAC,HIC,219,
+Cayman Islands,CYM,LCN,HIC,195,
+Central African Republic,CAF,SSF,LIC,425,IDA
+Chad,TCD,SSF,LIC,327,IDA
+Channel Islands,CHI,ECS,HIC,21,
+Chile,CHL,LCN,HIC,258,IBRD
+China,CHN,EAS,UMC,408,IBRD
+Colombia,COL,LCN,UMC,119,IBRD
+Comoros,COM,SSF,LMC,315,IDA
+"Congo, Dem. Rep.",COD,SSF,LIC,225,IDA
+"Congo, Rep.",COG,SSF,LMC,494,Blend
+Costa Rica,CRI,LCN,HIC,434,IBRD
+Côte d’Ivoire,CIV,SSF,LMC,478,Blend
+Croatia,HRV,ECS,HIC,373,IBRD
+Cuba,CUB,LCN,UMC,305,
+Curaçao,CUW,LCN,HIC,308,
+Cyprus,CYP,ECS,HIC,472,
+Czechia,CZE,ECS,HIC,223,
+Denmark,DNK,ECS,HIC,68,
+Djibouti,DJI,MEA,LMC,what???,IDA
+Dominica,DMA,LCN,UMC,341,Blend
+Dominican Republic,DOM,LCN,UMC,380,IBRD
+Ecuador,ECU,LCN,UMC,283,IBRD
+"Egypt, Arab Rep.",EGY,MEA,LMC,388,IBRD
+El Salvador,SLV,LCN,UMC,327,IBRD
+Equatorial Guinea,GNQ,SSF,UMC,186,IBRD
+Eritrea,ERI,SSF,LIC,484,IDA
+Estonia,EST,ECS,HIC,347,
+Eswatini,SWZ,SSF,LMC,215,Blend
+Ethiopia,ETH,SSF,NA,48,IDA
+Faroe Islands,FRO,ECS,HIC,250,
+Fiji,FJI,EAS,UMC,397,Blend
+Finland,FIN,ECS,HIC,245,
+France,FRA,ECS,HIC,473,
+French Polynesia,PYF,EAS,HIC,128,
+Gabon,GAB,SSF,UMC,109,IBRD
+"Gambia, The",GMB,SSF,LIC,307,IDA
+Georgia,GEO,ECS,UMC,290,IBRD
+Germany,DEU,ECS,HIC,358,
+Ghana,GHA,SSF,LMC,102,IDA
+Gibraltar,GIB,ECS,HIC,339,
+Greece,GRC,ECS,HIC,271,
+Greenland,GRL,ECS,HIC,470,
+Grenada,GRD,LCN,UMC,190,Blend
+Guam,GUM,EAS,HIC,68,
+Guatemala,GTM,LCN,UMC,300,IBRD
+Guinea,GIN,SSF,LMC,158,IDA
+Guinea-Bissau,GNB,SSF,LIC,125,IDA
+Guyana,GUY,LCN,HIC,442,IDA
+Haiti,HTI,LCN,LMC,311,IDA
+Honduras,HND,LCN,LMC,480,IDA
+"Hong Kong SAR, China",HKG,EAS,HIC,372,
+Hungary,HUN,ECS,HIC,489,
+Iceland,ISL,ECS,HIC,27,
+India,IND,SAS,LMC,225,IBRD
+Indonesia,IDN,EAS,UMC,218,IBRD
+"Iran, Islamic Rep.",IRN,MEA,UMC,no idea,IBRD
+Iraq,IRQ,MEA,UMC,360,IBRD
+Ireland,IRL,ECS,HIC,461,
+Isle of Man,IMN,ECS,HIC,428,
+Israel,ISR,MEA,HIC,396,
+Italy,ITA,ECS,HIC,83,
+Jamaica,JAM,LCN,UMC,94,IBRD
+Japan,JPN,EAS,HIC,1,
+Jordan,JOR,MEA,LMC,456,IBRD
+Kazakhstan,KAZ,ECS,UMC,208,IBRD
+Kenya,KEN,SSF,LMC,47,Blend
+Kiribati,KIR,EAS,LMC,229,IDA
+"Korea, Dem. People's Rep.",PRK,EAS,LIC,145,
+"Korea, Rep.",KOR,EAS,HIC,28,
+Kosovo,XKX,ECS,UMC,424,IDA
+Kuwait,KWT,MEA,HIC,358,
+Kyrgyz Republic,KGZ,ECS,LMC,338,IDA
+Lao PDR,LAO,EAS,LMC,371,IDA
+Latvia,LVA,ECS,HIC,142,
+Lebanon,LBN,MEA,LMC,5,IBRD
+Lesotho,LSO,SSF,LMC,91,IDA
+Liberia,LBR,SSF,LIC,133,IDA
+Libya,LBY,MEA,UMC,N/A,IBRD
+Liechtenstein,LIE,ECS,HIC,172,
+Lithuania,LTU,ECS,HIC,200,
+Luxembourg,LUX,ECS,HIC,416,
+"Macao SAR, China",MAC,EAS,HIC,,
+Madagascar,MDG,SSF,LIC,442,IDA
+Malawi,MWI,SSF,LIC,359,IDA
+Malaysia,MYS,EAS,UMC,468,IBRD
+Maldives,MDV,SAS,UMC,268,IDA
+Mali,MLI,SSF,LIC,414,IDA
+Malta,MLT,MEA,HIC,479,
+Marshall Islands,MHL,EAS,UMC,319,IDA
+Mauritania,MRT,SSF,LMC,94,IDA
+Mauritius,MUS,SSF,UMC,169,IBRD
+Mexico,MEX,LCN,UMC,325,IBRD
+"Micronesia, Fed. Sts.",FSM,EAS,LMC,80,IDA
+Moldova,MDA,ECS,UMC,365,IBRD
+Monaco,MCO,ECS,HIC,154,
+Mongolia,MNG,EAS,UMC,84,IBRD
+Montenegro,MNE,ECS,UMC,,IBRD
+Morocco,MAR,MEA,LMC,173,IBRD
+Mozambique,MOZ,SSF,LIC,408,IDA
+Myanmar,MMR,EAS,LMC,433,IDA
+Namibia,NAM,SSF,LMC,158,IBRD
+Nauru,NRU,EAS,HIC,103,IBRD
+Nepal,NPL,SAS,LMC,482,IDA
+Netherlands,NLD,ECS,HIC,423,
+New Caledonia,NCL,EAS,HIC,184,
+New Zealand,NZL,EAS,HIC,305,
+Nicaragua,NIC,LCN,LMC,62,IDA
+Niger,NER,SSF,LIC,22,IDA
+Nigeria,NGA,SSF,LMC,???,Blend
+North Macedonia,MKD,ECS,UMC,450,IBRD
+Northern Mariana Islands,MNP,EAS,HIC,343,
+Norway,NOR,ECS,HIC,383,
+Oman,OMN,MEA,HIC,292,
+Pakistan,PAK,MEA,LMC,22,Blend
+Palau,PLW,EAS,HIC,472,IBRD
+Panama,PAN,LCN,HIC,443,IBRD
+Papua New Guinea,PNG,EAS,LMC,252,Blend
+Paraguay,PRY,LCN,UMC,7,IBRD
+Peru,PER,LCN,UMC,314,IBRD
+Philippines,PHL,EAS,LMC,395,IBRD
+Poland,POL,ECS,HIC,469,IBRD
+Portugal,PRT,ECS,HIC,476,
+Puerto Rico (U.S.),PRI,LCN,HIC,440,what?
+Qatar,QAT,MEA,HIC,66,
+Romania,ROU,ECS,HIC,244,IBRD
+Russian Federation,RUS,ECS,HIC,254,IBRD
+Rwanda,RWA,SSF,LIC,408,IDA
+Samoa,WSM,EAS,UMC,93,IDA
+San Marino,SMR,ECS,HIC,449,
+São Tomé and Príncipe,STP,SSF,LMC,261,IDA
+Saudi Arabia,SAU,MEA,HIC,164,
+Senegal,SEN,SSF,LMC,278,IDA
+Serbia,SRB,ECS,UMC,425,IBRD
+Seychelles,SYC,SSF,HIC,43,IBRD
+Sierra Leone,SLE,SSF,LIC,330,IDA
+Singapore,SGP,EAS,HIC,214,
+Sint Maarten (Dutch part),SXM,LCN,HIC,55,not sure
+Slovak Republic,SVK,ECS,HIC,485,
+Slovenia,SVN,ECS,HIC,24,not sure
+Solomon Islands,SLB,EAS,LMC,419,IDA
+Somalia,SOM,SSF,LIC,unsure,IDA
+South Africa,ZAF,SSF,UMC,353,IBRD
+South Sudan,SSD,SSF,LIC,51,IDA
+Spain,ESP,ECS,HIC,483,
+Sri Lanka,LKA,SAS,LMC,229,IDA
+St. Kitts and Nevis,KNA,LCN,HIC,364,IBRD
+St. Lucia,LCA,LCN,UMC,54,Blend
+St. Martin (French part),MAF,LCN,HIC,409,
+St. Vincent and the Grenadines,VCT,LCN,UMC,59,Blend
+Sudan,SDN,SSF,LIC,397,IDA
+Suriname,SUR,LCN,UMC,216,Blend
+Sweden,SWE,ECS,HIC,25,
+Switzerland,CHE,ECS,HIC,473,
+Syrian Arab Republic,SYR,MEA,LIC,358,IDA
+"Taiwan, China",TWN,EAS,HIC,122,
+Tajikistan,TJK,ECS,LMC,283,IDA
+Tanzania,TZA,SSF,LMC,346,IDA
+Thailand,THA,EAS,UMC,183,IBRD
+Timor-Leste,TLS,EAS,LMC,209,Blend
+Togo,TGO,SSF,LIC,50,IDA
+Tonga,TON,EAS,UMC,282,IDA
+Trinidad and Tobago,TTO,LCN,HIC,375,IBRD
+Tunisia,TUN,MEA,LMC,57,IBRD
+Türkiye,TUR,ECS,UMC,307,IBRD
+Turkmenistan,TKM,ECS,UMC,182,IBRD
+Turks and Caicos Islands,TCA,LCN,HIC,478,
+Tuvalu,TUV,EAS,UMC,476,IDA
+Uganda,UGA,SSF,LIC,212,IDA
+Ukraine,UKR,ECS,UMC,204,IBRD
+United Arab Emirates,ARE,MEA,HIC,85,
+United Kingdom,GBR,ECS,HIC,350,???
+United States,USA,NAC,HIC,414,
+Uruguay,URY,LCN,HIC,349,IBRD
+Uzbekistan,UZB,ECS,LMC,276,Blend
+Vanuatu,VUT,EAS,LMC,316,IDA
+"Venezuela, RB",VEN,LCN,NA,208,IBRD
+Vietnam,VNM,EAS,LMC,431,IBRD
+Virgin Islands (U.S.),VIR,LCN,HIC,329,
+West Bank and Gaza,PSE,MEA,LMC,???,
+"Yemen, Rep.",YEM,MEA,LIC,220,IDA
+Zambia,ZMB,SSF,LMC,277,IDA
+Zimbabwe,ZWE,SSF,LMC,64,Blend
