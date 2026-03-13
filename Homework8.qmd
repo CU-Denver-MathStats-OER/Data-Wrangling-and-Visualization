@@ -1,0 +1,403 @@
+---
+title: "Homework 8"
+author: "Enter your name"
+format: 
+  html:
+    embed-resources: true    
+editor: visual
+warning: false
+---
+
+# Homework 8: Due Wednesday, April 1 at 11:59 PM
+
+# Link To AI Course Tutor
+
+Interacting with our Course AI Tutor is intended to simulate how a discussion would go in my office hours if you asked me for help on a concept or problem. I have instructed the AI to be a tutor that helps guide you to answers in a manner that helps you learn rather than just give answers that you may not understand and likely will not help your learning.
+
+-   Not sure which R command will help perform a specified operation?
+-   Uncertain how to get started on a homework problem?
+-   Stuck midway through the problem and don't know what to do next?
+-   Need help debugging an error message?
+-   Would you like more similar problems to get further practice?
+
+I encourage you to use our course AI if you want to consult AI for help. I would caution you from using other AI since they like to give answers and don't care if you are learning concepts.
+
+Link to Course AI Tutor: <https://gemini.google.com/gem/1Do4YZgukdrpFqqjqvxFyMpc6XXPGuDdw?usp=sharing>
+
+## Instructions:
+
+1.  [Be sure to download and save the file so you are working with your own private copy of the file (rather than the shared version posted in Posit Cloud for example).]{style="color:red"}
+
+2.  [After you have copied the Quarto file into your Posit Cloud workspace or onto your computer, you can begin editing and saving your work.]{style="color:green"}
+
+**Submit your work electronically as two separate files:**
+
+-   **A Quarto markdown file with file extension `.qmd` with all code cells run and relevant output displayed in the document**.
+-   **After you have completed all questions, render your completed work to an html file.**
+-   **Submit the html file that is created with file extension `.html`**.
+
+Upload both files into the Homework 8 assignment in Canvas before [**11:59PM on Wednesday, April 1.**]{style="color:blue"}
+
+**You must provide supporting work for all of your answers.**
+
+-   [That work will include using R code cells.]{style="color:blue"}
+    -   **Feel free to insert as much R code as you like.**
+    -   When asked, you must interpret or explain how the output of a code cell is being utilized to solve the question.
+    -   **Code with incomplete or missing explanations of why the output is useful may not receive full credit.**
+    -   **Code that involves methods and commands we have not discussed this semester may not receive full credit.**
+-   [Your work may also involve writing explanations and justifications in text cells.]{style="color:blue"}
+    -   **Be sure to type/write out the steps of your work/explanation so I can see how you arrived at your answer.**
+
+## AI Policy: The "Attempt First" Method
+
+For each problem, you will see two sections. Please follow this procedure:
+
+### [Section 1: Your Independent Attempt (Required)]{style="color:blue"}
+
+-   You must attempt to solve the problem **without AI assistance** first.
+-   Use only course materials and your own knowledge.
+-   Note: You must enter an answer here to receive credit.
+
+### [Section 2: AI Assistance (Optional)]{style="color:blue"}
+
+-   **If you are satisfied with your answer in Section 1, leave this blank.**
+-   If your Section 1 answer is incorrect or incomplete, you may use AI to improve it here.
+-   **Required Documentation**: If you use this section, you must list:
+    -   The AI tool used (e.g., ChatGPT, Gemini).
+    -   The initial prompt you entered.
+    -   Your updated, AI-assisted solution.
+    -   If the AI solution involves code, add comments to the code explaining each part of the code.
+
+### [AI Grading & Academic Honesty]{style="color:blue"}
+
+**Safety Net:** You will not lose points if your independent attempt (Section 1) is incorrect, provided your AI-assisted solution (Section 2) is correct, concise and properly documented.
+
+**Overly Complicated Solutions:** You may have points deducted if your AI generated solution is much more complex than needed (say 10 lines of code are used by AI when we learned how to do it in class with a single command).
+
+**Zero Tolerance:** Submitting AI-generated work as your own without proper attribution in Section 2 is a violation of the Academic Honesty policy and may result in a 0 for the assignment and possibly worse for repeat offenders.
+
+## Important Academic Policies:
+
+-   **Submit your own work.** Though you may collaborate with others, everyone is responsible for writing up the work in their own way using their own methods. Plagiarism of any form is not tolerated.
+-   **Be complete.** You must provide all work and/or explanations needed to find the solution. Answers with insufficient or incomplete supporting work may lose credit.
+-   **Adhere to the Code of Academic Honesty.**
+-   **Be clearly written (and legible if written).** Your solution to a problem must be clear, written in complete sentences. You may lose credit for work that is unclear or hard to follow.
+
+## [Let me know if you need help, and **GOOD LUCK!!!**]{style="color:blue"}
+
+# Introduction to Assignment
+
+In this assignment you will create various interactive graphics based on the `Hawks` and `us_states` data sets.
+
+[**Note 1: You must render the completed file to `html`. You will turn in both the `.qmd` and `.html` files through Canvas.** Do not render to pdf or any other file type besides `html`.]{style="color:blue"}
+
+Note 2: Interactive graphics don't always play very nicely with R Studio. You may encounter the following error: `dirname(to) : path too long` when attempting to run a code chunk. You may not have done anything wrong.
+
+-   The easiest work around is to simply render the file to an `html_document` instead of trying to run a code chunk.
+-   Alternatively, you can try running your commands from a standard `.R` file instead of a `.qmd` file.
+-   Lastly, you can `"Restart R"` and attempt to rerun your code chunks, which sometimes works.
+
+# Loading Required Packages and Data
+
+The `Hawks` data frame is stored in an R package `Stat2Data` which you may need to install. Run the code chunks below to load the `Stat2Data` package. 
+
+```{r}
+library(Stat2Data)  # load Stat2Data package
+```
+
+```{r}
+# if you get an error, you did not load Stat2Data correctly
+data(Hawks, package = "Stat2Data")
+str(Hawks)  # structure of Hawks data frame
+```
+
+- If you receive an error message running `library(Stat2Data)`, then it is likely you need to install the `Stat2Data` package.
+- From the Console (below), run the command `install.packages("Stat2Data")`. Then try running both code chunks above again.
+- Do not enter and run the command `install.packages("Stat2Data")` from a code chunk in this `.qmd` file. Be sure you run the command from the Console in the window below.
+
+## The `Hawks` Data Set
+
+The `Hawks` data frame has 908 observations on 19 variables. More information about the data may be found by running the command `?Hawks`. Some of the variables we will consider are:
+
+- `Species`: `CH` = Cooper's, `RT` = Red-tailed, `SS` = Sharp-Shinned
+- `Age`: 	`A` = Adult or `I` = Immature
+- `Sex`:	`F` = Female or `M` = Male
+- `Wing`:	Length (in mm) of primary wing feather from tip to wrist it attaches to
+- `Weight`:	Body weight (in g)
+- `Culmen`:	Length (in mm) of the upper bill from the tip to where it bumps into the fleshy part of the bird
+- `Hallux`:	Length (in mm) of the killing talon
+- `Tail`:	Measurement (in mm) related to the length of the tail (invented at the MacBride Raptor Center)
+- `StandardTail`:	Standard measurement of tail length (in mm)
+- `Tarsus`:	Length of the basic foot bone (in mm)
+- `WingPitFat`:	Amount of fat in the wing pit
+- `KeelFat`:	Amount of fat on the breastbone (measured by feel)
+
+## Loading Required Packages
+
+Start by loading the `tidyverse` and `plotly` packages into memory.
+
+```{r}
+#| message: False
+library(tidyverse)
+library(plotly)
+```
+
+# Question 1
+
+Create an interactive bar plot of the `Species` variable. Use your interactive graphic to determine the number of hawks in the sample from each of the three species.
+
+Type your answer in the solution space below the output of your code.
+
+```{r}
+# enter code to create the plot
+
+```
+
+## Solution to Question 1
+
+What are the number of hawks in each species?
+
+
+
+# Question 2
+
+Use the `plotly` package directly to create an interactive box plot of the `Wing` variable for the `Hawks` data frame. No credit will be given if you do this using `ggplot2` and the `ggplotly()` function. Set the name argument to `""`. Then type an answer to the question in the solution space below the code.
+
+```{r}
+# enter code to create the plot
+
+```
+
+## Solution to Question 2
+
+Based on the interactive plot (and no additional code), what is the five-number summary of `Wing`? Interpret the practical meaning of the five number summary in terms a non-statistician would understand in the context of Hawks and wing lengths.
+
+
+
+# Question 3
+
+Construct a density plot of the `Weight` variable and map the variable `Species` to fill color. Make sure your fill color is semi-transparent. You do not need to customize the generic plot created unless you would like to. For example, you do not need to add any additional titles or labels to the plot. 
+
+Then answer the question in the solution space below the output of your code.
+
+
+```{r}
+# enter code to generate plot
+
+```
+
+## Solution to Question 3
+
+
+
+What appears to be the `Weight` with the maximum density for the Red-tailed hawks in `Hawks`? Be sure to include units in your answer and round to one decimal place.
+
+
+
+
+# Question 4
+
+Using the `Hawks` data set, use `ggplot2` and the `ggplotly()` function to create an interactive histogram of the `Weight` variable that fills the histogram color based on `Sex`. Manually specify the bin positions of the histogram by specifying the following argument in `geom_histogram`: `breaks = seq(0, 1200, by = 50)`
+
+- Note: There are observations in `Hawks` that have `Sex` as  empty or missing (and that might not be coded properly). Remove all observations with missing `Sex` values from your plot, but do not delete these observations from the `Hawks` data.
+
+
+```{r}
+# enter code to generate plot
+
+```
+
+# Question 5
+
+
+
+Using the `Hawks` data set, use the `plotly` package directly to create an interactive histogram of the `Weight` variable that splits the histograms by `Sex`. Do not include observations with missing or unknown `Sex` in the plot (but keep these observations in the `Hawks` data). Make sure to use `alpha = 0.3` and specify 30 bins. Use the universal pipe operator and add the following command to your plot: `layout(barmode = "stack")`. This plot should look similar to the previous plot except that `F` bars are stacked in front of `M` bars, while `ggplot2` stacks in the reverse order.
+
+Then answer the question in the solution space below the output of your code.
+
+```{r}
+# enter code to generate plot
+
+```
+
+## Solution to Question 5
+
+
+
+How many male and female hawks in `Hawks` have weights between 300 and 399 grams?
+
+
+# Question 6
+
+Use the `plotly` package directly to create an interactive scatter plot of `Weight` (y-variable) versus `Wing` (x-variable) for the `Hawks` data coloring each point differently based on `Species`.
+
+Then answer the question in the solution space below the output of your code.
+
+```{r}
+# enter code to generate plot
+
+```
+
+## Solution to Question 6
+
+
+What is the wing length and weight of the Red-tailed hawk with the smallest wing length? Include units with your values.
+
+
+
+# Question 7
+
+
+Create an interactive scatter plot of `Weight` (y-variable) versus `Wing` (x-variable) that colors each point differently based on the species for the `Hawks` data that in addition displays each hawk's `Age` (`I` or `A` for immature or adult, respectively) associated with each observation when you hover a point.
+
+Then answer the question in the solution space below the output of your code.
+
+```{r}
+# enter code to generate plot
+
+
+```
+
+## Solution to Question 7
+
+
+There appears to be one Sharp-shinned hawk that weighs a lot more than the others. What is the weight, wing length and age (immature or adult) of the hawk? Do you believe this is an accurate data point? Explain why or why not.
+
+
+
+# Question 8
+
+
+
+Use `plotly` to directly create side-by-side violin plots (in a single plot) of the `Weight` variable separately for each `Species` for the `Hawks` data set.
+
+Then answer the question in the solution space below the output of your code.
+
+```{r}
+# enter code to generate plot
+
+
+```
+
+## Solution to Question 8
+
+
+
+Based on the plot above (and no additional code), what is the interquartile range of `Weight` for the Red-tailed hawks in `Hawks`? Show or explain how you determined your answer.
+
+
+
+# The `us_states` Data Set
+
+The `spData` package contains an `sf` data frame of contiguous United States. Install the `spData` package and load the `us_states` data set. Note Alaska and Hawaii are excluded from the data. Relevant variables include:
+
+- `GEOID`: Two digit (FIPS) state code.
+- `NAME`: the name of the state.
+- `REGION`: the region of the state.
+- `AREA`: the area of each state in square km.
+- `total_pop_10`: the total population of the state in 2010.
+- `total_pop_15`: the total population of the state in 2015.
+- `geometry`: The multipolygon describing the shape of the state.
+
+If needed, run `install.packages("spData")` in the Console to install the `spData` package.
+
+- **Do not include an executable command `install.packages()` in the work you submit.**
+- You do not want somebody to inadvertently install files when rendering your work to `html`!
+
+```{r}
+data(us_states, package = "spData")
+```
+
+
+You will also need to load the `sf` package to generate the plots in Questions 9-12. If needed, run `install.packages("sf")` in the Console to first install the `sf` package. Then run the code cell below to load the `sf` package.
+
+- **Do not include an executable command `install.packages()` in the work you submit.**
+- You do not want somebody to inadvertently install files when rendering your work to `html`!
+
+
+```{r}
+#| message: false
+library(sf)  # load sf package for questions 9-12
+```
+
+
+# Question 9
+
+
+Use `plotly` to directly create an interactive map of the `us_states` data set that colors the states according to their total population in 2015 and provides the name of each state when you hover over the region. Use the title "2015 population" for the color bar.
+
+
+```{r}
+# enter code to generate plot
+
+
+```
+
+
+# Question 10
+
+Create two new variables that you add to the data frame `us_states`:
+
+- `pop_change` is the change in the state's population from 2010 to 2015. If the population increased, the change should be positive.
+- `density_15` is the population density of each state which is computed by dividing the state's 2015 population by the state's area. It has units people per square km.
+
+Print the first 5 rows of the resulting data frame to the screen.
+
+```{r}
+# enter code to create new variables
+
+```
+
+# Question 11
+
+Use `plotly` to directly create an interactive map of the `us_states` data set that colors the states according to their total change in population from 2010 to 2015 and provides the name of each state when you hover over the region. Use the title "Population Change" for the color bar.
+
+
+Then answer the question in the solution space below the output of your code.
+
+```{r}
+# enter code to generate plot
+
+
+```
+
+## Solution to Question 11
+
+
+
+Which state had the greatest increase in population over the period from 2010 to 2015?
+
+
+
+# Question 12
+
+Use `plotly` to directly create an interactive map of the `us_states` data set that colors the states according to their population density in 2015 and provides the name of each state when you hover over the region. Use the title "Population Density" for the color bar.
+
+- Warning: The District of Columbia has an extremely high population density compared to the other 48 states in the data.
+- Filter the District of Columbia out of the plot so only the 48 contiguous states are included in the plot.
+
+
+Then answer the question in the solution space below the output of your code.
+
+```{r}
+# enter code to generate plot
+
+```
+
+## Solution to Question 12
+
+
+
+Which state had the greatest population density in 2015?
+
+
+
+
+# Be Sure to Do the Following Once Completed
+
+
+-   Be sure you have run ALL code cells before saving your work.
+-   Be sure all relevant code output is displayed in Quarto document.
+-   Then be sure to save your work as a Quarto document.
+-   Finally, be sure you render your final work to a static `html` that you submit along with your Quarto file in Canvas.
+
