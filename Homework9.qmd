@@ -1,0 +1,423 @@
+---
+title: "Homework 9"
+author: "Enter Your Name"
+format: 
+  html:
+    embed-resources: true
+editor: visual
+warning: false
+---
+
+# Homework 9: Due Wednesday, April 8 at 11:59 PM
+
+
+# Link To AI Course Tutor
+
+Interacting with our Course AI Tutor is intended to simulate how a discussion would go in my office hours if you asked me for help on a concept or problem. I have instructed the AI to be a tutor that helps guide you to answers in a manner that helps you learn rather than just give answers that you may not understand and likely will not help your learning.
+
+-   Not sure which R command will help perform a specified operation?
+-   Uncertain how to get started on a homework problem?
+-   Stuck midway through the problem and don't know what to do next?
+-   Need help debugging an error message?
+-   Would you like more similar problems to get further practice?
+
+I encourage you to use our course AI if you want to consult AI for help. I would caution you from using other AI since they like to give answers and don't care if you are learning concepts.
+
+Link to Course AI Tutor: <https://gemini.google.com/gem/1Do4YZgukdrpFqqjqvxFyMpc6XXPGuDdw?usp=sharing>
+
+## Instructions:
+
+1.  [Be sure to download and save the file so you are working with your own private copy of the file (rather than the shared version posted in Posit Cloud for example).]{style="color:red"}
+
+2.  [After you have copied the Quarto file into your Posit Cloud workspace or onto your computer, you can begin editing and saving your work.]{style="color:green"}
+
+**Submit your work electronically as two separate files:**
+
+-   **A Quarto markdown file with file extension `.qmd` with all code cells run and relevant output displayed in the document**.
+-   **After you have completed all questions, render your completed work to an html file.**
+-   **Submit the html file that is created with file extension `.html`**.
+
+Upload both files into the Homework 9 assignment in Canvas before [**11:59PM on Wednesday, April 8.**]{style="color:blue"}
+
+**You must provide supporting work for all of your answers.**
+
+-   [That work will include using R code cells.]{style="color:blue"}
+    -   **Feel free to insert as much R code as you like.**
+    -   When asked, you must interpret or explain how the output of a code cell is being utilized to solve the question.
+    -   **Code with incomplete or missing explanations of why the output is useful may not receive full credit.**
+    -   **Code that involves methods and commands we have not discussed this semester may not receive full credit.**
+-   [Your work may also involve writing explanations and justifications in text cells.]{style="color:blue"}
+    -   **Be sure to type/write out the steps of your work/explanation so I can see how you arrived at your answer.**
+
+## AI Policy: The "Attempt First" Method
+
+For each problem, you will see two sections. Please follow this procedure:
+
+### [Section 1: Your Independent Attempt (Required)]{style="color:blue"}
+
+-   You must attempt to solve the problem **without AI assistance** first.
+-   Use only course materials and your own knowledge.
+-   Note: You must enter an answer here to receive credit.
+
+### [Section 2: AI Assistance (Optional)]{style="color:blue"}
+
+-   **If you are satisfied with your answer in Section 1, leave this blank.**
+-   If your Section 1 answer is incorrect or incomplete, you may use AI to improve it here.
+-   **Required Documentation**: If you use this section, you must list:
+    -   The AI tool used (e.g., ChatGPT, Gemini).
+    -   The initial prompt you entered.
+    -   Your updated, AI-assisted solution.
+    -   If the AI solution involves code, add comments to the code explaining each part of the code.
+
+### [AI Grading & Academic Honesty]{style="color:blue"}
+
+**Safety Net:** You will not lose points if your independent attempt (Section 1) is incorrect, provided your AI-assisted solution (Section 2) is correct, concise and properly documented.
+
+**Overly Complicated Solutions:** You may have points deducted if your AI generated solution is much more complex than needed (say 10 lines of code are used by AI when we learned how to do it in class with a single command).
+
+**Zero Tolerance:** Submitting AI-generated work as your own without proper attribution in Section 2 is a violation of the Academic Honesty policy and may result in a 0 for the assignment and possibly worse for repeat offenders.
+
+## Important Academic Policies:
+
+-   **Submit your own work.** Though you may collaborate with others, everyone is responsible for writing up the work in their own way using their own methods. Plagiarism of any form is not tolerated.
+-   **Be complete.** You must provide all work and/or explanations needed to find the solution. Answers with insufficient or incomplete supporting work may lose credit.
+-   **Adhere to the Code of Academic Honesty.**
+-   **Be clearly written (and legible if written).** Your solution to a problem must be clear, written in complete sentences. You may lose credit for work that is unclear or hard to follow.
+
+## [Let me know if you need help, and **GOOD LUCK!!!**]{style="color:blue"}
+
+
+# Introduction to Assignment
+
+
+In this assignment, you will be merging a Colorado county shapefile^1^ with data from the 2023 American Community Survey^2^ and performing an exploratory analysis. I will be providing general guidance, but not tell you exactly how to complete the task. [This will be more similar to real data analysis!]{style="color:blue"}
+
+The Colorado county shapefile data is available in the zip file `co_counties.zip` available for download in our course GitHub repository. You can run the following commands to import the desired files.
+
+-   If you are working in Posit Cloud, the files have already been added to the `data` folder.
+    -   You do not need to run any of the commands in the code cell below.
+    -   You may need to copy a more recent version of the Math 3376 Project to make sure you have the most up to date data.
+    -   See <https://posit.cloud/content/9926677> for most up to date version of the shared Math 3376 Project.
+-   If you are running R and RStudio locally on your computer, you will need to download the data to work on this homework.
+    -   The `download.file` command downloads the `co_counties.zip` file from GitHub into your current working directory.
+    -   The `unzip` command will unzip the `co_counties` zip file and extract the files to a subfolder in your current working directory named `data/co_counties`.
+    -   You can set your own file path(s) with the `destfile` and `exdir` arguments.
+    -   You only need to run the commands one time to download the required files.
+
+I recommend downloading all associated files into a subfolder named `data/co_counties` in your current working directory before starting analysis. This has already been done in the Math 3376 Project in Posit Cloud.
+
+```{r}
+#| echo: false
+#| eval: false
+######################################################
+# if you are running RStudio locally on your computer
+# you will need to download and unzip the folder 
+# below to access the shape file
+######################################################
+#download.file("https://github.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/raw/main/Data/co_counties.zip", destfile = "./co_counties.zip", method = "auto")
+#unzip("co_counties.zip", exdir = "./data/co_counties")
+```
+
+The 2023 ACS data for Colorado is also available for download in the same GitHub repo in the file named `colorado_acs2023.csv`.
+
+-   **Whether you are running R and RStudio locally or using Posit Cloud, you do not need to download the `.csv` file.**
+-   You can simply import the `.csv` directly from a GitHub link that will be provided in the code in Question 3.
+-   If you want a local copy of the `.csv` file, there is a copy of the file in the `data` subfolder in the materials posted in the [Math 3376 Project](https://posit.cloud/content/9926677) in Posit Cloud.
+-   Optional: If you are running R and RStudio and would like to download the file onto your computer, you can use the code cell below to help.
+
+```{r}
+#| echo: false
+#| eval: false
+######################################################
+# optional: run if you would like to download a local 
+# copy of the csv file onto your computer.
+######################################################
+# you do not need a local copy of the csv file so you
+# may choose to skip this step.
+######################################################
+#download.file("https://github.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/raw/main/Data/colorado_acs2023.csv", destfile = "./data/colorado_acs2023.csv", method = "auto")
+```
+
+## About the Data
+
+The file `colorado_acs2023.csv` includes variables with:
+
+-   `NAME`: the name of the county.
+-   `population`: the estimated total population residing in the county
+-   `total_broadband`: the total number of persons in the county with broadband internet
+-   `median_home_val`: the estimated median home value of all households in the county
+-   `median_age`: the estimated median age for residents of the county
+-   `pcnt_pop`: the estimated percentage of the total state population that the county represents
+-   `pcnt_broadband`: the estimated percentage of the county population that has a broadband internet at home
+
+
+### Source of Data
+
+1.  Colorado county shapefile downloaded from the Colorado Department of Public Health and Environment (CDPHE), <https://data-cdphe.opendata.arcgis.com/maps/4402a8e032ed49eb8b37fd729e4e8f03> on March 24, 2026.
+
+2.  Colorado 2023 American Community Survey is from the [US Census Bureau](https://www.census.gov/programs-surveys/acs/data/data-via-api.html) and imported using the [`tidycensus`](https://walker-data.com/tidycensus/index.html) package on March 24, 2026.
+
+# Loading Required Packages
+
+Make sure to load the `tidyverse` and `sf` packages before your analysis.
+
+```{r}
+#| message: false
+#| warning: false
+library(tidyverse)
+library(sf)
+```
+
+# Question 1
+
+Use the two separate code cells to perform the following two actions:
+
+-   Import the relevant shapefile data for the Colorado counties. Assign the imported object the name `co_shp`.
+    -   You may need to look in the `data/co_counties` folder to identify the name of the shapefile.
+-   In the second code cell, run the command `str(co_shp)` to display summary output to the screen.
+
+The imported object should be an `sf` object with 64 observations of 9 variables (fields) plus a geometry list column.
+
+## Solution to Question 1
+
+
+
+```{r}
+# enter command to import shapefile
+
+```
+
+```{r}
+# run code cell to check output
+str(co_shp)
+```
+
+# Question 2
+
+Select the `LABEL` variable of `co_shp` while retaining the geometry information of each object. Assign the new, subset object back to the name `co_shp`. Then run a second command to display the first 3 rows of the updated object to the screen.
+
+-   The first 3 rows correspond to Larimer, Las Animas, and Fremont counties.
+
+
+```{r}
+# create sf object called co_shp as described above
+# print first 3 rows of co_shp to screen
+
+```
+
+# Question 3
+
+Run the code cell below to import the `colorado_acs2023.csv` into R. Assign the object the name `co_df`.
+
+-   There is nothing to edit in the code cell. Simply run it.
+-   If you prefer to use a downloaded version of the `.csv` file rather than the link to the GitHub file, feel free to edit the code cell below accordingly.
+-   The resulting data frame should have 64 rows and 7 variables.
+    -   One variable is stored as a `character`, 6 variables are stored as `double`.
+
+```{r}
+# run code to import data frame
+# no need to edit this code cell
+co_df <- read_csv("https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Data/colorado_acs2023.csv")
+```
+
+# Question 4
+
+Use the code cell below to run command(s) to compare the `LABEL` column of `co_shp` with the `NAME` column of `co_df`.
+
+Based on the output from your code, explain any difference(s) you notice and what issue(s) will this cause when trying to merge the data from the two objects. Use complete sentences when typing your answer.
+
+```{r}
+# use code cell to identify differences
+
+```
+
+## Solution to Question 4
+
+
+
+# Question 5
+
+Run the commands in the code cell below to change the `NAME` column of `co_df` and view the impact of this change. Based on the output, in the solution space below the code cell, explain what the command does and why it is useful to do this. Use complete sentences when typing your answer below.
+
+```{r}
+co_df <- co_df |>
+  mutate(NAME = str_sub(NAME, start = 1L, end = -18L))
+head(co_df$NAME)
+```
+
+## Solution to Question 5
+
+
+
+# Question 6
+
+Merge or join the observations in the `co_shp` and `co_df` data frames by county name and name the new object `co_sf`. Print the first 3 rows of the new object.
+
+-   Note the county names have different variable names (`LABEL` and `NAME`) in the two data frames.
+-   **Make sure you have only one column with the county names.**
+-   The `sf` object you created should have 64 features, 7 fields, and one geometry column.
+-   The first three rows correspond to Larimer, Las Animas, and Fremont counties.
+
+```{r}
+# merge observations to sf object called co_sf
+# then print first three rows of co_sf
+
+```
+
+# Question 7
+
+Determine the Colorado counties with the 5 largest population values. Print the county name and population of these counties to the screen.
+
+
+```{r}
+# display indicated info on screen
+
+```
+
+# Question 8
+
+Use the `plot()` function to plot the borders of the Colorado counties while filling the 5 largest population counties with the color grey.
+
+-   All other counties will not be shaded at all.
+-   You must Use the `plot()` function and may not use `ggplot2` for this question.
+
+
+```{r}
+# use plot to create the indicated visualization
+
+```
+
+# Question 9
+
+What do you notice about the spatial pattern of the largest population counties? Type your answer in the space below using a complete sentence.
+
+## Solution to Question 9
+
+
+
+# Question 10
+
+Use the `ggplot2` package to plot the borders of the Colorado counties while filling the 5 largest population counties a different color from the rest of the counties. **Include a descriptive main title for the plot.**
+
+-   You must use `ggplot2` to generate the map and may not use `plot`.
+
+
+```{r}
+# use ggplot2 to create the indicated visualization
+
+```
+
+# Question 11
+
+Determine the Colorado counties with the 5 largest median home values. Print the county name and median home value of these counties.
+
+
+```{r}
+# display indicated info on screen
+
+```
+
+# Question 12
+
+Plot the borders of the Colorado counties while filling the counties with the 5 largest median home values in one color and the remaining counties in a different color. **Include a descriptive main title for the plot.**
+
+```{r}
+# create the indicated visualization
+
+```
+
+# Question 13
+
+What do you notice about the spatial pattern of the counties with the largest median home values? Type your answer in the space below using a complete sentence.
+
+## Solution to Question 13
+
+
+
+# Question 14
+
+Determine the Colorado counties with the 5 largest total number of residents that have broadband internet at home. Print the county name and total number of residents with broadband internet in these counties.
+
+```{r}
+# display indicated info on screen
+
+```
+
+# Question 15
+
+Determine the Colorado counties with the 5 highest percentages of residents that have broadband internet at home. Print the county name and percentage of the residents in the county with broadband internet at home in these counties.
+
+```{r}
+# display indicated info on screen
+
+```
+
+# Question 16
+
+Why do you think there is a difference between the counties with the 5 highest total number of residents with broadband and the counties with the highest percentages of residents with broadband? Type your answer in the space below using complete sentences.
+
+
+## Solution to Question 16
+
+
+
+# Question 17
+
+Plot the borders of the Colorado counties, filling the counties with the 5 largest **percentages** of residents with broadband internet at home one color and the remaining counties in a different color. **Include a descriptive main title for the plot**.
+
+
+```{r}
+# create the indicated visualization
+
+```
+
+# Question 18
+
+Do you notice any spatial patterns for the counties with the 5 highest percentages of residents that have access to broadband internet at home? Type your answer in the space below using complete sentences.
+
+
+## Solution to Question 18
+
+
+
+# Question 19
+
+Determine the Colorado counties with the 5 smallest values for median age of residents. Print the county name and the median age for each of these 5 youngest counties in Colorado.
+
+
+```{r}
+# display indicated info on screen
+
+```
+
+# Question 20
+
+Plot the borders of the Colorado counties while filling the counties with the 5 smallest values for median age with one color and the remaining counties in a different color. **Include a descriptive main title for the plot**.
+
+```{r}
+# create the indicated visualization
+
+```
+
+# Question 21
+
+Do you notice any spatial patterns for the 5 youngest (smallest median age) counties? Type your answer in the space below using a complete sentence.
+
+## Solution to Question 21
+
+
+
+# Question 22
+
+While working on this assignment, you likely thought about life in Colorado. In your opinion, what is the best part about living in Colorado? Type your answer in the space below!
+
+## Solution to Question 22
+
+
+
+# Be Sure to Do the Following Once Completed
+
+-   Be sure you have run ALL code cells before saving your work.
+-   Be sure all relevant code output is displayed in Quarto document.
+-   Then be sure to save the your work as a Quarto document.
+-   Finally, be sure you render your final work to a static `html` that you submit along with your Quarto file in Canvas.
