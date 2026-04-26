@@ -1,0 +1,174 @@
+---
+title: "Homework 13"
+subtitle: Math 3376 Data Wrangling & Visualization
+#format: pdf
+format: 
+  html:
+    embed-resources: true
+editor: source
+warning: false
+---
+
+# Due Wednesday, May 6 at 11:59 PM
+
+------------------------------------------------------------------------
+
+## Instructions:
+
+------------------------------------------------------------------------
+
+**This is your final homework assignment for the semester!!!** This homework assignment will walk you through the steps of building a professional website with Quarto that you publish with GitHub Pages. Follow the instructions in this assignment to create your own personal website. The instructions in this document are essentially the same steps outlined in the videos in this week's [YouTube playlist](https://www.youtube.com/playlist?list=PLNyILlFU1DReJI8Mv8a94il4iz4wyb_3r) and outlined in [Module 16](https://aspiegler.github.io/Data-Wrangling-and-Visualization/16-Creating-Website-with-Quarto.html).
+
+There are no files for you to submit for this assignment. After you have completed your website, enter the address of the webpage you created in the first (and only) question on the [quiz posted in Canvas](https://ucdenver.instructure.com/courses/573861/quizzes/481688).
+
+The address should be either:
+
+-   [**https://username.github.io/**]{style="color:red"} (if you set up a main homepage)
+-   [**https://username.github.io/name/**]{style="color:red"} (if you created a webpage linked to the repository "name")
+
+You do not need to submit any files or rendered documents. I should be able to see your completed work by going to the web address you provided in the quiz.
+
+**Submit the website address by responding to this [Canvas quiz](https://ucdenver.instructure.com/courses/573861/quizzes/481688) before 11:59 PM on Wednesday, May 6.**
+
+## Important Academic Policies:
+
+------------------------------------------------------------------------
+
+-   **Be your own work.** Though you may collaborate with others, everyone is responsible for writing up the work in their own way using their own methods. Plagiarism of any form is not tolerated.
+-   **Be complete.** You must provide all work and/or explanations needed to find the solution. Answers with insufficient or incomplete supporting work may lose credit.
+-   **Adhere to the Code of Academic Honesty.**
+-   **Be clearly written (and legible if written).** Your solution to a question must be clear, written in complete sentences. You may lose credit for work that is unclear or hard to follow.
+
+## [Let me know if you need help, and **GOOD LUCK!!!**]{style="color:blue"}
+
+------------------------------------------------------------------------
+
+# Step 1
+
+------------------------------------------------------------------------
+
+Create a new starter Quarto website in one of two ways:
+
+1.  If using RStudio locally on your computer:
+
+-   From the File menu, click `File → New Project`
+-   Select `New Directory → Quarto website`
+-   Proceed as described in [videos](https://www.youtube.com/playlist?list=PLNyILlFU1DReJI8Mv8a94il4iz4wyb_3r) and/or [Module 16](https://aspiegler.github.io/Data-Wrangling-and-Visualization/16-Creating-Website-with-Quarto.html)
+
+2.  If using Posit Cloud, go to <https://posit.cloud/content/10238221> to open the project named "Creating a Quarto Website".
+
+-   Copy the shared project into your own Posit Cloud account so you can edit and save changes to files.
+-   In the main folder, there is a subfolder named `demosite` containing the files you will need to create your website.
+-   You may NOT use any of three files `dawgs.png`, `mypic.png`, or `resume.pdf` already created in the shared Posit Cloud project that I used in my demosite.
+
+# Step 2
+
+------------------------------------------------------------------------
+
+Change the output directory of your website to "docs".
+
+# Step 3
+
+------------------------------------------------------------------------
+
+Change the overall title of your website to some variant of your name.
+
+# Step 4
+
+------------------------------------------------------------------------
+
+Use an About template to customize the homepage of your website. Any available template type is fine.
+
+-   Add an image of yourself or something that represents you using the template.
+-   Change the title of that page to your name or use some other appropriate title for the page.
+-   You may NOT use the image of Homer Simpson in `mypic.png`
+
+# Step 5
+
+------------------------------------------------------------------------
+
+Use your homepage About template to:
+
+-   Add an email link.
+    -   You can use a fake email address if you want, but it should act like an email link if you click the link.
+    -   Use a suitable icon for the email link.
+-   Add at least one other external URL link such as GitHub, Twitch, XBox, TikTok, etc.
+    -   You can use a generic link, i.e., it doesn't have to link to your personal account.
+    -   You must use an appropriate icon for the link.
+
+# Step 6
+
+------------------------------------------------------------------------
+
+On the homepage of your website, add partial page content related to your skills and education.
+
+-   Use standard heading syntax (`##`) to create a section for skills and a section for education.
+-   List at least three skills (they can be made up) under the skills section.
+-   List at least 3 items related to your education (high school, college, GPA, courses taken, major, minor, etc.) under the education section. This information can also be made up.
+
+# Step 7
+
+------------------------------------------------------------------------
+
+Add a new page to your website for hobbies.
+
+-   Use the title hobbies.
+-   List at least 3 hobbies (these can be made up) and discuss why you like them, how good you are at them, etc.
+-   Add a picture related to at least one of your listed hobbies.
+
+# Step 8
+
+------------------------------------------------------------------------
+
+Remove the "About" page created by default for your starter Quarto website (not the About template used on your homepage).
+
+# Step 9
+
+------------------------------------------------------------------------
+
+Change the theme of your website to "vapor". You can change this after the semester if you want, but this is a very distinct theme.
+
+# Step 10
+
+------------------------------------------------------------------------
+
+If you don't already have a [GitHub](https://github.com/) account, then create a GitHub account. I encourage you to choose a username that is professional (probably some variant of your name) and NOT something like `unicorn-rainbow-slayer`.
+
+# Step 11
+
+------------------------------------------------------------------------
+
+Create a repository for your website. I recommend `username.github.io`, but you can do something different, like what I did with `demosite`.
+
+# Step 12
+
+------------------------------------------------------------------------
+
+**Make sure that you have completed Steps 1-11.** Render your website one last time and make sure you have all changes finalized. After rending the final version of your website for this assignment, upload all files for your Quarto website to the GitHub repository you created for your website.
+
+-   You can upload files to your GitHub repo by dragging the files from a file manager and dropping them into the repo files within the GitHub website.
+
+-   Or, if you have Git installed on your computer and you have already initialized your local directory to sync with your main (remote) GitHub repo using commands from the Terminal or Command Prompt, then you can enter a sequence of commands such as:
+
+    -   `git status`
+    -   `git add *`
+    -   `git commit -am "enter a message"`
+    -   `git push`
+
+# Step 13
+
+------------------------------------------------------------------------
+
+Turn on GitHub Pages for your website repository. Assuming this is successful, you will "turn in" your assignment by sending me a GitHub link for your website.
+
+# Be Sure to Do the Following Once Completed
+
+------------------------------------------------------------------------
+
+-   Make sure the files in GitHub are the same versions as the local files on your computer.
+-   Make sure the web address you submitted is viewable to the public.
+-   Make sure all images and links are working properly.
+
+# Congrats! You have completed your final homework for MATH 3376
+
+## But don't forget about the final project!
