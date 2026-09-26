@@ -1,0 +1,25 @@
+date,station,rides,avg_trip_min,weather
+2026-09-01,Tivoli,184,16.8,Clear
+2026-09-02,Library,201,17.4,Clear
+2026-09-03,Science,167,18.1,Cloudy
+2026-09-04,Arts,143,19.6,Rain
+2026-09-05,Tivoli,96,15.2,Clear
+2026-09-06,Library,missing,16.1,Clear
+2026-09-07,Science,121,17.9,Cloudy
+2026-09-08,Arts,156,18.7,Clear
+2026-09-09,Tivoli,212,15.9,Clear
+2026-09-10,Library,228,16.5,Clear
+2026-09-11,Science,193,17.2,Cloudy
+2026-09-12,Arts,109,20.4,Rain
+2026-09-13,Tivoli,?,16.0,Clear
+2026-09-14,Library,219,16.7,Clear
+2026-09-15,Science,176,18.4,Cloudy
+2026-09-16,Arts,162,19.1,Clear
+not recorded,Tivoli,205,15.6,Clear
+2026-09-18,Library,231,16.2,Clear
+2026-09-19,Science,148,18.9,Rain
+2026-09-20,Arts,132,-999,Cloudy
+2026-09-21,Tivoli,198,15.7,Clear
+2026-09-22,Library,224,16.4,Clear
+2026-09-23,Science,171,18.0,N/A
+2026-09-24,Arts,159,19.3,Cloudy
