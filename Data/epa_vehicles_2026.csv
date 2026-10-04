@@ -1,0 +1,1173 @@
+make,model,base_model,vehicle_class,drive,transmission,powertrain,fuel_type,cylinders,engine_liters,city_mpg,highway_mpg,combined_mpg,co2_grams_per_mile,annual_fuel_cost,five_year_savings,ev_range_miles,fuel_economy_score,ghg_score
+Acura,ADX AWD,ADX,Small Station Wagons,All-Wheel Drive,Automatic (AV-S7),,Premium,4.0,1.5,25,30,27,329,3050,-3250,0,5,5
+Acura,ADX FWD,ADX,Small Station Wagons,Front-Wheel Drive,Automatic (AV-S7),,Premium,4.0,1.5,26,31,28,317,2950,-2750,0,5,5
+Acura,Integra,Integra,Large Cars,Front-Wheel Drive,Automatic (AV-S7),,Premium,4.0,1.5,29,37,32,278,2550,-750,0,6,6
+Acura,Integra,Integra,Large Cars,Front-Wheel Drive,Manual 6-spd,,Premium,4.0,2.0,21,28,24,371,3400,-5000,0,5,5
+Acura,Integra A-Spec,Integra,Large Cars,Front-Wheel Drive,Automatic (AV-S7),,Premium,4.0,1.5,29,37,32,277,2550,-750,0,6,6
+Acura,Integra A-Spec,Integra,Large Cars,Front-Wheel Drive,Manual 6-spd,,Premium,4.0,1.5,26,36,30,293,2750,-1750,0,6,6
+Acura,MDX AWD,MDX,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S10),,Premium,6.0,3.5,19,25,21,423,3900,-7500,0,4,4
+Acura,MDX AWD Type-S,MDX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S10),,Premium,6.0,3.0,17,21,19,474,4350,-9750,0,4,4
+Acura,MDX FWD,MDX,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S10),,Premium,6.0,3.5,19,26,22,411,3750,-6750,0,4,4
+Acura,RDX AWD,RDX,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S10),,Premium,4.0,2.0,21,27,23,385,3550,-5750,0,5,5
+Acura,RDX AWD A-SPEC,RDX,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S10),,Premium,4.0,2.0,21,26,23,386,3550,-5750,0,5,5
+Acura,ZDX AWD,ZDX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,98,81,89,0,850,7750,323,9,10
+Acura,ZDX AWD Type S,ZDX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,90,76,83,0,900,7500,296,9,10
+Acura,ZDX RWD,ZDX,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,100,83,91,0,850,7750,327,9,10
+Alfa Romeo,Giulia,Giulia,Midsize Cars,Rear-Wheel Drive,Automatic 8-spd,,Premium,4.0,2.0,24,33,27,330,3050,-3250,0,5,5
+Alfa Romeo,Giulia AWD,Giulia,Midsize Cars,All-Wheel Drive,Automatic 8-spd,,Premium,4.0,2.0,23,31,26,348,3150,-3750,0,5,5
+Alfa Romeo,Stelvio AWD,Stelvio,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Premium,4.0,2.0,22,28,24,364,3400,-5000,0,5,5
+Alfa Romeo,Tonale AWD,Tonale,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,,Regular,4.0,2.0,21,29,24,376,2800,-2000,0,5,5
+Aston Martin,DB12 S,DB12 S,Minicompact Cars,Rear-Wheel Drive,Automatic 8-spd,,Premium,8.0,4.0,14,21,17,522,4850,-12250,0,3,3
+Aston Martin,DB12 V8,DB12 V8,Minicompact Cars,Rear-Wheel Drive,Automatic 8-spd,,Premium,8.0,4.0,15,22,17,507,4850,-12250,0,3,3
+Aston Martin,DBX 707,DBX 707,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 9-spd,,Premium,8.0,4.0,15,20,17,537,4850,-12250,0,3,3
+Aston Martin,DBX 727,DBX 727,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 9-spd,,Premium,8.0,4.0,14,19,16,546,5150,-13750,0,3,3
+Aston Martin,Valhalla,Valhalla,Two Seaters,All-Wheel Drive,Automatic 8-spd,Plug-in Hybrid,Premium and Electricity,8.0,4.0,14,19,16,486,5150,-11500,280,3,3
+Aston Martin,Vanquish,Vanquish,Two Seaters,Rear-Wheel Drive,Automatic 8-spd,,Premium,12.0,5.2,13,21,16,563,5150,-13750,0,3,3
+Aston Martin,Vanquish Volante,Vanquish,Two Seaters,Rear-Wheel Drive,Automatic 8-spd,,Premium,12.0,5.2,13,20,16,567,5150,-13750,0,3,3
+Aston Martin,Vantage,Vantage,Two Seaters,Rear-Wheel Drive,Automatic 8-spd,,Premium,8.0,4.0,15,22,18,498,4550,-10750,0,3,3
+Audi,A3 quattro,A3,Subcompact Cars,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,24,34,28,323,2950,-2750,0,5,5
+Audi,A5 quattro,A5,Midsize Cars,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,22,32,26,345,3150,-3750,0,5,5
+Audi,A6 Allroad quattro,A6,Midsize Station Wagons,All-Wheel Drive,Automatic (AM-S7),Hybrid,Premium,6.0,3.0,21,30,24,365,3400,-5000,0,5,5
+Audi,A6 Sedan,A6,Midsize Cars,All-Wheel Drive,Automatic (AM-S7),,Premium,6.0,3.0,20,29,23,387,3550,-5750,0,5,5
+Audi,A8 quattro,A8,Large Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,19,27,22,414,3750,-6750,0,4,4
+Audi,Q3,Q3,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Regular,4.0,2.0,22,29,25,362,2700,-1500,0,5,5
+Audi,Q4 45 e-tron,Q4 e-tron,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,125,104,115,0,650,8750,288,9,10
+Audi,Q4 55 e-tron quattro,Q4 e-tron,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,105,89,97,0,800,8000,251,9,10
+Audi,Q4 Sportback 55 e-tron quattro,Q4 e-tron,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,105,89,97,0,800,8000,251,9,10
+Audi,Q5 Sportback TFSI quattro,Q5,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,21,29,24,368,3400,-5000,0,5,5
+Audi,Q5 TFSI quattro,Q5,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,21,29,24,368,3400,-5000,0,5,5
+Audi,Q7,Q7,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,4.0,2.0,20,26,22,405,3750,-6750,0,4,4
+Audi,Q7 quattro,Q7,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,18,23,20,442,4100,-8500,0,4,4
+Audi,Q8 quattro,Q8,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,17,23,19,459,4350,-9750,0,4,4
+Audi,RS 3,RS,Subcompact Cars,All-Wheel Drive,Automatic (AM-S7),,Premium,5.0,2.5,20,29,23,387,3550,-5750,0,5,5
+Audi,RS 6 Avant,RS,Midsize Station Wagons,All-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.0,14,21,16,545,5150,-13750,0,3,3
+Audi,RS 7,RS,Midsize Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.0,14,21,16,545,5150,-13750,0,3,3
+Audi,RS Q8 Performance,RS Q8,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.0,14,20,16,547,5150,-13750,0,3,3
+Audi,RS e-tron GT Performance,RS e-tron,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,85,82,84,0,900,7500,278,9,10
+Audi,S e-tron GT (20 inch wheels),S e-tron,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,91,88,90,0,850,7750,300,9,10
+Audi,S e-tron GT (21 inch wheels),S e-tron,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,89,85,88,0,850,7750,294,9,10
+Audi,S3,S3,Subcompact Cars,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,23,31,26,346,3150,-3750,0,5,5
+Audi,S5 Sport Sedan,S5,Midsize Cars,All-Wheel Drive,Automatic (AM-S7),,Premium,6.0,3.0,20,29,23,386,3550,-5750,0,5,5
+Audi,S8,S8,Large Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.0,15,24,18,502,4550,-10750,0,3,3
+Audi,SQ5,SQ5,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Premium,6.0,3.0,21,28,23,382,3550,-5750,0,5,5
+Audi,SQ5 Sportback,SQ5,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Premium,6.0,3.0,21,28,23,382,3550,-5750,0,5,5
+Audi,SQ7,SQ7,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,8.0,4.0,14,20,16,540,5150,-13750,0,3,3
+Audi,SQ8,SQ8,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,8.0,4.0,14,20,16,540,5150,-13750,0,3,3
+BMW,228 Gran Coupe,2 Series,Compact Cars,Front-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,27,39,31,279,2650,-1250,0,6,6
+BMW,228 xDrive Gran Coupe,2 Series,Compact Cars,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,26,38,30,288,2750,-1750,0,6,6
+BMW,230i Coupe,2 Series,Subcompact Cars,Rear-Wheel Drive,Automatic (S8),,Premium,4.0,2.0,26,35,30,296,2750,-1750,0,6,6
+BMW,230i xDrive Coupe,2 Series,Subcompact Cars,All-Wheel Drive,Automatic (S8),,Premium,4.0,2.0,25,33,28,313,2950,-2750,0,5,5
+BMW,330i Sedan,3 Series,Compact Cars,Rear-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,28,35,31,286,2650,-1250,0,6,6
+BMW,330i xDrive Sedan,3 Series,Compact Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,26,34,29,298,2850,-2250,0,6,6
+BMW,430i Convertible,4 Series,Subcompact Cars,Rear-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,27,35,30,295,2750,-1750,0,6,6
+BMW,430i Coupe,4 Series,Subcompact Cars,Rear-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,28,36,31,285,2650,-1250,0,6,6
+BMW,430i Gran Coupe,4 Series,Compact Cars,Rear-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,27,35,30,290,2750,-1750,0,6,6
+BMW,430i xDrive Convertible,4 Series,Subcompact Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,24,33,28,316,2950,-2750,0,5,5
+BMW,430i xDrive Coupe,4 Series,Subcompact Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,27,34,30,294,2750,-1750,0,6,6
+BMW,430i xDrive Gran Coupe,4 Series,Compact Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,25,34,29,305,2850,-2250,0,6,6
+BMW,530i Sedan,5 Series,Midsize Cars,Rear-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,28,35,31,285,2650,-1250,0,6,6
+BMW,530i xDrive Sedan,5 Series,Midsize Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,27,35,30,292,2750,-1750,0,6,6
+BMW,540i xDrive Sedan,5 Series,Midsize Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,26,32,28,308,2950,-2750,0,5,5
+BMW,550e xDrive Sedan,5 Series,Midsize Cars,All-Wheel Drive,Automatic (S8),Plug-in Hybrid,Premium and Electricity,6.0,3.0,22,28,25,133,3300,2250,430,7,9
+BMW,740i Sedan,7 Series,Large Cars,Rear-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,25,31,28,317,2950,-2750,0,5,5
+BMW,740i xDrive Sedan,7 Series,Large Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,24,31,27,326,3050,-3250,0,5,5
+BMW,750e xDrive Sedan,7 Series,Large Cars,All-Wheel Drive,Automatic (S8),Plug-in Hybrid,Premium and Electricity,6.0,3.0,23,26,24,130,3400,2500,460,7,9
+BMW,760i xDrive Sedan,7 Series,Large Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.4,18,25,20,427,4100,-8500,0,4,4
+BMW,840i Convertible,8 Series,Subcompact Cars,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,21,29,24,368,3400,-5000,0,5,5
+BMW,840i Coupe,8 Series,Subcompact Cars,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,21,29,24,368,3400,-5000,0,5,5
+BMW,840i Gran Coupe,8 Series,Midsize Cars,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,21,29,24,368,3400,-5000,0,5,5
+BMW,840i xDrive Convertible,8 Series,Subcompact Cars,All-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,21,29,24,373,3400,-5000,0,5,5
+BMW,840i xDrive Coupe,8 Series,Subcompact Cars,All-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,21,29,24,373,3400,-5000,0,5,5
+BMW,840i xDrive Gran Coupe,8 Series,Midsize Cars,All-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,21,29,24,373,3400,-5000,0,5,5
+BMW,Alpina XB7,X7,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.4,16,20,17,506,4850,-12250,0,3,3
+BMW,M2 Coupe,M,Subcompact Cars,Rear-Wheel Drive,Manual 6-spd,,Premium,6.0,3.0,16,23,19,473,4350,-9750,0,4,4
+BMW,M2 Coupe,M,Subcompact Cars,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,16,23,19,466,4350,-9750,0,4,4
+BMW,M2 Coupe CS,M,Subcompact Cars,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,16,23,19,475,4350,-9750,0,4,4
+BMW,M235 xDrive Gran Coupe,2 Series,Compact Cars,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,24,33,27,321,3050,-3250,0,5,5
+BMW,M240i Coupe,2 Series,Subcompact Cars,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,23,32,26,339,3150,-3750,0,5,5
+BMW,M240i xDrive Coupe,2 Series,Subcompact Cars,All-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,23,32,26,336,3150,-3750,0,5,5
+BMW,M3 Competition M xDrive Sedan,M,Compact Cars,All-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,16,23,18,477,4550,-10750,0,3,3
+BMW,M3 Competition Sedan,M,Compact Cars,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,16,23,19,470,4350,-9750,0,4,4
+BMW,M3 Sedan,M,Compact Cars,Rear-Wheel Drive,Manual 6-spd,,Premium,6.0,3.0,16,23,19,472,4350,-9750,0,4,4
+BMW,M340i Sedan,3 Series,Compact Cars,Rear-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,27,33,29,299,2850,-2250,0,6,6
+BMW,M340i xDrive Sedan,3 Series,Compact Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,26,33,29,304,2850,-2250,0,6,6
+BMW,M4 Competition Coupe,M,Subcompact Cars,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,16,23,19,470,4350,-9750,0,4,4
+BMW,M4 Competition M xDrive Convertible,M,Subcompact Cars,All-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,16,22,18,479,4550,-10750,0,3,3
+BMW,M4 Competition M xDrive Coupe,M,Subcompact Cars,All-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,16,23,18,472,4550,-10750,0,3,3
+BMW,M4 Coupe,M,Subcompact Cars,Rear-Wheel Drive,Manual 6-spd,,Premium,6.0,3.0,16,23,19,472,4350,-9750,0,4,4
+BMW,M440i Convertible,4 Series,Subcompact Cars,Rear-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,27,33,29,300,2850,-2250,0,6,6
+BMW,M440i Coupe,4 Series,Subcompact Cars,Rear-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,27,34,30,296,2750,-1750,0,6,6
+BMW,M440i Gran Coupe,4 Series,Compact Cars,Rear-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,26,32,28,312,2950,-2750,0,5,5
+BMW,M440i xDrive Convertible,4 Series,Subcompact Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,25,32,28,312,2950,-2750,0,5,5
+BMW,M440i xDrive Coupe,4 Series,Subcompact Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,26,33,29,301,2850,-2250,0,6,6
+BMW,M440i xDrive Gran Coupe,4 Series,Compact Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,25,31,27,320,3050,-3250,0,5,5
+BMW,M5 Sedan,M,Midsize Cars,All-Wheel Drive,Automatic (S8),Plug-in Hybrid,Premium and Electricity,8.0,4.4,12,19,14,264,5850,-4750,280,5,6
+BMW,M5 Touring,M,Midsize Station Wagons,All-Wheel Drive,Automatic (S8),Plug-in Hybrid,Premium and Electricity,8.0,4.4,11,17,13,304,6300,-6500,270,4,6
+BMW,M850i xDrive Convertible,8 Series,Subcompact Cars,All-Wheel Drive,Automatic (S8),,Premium,8.0,4.4,17,24,19,456,4350,-9750,0,4,4
+BMW,M850i xDrive Coupe,8 Series,Subcompact Cars,All-Wheel Drive,Automatic (S8),,Premium,8.0,4.4,17,24,19,456,4350,-9750,0,4,4
+BMW,M850i xDrive Gran Coupe,8 Series,Midsize Cars,All-Wheel Drive,Automatic (S8),,Premium,8.0,4.4,17,24,19,456,4350,-9750,0,4,4
+BMW,X1 M35i,X1,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,24,32,27,327,3050,-3250,0,5,5
+BMW,X1 xDrive28i,X1,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,25,34,28,311,2950,-2750,0,5,5
+BMW,X2 M35i,X2,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,23,31,26,338,3150,-3750,0,5,5
+BMW,X2 xDrive28i,X2,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,24,34,28,314,2950,-2750,0,5,5
+BMW,X3 M50,X3,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,25,30,27,320,3050,-3250,0,5,5
+BMW,X3 xDrive30,X3,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,27,33,29,299,2850,-2250,0,6,6
+BMW,X5 M Competition,X5,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.4,13,18,15,589,5500,-15500,0,2,2
+BMW,X5 M60i xDrive,X5,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.4,17,22,19,458,4350,-9750,0,4,4
+BMW,X5 sDrive40i,X5,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,23,27,25,360,3300,-4500,0,5,5
+BMW,X5 xDrive40i,X5,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,23,27,25,352,3300,-4500,0,5,5
+BMW,X5 xDrive50e,X5,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Plug-in Hybrid,Premium and Electricity,6.0,3.0,21,23,22,130,3750,1750,440,7,9
+BMW,X6 M Competition,X6,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.4,13,18,15,589,5500,-15500,0,2,2
+BMW,X6 M60i xDrive,X6,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.4,17,22,19,458,4350,-9750,0,4,4
+BMW,X6 xDrive40i,X6,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,22,26,23,372,3550,-5750,0,5,5
+BMW,X7 M60i xDrive,X7,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.4,16,20,18,498,4550,-10750,0,3,3
+BMW,X7 xDrive40i,X7,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,21,25,23,387,3550,-5750,0,5,5
+BMW,XM Label,XM,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Plug-in Hybrid,Premium and Electricity,8.0,4.4,12,17,14,263,5850,-5000,300,5,6
+BMW,Z4 M40i,Z4,Two Seaters,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,23,29,25,346,3300,-4500,0,5,5
+BMW,Z4 M40i,Z4,Two Seaters,Rear-Wheel Drive,Manual 6-spd,,Premium,6.0,3.0,19,26,22,407,3750,-6750,0,4,4
+BMW,Z4 sDrive30i,Z4,Two Seaters,Rear-Wheel Drive,Automatic (S8),,Premium,4.0,2.0,25,33,28,312,2950,-2750,0,5,5
+BMW,i4 M60 xDrive Gran Coupe (19 inch Wheels),i4,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,99,96,98,0,750,8250,278,9,10
+BMW,i4 M60 xDrive Gran Coupe (20 inch Wheels),i4,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,82,80,81,0,950,7250,232,9,10
+BMW,i4 eDrive35 Gran Coupe (19 inch Wheels),i4,Compact Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,113,105,109,0,700,8500,251,9,10
+BMW,i4 eDrive40 Gran Coupe (18 inch wheels),i4,Compact Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,121,115,118,0,650,8750,333,9,10
+BMW,i4 eDrive40 Gran Coupe (19 inch Wheels),i4,Compact Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,112,105,108,0,700,8500,307,9,10
+BMW,i4 xDrive40 Gran Coupe (18 inch Wheels),i4,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,99,103,101,0,750,8250,287,9,10
+BMW,i4 xDrive40 Gran Coupe (19 inch Wheels),i4,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,93,95,94,0,800,8000,268,9,10
+BMW,i5 M60 xDrive Sedan (19 inch Wheels),i5,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,100,98,99,0,750,8250,277,9,10
+BMW,i5 M60 xDrive Sedan (20 inch Wheels),i5,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,96,92,94,0,800,8000,266,9,10
+BMW,i5 M60 xDrive Sedan (21 inch Wheels),i5,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,92,89,91,0,850,7750,259,9,10
+BMW,i5 eDrive40 Sedan (19 inch Wheels),i5,Compact Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,114,106,110,0,700,8500,310,9,10
+BMW,i5 eDrive40 Sedan (20 inch Wheels),i5,Compact Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,110,102,106,0,700,8500,300,9,10
+BMW,i5 eDrive40 Sedan (21 inch Wheels),i5,Compact Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,102,93,98,0,800,8000,278,9,10
+BMW,i5 xDrive40 Sedan (19 inch Wheels),i5,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,99,97,98,0,750,8250,278,9,10
+BMW,i5 xDrive40 Sedan (20 inch Wheels),i5,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,97,94,96,0,800,8000,272,9,10
+BMW,i5 xDrive40 Sedan (21 inch Wheels),i5,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,92,88,91,0,850,7750,259,9,10
+BMW,i7 M70 xDrive Sedan (20 inch Wheels),i7,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,72,78,75,0,1000,7000,267,9,10
+BMW,i7 M70 xDrive Sedan (21 inch Wheels),i7,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,77,83,79,0,950,7250,285,9,10
+BMW,i7 eDrive50 Sedan (19 inch Wheels),i7,Large Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,85,93,88,0,850,7750,314,9,10
+BMW,i7 eDrive50 Sedan (20 inch Wheels),i7,Large Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,82,88,85,0,900,7500,301,9,10
+BMW,i7 eDrive50 Sedan (21 inch Wheels),i7,Large Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,84,90,87,0,900,7500,307,9,10
+BMW,i7 xDrive60 Sedan (19 inch Wheels),i7,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,85,91,88,0,850,7750,311,9,10
+BMW,i7 xDrive60 Sedan (20 inch Wheels),i7,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,81,85,83,0,900,7500,296,9,10
+BMW,i7 xDrive60 Sedan (21 inch Wheels),i7,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,85,89,87,0,850,7750,308,9,10
+BMW,iX M70 (21 inch Wheels),iX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,79,82,80,0,950,7250,303,9,10
+BMW,iX M70 (22 inch Wheels),iX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,74,78,76,0,1000,7000,284,9,10
+BMW,iX M70 (23 inch Wheels),iX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,74,76,75,0,1000,7000,283,9,10
+BMW,iX xDrive45 (20 inch Wheels),iX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,94,93,94,0,800,8000,312,9,10
+BMW,iX xDrive45 (21 inch Wheels),iX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,91,88,89,0,850,7750,297,9,10
+BMW,iX xDrive45 (22 inch Wheels),iX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,85,82,84,0,900,7500,279,9,10
+BMW,iX xDrive45 (23 inch Wheels),iX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,89,85,87,0,850,7750,290,9,10
+BMW,iX xDrive60 (20 inch Wheels),iX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,99,94,97,0,800,8000,364,9,10
+BMW,iX xDrive60 (21 inch Wheels),iX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,92,89,91,0,850,7750,341,9,10
+BMW,iX xDrive60 (22 inch Wheels),iX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,90,85,88,0,850,7750,327,9,10
+BMW,iX xDrive60 (23 inch Wheels),iX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,87,83,85,0,900,7500,318,9,10
+Bentley,Bentayga,Bentayga,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,8.0,4.0,14,21,16,553,5150,-13750,0,3,3
+Bentley,Bentayga EWB,Bentayga,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,8.0,4.0,14,21,16,553,5150,-13750,0,3,3
+Bentley,Bentayga Hybrid,Bentayga,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Plug-in Hybrid,Premium and Electricity,6.0,3.0,19,23,21,206,3900,-1250,440,6,7
+Bentley,Continental GT,Continental,Subcompact Cars,All-Wheel Drive,Automatic (AM-S8),Plug-in Hybrid,Premium and Electricity,8.0,4.0,17,22,19,161,4350,0,440,6,8
+Bentley,Continental GTC,Continental,Minicompact Cars,All-Wheel Drive,Automatic (AM-S8),Plug-in Hybrid,Premium and Electricity,8.0,4.0,17,22,19,161,4350,0,440,6,8
+Bentley,Flying Spur,Flying Spur,Midsize Cars,All-Wheel Drive,Automatic (AM-S8),Plug-in Hybrid,Premium and Electricity,8.0,4.0,17,22,19,161,4350,0,440,6,8
+Bugatti Rimac,Nevera R,Nevera,Two Seaters,4-Wheel Drive,Automatic (A1),EV,Electricity,,,50,51,51,0,1500,4500,174,8,10
+Buick,Enclave AWD,Enclave,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.5,20,24,21,423,3200,-4000,0,4,4
+Buick,Enclave FWD,Enclave,Standard Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.5,20,25,22,404,3050,-3250,0,4,4
+Buick,Encore GX AWD,Encore,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,,Regular,3.0,1.3,26,28,27,327,2500,-500,0,5,5
+Buick,Encore GX FWD,Encore,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,3.0,1.3,29,31,30,297,2250,750,0,6,6
+Buick,Encore GX FWD FFV,Encore,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (variable gear ratios),FFV,Gasoline or E85,3.0,1.2,30,31,30,297,2250,750,0,6,6
+Buick,Envision AWD,Envision,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S9),,Regular,4.0,2.0,22,28,25,361,2700,-1500,0,5,5
+Buick,Envista,Envista,Small Station Wagons,Front-Wheel Drive,Automatic 6-spd,,Regular,3.0,1.2,28,32,30,296,2250,750,0,6,6
+Buick,Envista FFV,Envista,Small Station Wagons,Front-Wheel Drive,Automatic 6-spd,FFV,Gasoline or E85,3.0,1.2,28,32,30,297,2250,750,0,6,6
+Cadillac,CELESTIQ,CELESTIQ,Small Station Wagons,All-Wheel Drive,Automatic (A1),EV,Electricity,,,84,77,81,0,950,7250,303,9,10
+Cadillac,CT4,CT4,Compact Cars,Rear-Wheel Drive,Automatic (S10),,Premium,4.0,2.7,21,31,25,356,3300,-4500,0,5,5
+Cadillac,CT4,CT4,Compact Cars,Rear-Wheel Drive,Automatic (S8),,Premium,4.0,2.0,22,32,26,345,3150,-3750,0,5,5
+Cadillac,CT4 AWD,CT4,Compact Cars,All-Wheel Drive,Automatic (S10),,Premium,4.0,2.7,21,29,24,371,3400,-5000,0,5,5
+Cadillac,CT4 AWD,CT4,Compact Cars,All-Wheel Drive,Automatic (S8),,Premium,4.0,2.0,21,31,25,357,3300,-4500,0,5,5
+Cadillac,CT4 V,CT4,Compact Cars,Rear-Wheel Drive,Automatic (S10),,Premium,4.0,2.7,20,29,23,383,3550,-5750,0,5,5
+Cadillac,CT4 V,CT4,Compact Cars,Rear-Wheel Drive,Automatic (S10),,Premium,6.0,3.6,16,24,19,478,4350,-9750,0,4,4
+Cadillac,CT4 V,CT4,Compact Cars,Rear-Wheel Drive,Manual 6-spd,,Premium,6.0,3.6,15,23,18,493,4550,-10750,0,3,3
+Cadillac,CT4 V AWD,CT4,Compact Cars,All-Wheel Drive,Automatic (S10),,Premium,4.0,2.7,20,28,23,387,3550,-5750,0,5,5
+Cadillac,CT5,CT5,Midsize Cars,Rear-Wheel Drive,Automatic (S10),,Premium,6.0,3.0,19,28,22,399,3750,-6750,0,4,4
+Cadillac,CT5,CT5,Midsize Cars,Rear-Wheel Drive,Automatic (S10),,Premium,4.0,2.0,22,31,26,346,3150,-3750,0,5,5
+Cadillac,CT5 AWD,CT5,Midsize Cars,All-Wheel Drive,Automatic (S10),,Premium,6.0,3.0,18,27,21,418,3900,-7500,0,4,4
+Cadillac,CT5 AWD,CT5,Midsize Cars,All-Wheel Drive,Automatic (S10),,Premium,4.0,2.0,21,30,24,370,3400,-5000,0,5,5
+Cadillac,CT5 V,CT5,Midsize Cars,Rear-Wheel Drive,Automatic (S10),,Premium,6.0,3.0,18,27,21,423,3900,-7500,0,4,4
+Cadillac,CT5 V,CT5,Midsize Cars,Rear-Wheel Drive,Automatic (S10),,Premium,8.0,6.2,13,20,15,580,5500,-15500,0,2,2
+Cadillac,CT5 V,CT5,Midsize Cars,Rear-Wheel Drive,Manual 6-spd,,Premium,8.0,6.2,13,20,15,587,5500,-15500,0,2,2
+Cadillac,CT5 V AWD,CT5,Midsize Cars,All-Wheel Drive,Automatic (S10),,Premium,6.0,3.0,17,26,20,445,4100,-8500,0,4,4
+Cadillac,Escalade 2WD,Escalade,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,15,19,17,537,4850,-12250,0,3,3
+Cadillac,Escalade 4WD,Escalade,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,14,18,16,572,5150,-13750,0,3,3
+Cadillac,Escalade V AWD,Escalade,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S10),,Premium,8.0,6.2,11,17,13,691,6300,-19500,0,1,1
+Cadillac,LYRIQ (11 kW Charger),LYRIQ,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,100,83,92,0,850,7750,326,9,10
+Cadillac,LYRIQ (19 kW Charger),LYRIQ,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,100,83,91,0,850,7750,326,9,10
+Cadillac,LYRIQ AWD,LYRIQ,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,93,77,85,0,900,7500,303,9,10
+Cadillac,LYRIQ PAWD,LYRIQ,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,98,80,89,0,850,7750,319,9,10
+Cadillac,LYRIQ PAWD V SERIES (11 kW Charger),LYRIQ,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,87,72,80,0,950,7250,285,9,10
+Cadillac,LYRIQ PAWD V SERIES (19 kW Charger),LYRIQ,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,87,72,80,0,950,7250,285,9,10
+Cadillac,OPTIQ AWD (11 kW Charger),OPTIQ,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,110,88,99,0,750,8250,303,9,10
+Cadillac,OPTIQ AWD (19 kW Charger),OPTIQ,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,110,88,99,0,750,8250,303,9,10
+Cadillac,OPTIQ AWD V SERIES 11 kW Charger,OPTIQ,Standard Sport Utility Vehicle 2WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,103,81,92,0,800,8000,278,9,10
+Cadillac,OPTIQ AWD V SERIES 19 kW charger,OPTIQ,Standard Sport Utility Vehicle 2WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,92,74,83,0,900,7500,250,9,10
+Cadillac,OPTIQ RWD (11 kW Charger),OPTIQ,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,117,93,105,0,700,8500,317,9,10
+Cadillac,OPTIQ RWD (19 kW Charger),OPTIQ,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,117,93,105,0,700,8500,317,9,10
+Cadillac,VISTIQ (11 kW Charger),VISTIQ,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,93,78,86,0,900,7500,305,9,10
+Cadillac,VISTIQ (19 kW Charger),VISTIQ,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,93,78,86,0,900,7500,300,9,10
+Cadillac,XT5 AWD,XT5,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S9),,Regular,6.0,3.6,18,26,21,424,3200,-4000,0,4,4
+Cadillac,XT5 AWD,XT5,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S9),,Premium,4.0,2.0,21,27,23,386,3550,-5750,0,5,5
+Cadillac,XT5 FWD,XT5,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S9),,Regular,6.0,3.6,19,26,21,423,3200,-4000,0,4,4
+Cadillac,XT5 FWD,XT5,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S9),,Premium,4.0,2.0,22,29,24,370,3400,-5000,0,5,5
+Chevrolet,Blazer AWD,Blazer,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,,Regular,6.0,3.6,18,25,21,424,3200,-4000,0,4,4
+Chevrolet,Blazer AWD,Blazer,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,,Regular,4.0,2.0,22,27,24,368,2800,-2000,0,5,5
+Chevrolet,Blazer EV AWD,Blazer,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,102,86,94,0,800,8000,283,9,10
+Chevrolet,Blazer EV AWD SS,Blazer,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,92,77,85,0,900,7500,302,9,10
+Chevrolet,Blazer EV FWD,Blazer,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,114,95,104,0,750,8250,312,9,10
+Chevrolet,Blazer EV FWD 22 inch tire,Blazer,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,103,86,95,0,800,8000,283,9,10
+Chevrolet,Blazer FWD,Blazer,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic 9-spd,,Regular,6.0,3.6,19,26,22,411,3050,-3250,0,4,4
+Chevrolet,Blazer FWD,Blazer,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic 9-spd,,Regular,4.0,2.0,22,29,25,370,2700,-1500,0,5,5
+Chevrolet,Colorado 2WD,Colorado,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,19,24,21,420,3200,-4000,0,4,4
+Chevrolet,Colorado 4WD,Colorado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,17,22,19,462,3550,-5750,0,4,4
+Chevrolet,Colorado Mud Terrain Tires 4WD,Colorado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,17,20,18,494,3700,-6500,0,3,3
+Chevrolet,Colorado ZR2 4WD,Colorado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,17,17,17,527,3950,-7750,0,3,3
+Chevrolet,Colorado ZR2 Bison 4WD,Colorado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,16,16,16,564,4200,-9000,0,3,3
+Chevrolet,Corvette,Corvette,Two Seaters,Rear-Wheel Drive,Automatic (S8),,Premium,8.0,6.2,16,25,19,474,4350,-9750,0,4,4
+Chevrolet,Corvette E-Ray,Corvette,Two Seaters,All-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,6.2,16,24,19,477,4350,-9750,0,4,4
+Chevrolet,Corvette Z06,Corvette,Two Seaters,Rear-Wheel Drive,Automatic (S8),,Premium,8.0,5.5,12,21,15,597,5500,-15500,0,2,2
+Chevrolet,Corvette Z06 Carbon Aero,Corvette,Two Seaters,Rear-Wheel Drive,Automatic (S8),,Premium,8.0,5.5,12,19,14,631,5850,-17250,0,2,2
+Chevrolet,Corvette ZR1,Corvette,Two Seaters,Rear-Wheel Drive,Automatic (S8),,Premium,8.0,5.5,12,18,14,629,5850,-17250,0,2,2
+Chevrolet,Corvette ZR1X,Corvette,Two Seaters,All-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,5.5,12,19,14,613,5850,-17250,0,2,2
+Chevrolet,Equinox AWD,Equinox,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,4.0,1.5,25,29,26,342,2600,-1000,0,5,5
+Chevrolet,Equinox EV AWD (11 kW Charger),Equinox,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,112,95,103,0,750,8250,307,9,10
+Chevrolet,Equinox EV AWD (19 kW Charger),Equinox,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,103,88,96,0,800,8000,288,9,10
+Chevrolet,Equinox EV FWD,Equinox,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,117,100,108,0,700,8500,319,9,10
+Chevrolet,Equinox FWD,Equinox,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,1.5,26,29,27,329,2500,-500,0,5,5
+Chevrolet,Silverado (with Sport Mode) 2WD,Silverado,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,17,21,19,472,3550,-5750,0,4,4
+Chevrolet,Silverado (with Sport Mode) 2WD,Silverado,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,16,21,18,490,3700,-6500,0,3,3
+Chevrolet,Silverado (with Sport Mode) 4WD,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,16,20,17,514,3950,-7750,0,3,3
+Chevrolet,Silverado (with Sport Mode) 4WD,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,22,26,24,428,4000,-8000,0,5,4
+Chevrolet,Silverado (with Sport Mode) 4WD M6,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,17,20,18,482,3700,-6500,0,3,3
+Chevrolet,Silverado 2WD,Silverado,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,18,21,20,465,3350,-4750,0,4,4
+Chevrolet,Silverado 2WD,Silverado,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,16,20,17,513,3950,-7750,0,3,3
+Chevrolet,Silverado 2WD,Silverado,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,23,28,25,402,3850,-7250,0,5,4
+Chevrolet,Silverado 4WD,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,15,20,17,528,4850,-12250,0,3,3
+Chevrolet,Silverado 4WD,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,15,19,17,531,3950,-7750,0,3,3
+Chevrolet,Silverado 4WD,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,22,25,23,434,4150,-8750,0,5,4
+Chevrolet,Silverado 4WD  (Flex Fuel),Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,FFV,Gasoline or E85,8.0,5.3,15,19,17,524,3950,-7750,0,3,3
+Chevrolet,Silverado 4WD 4M,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,17,21,19,473,3550,-5750,0,4,4
+Chevrolet,Silverado 4WD ZR2,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,14,17,15,591,5500,-15500,0,2,2
+Chevrolet,Silverado 4WD ZR2 (Sport/Off Road),Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,20,23,21,480,4550,-10750,0,4,4
+Chevrolet,Silverado Cab Chassis 2WD,Silverado,Special Purpose Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,15,18,16,551,4200,-9000,0,3,3
+Chevrolet,Silverado Cab Chassis 4WD,Silverado,Special Purpose Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,14,16,15,592,4450,-10250,0,2,2
+Chevrolet,Silverado EV Ext Range (11kW Charger),Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,75,61,68,0,1100,6500,410,9,10
+Chevrolet,Silverado EV Ext Range (19kW Charger),Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,69,59,64,0,1200,6000,385,8,10
+Chevrolet,Silverado EV Ext Range WT,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,78,63,70,0,1100,6500,424,9,10
+Chevrolet,Silverado EV Max Range WT (19kW Charger),Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,75,61,68,0,1100,6500,493,9,10
+Chevrolet,Silverado EV Std Range (11kW Charger),Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,74,60,67,0,1150,6250,283,9,10
+Chevrolet,Silverado EV Std Range WT (11kW Charger),Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,75,61,68,0,1100,6500,286,9,10
+Chevrolet,Silverado Mud Terrain Tires (Sport Mode) 4WD,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,15,18,16,553,4200,-9000,0,3,3
+Chevrolet,Silverado Mud Terrain Tires (with Sport Mode) 4WD,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,16,17,17,535,3950,-7750,0,3,3
+Chevrolet,Silverado Mud Terrain Tires 4WD,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,14,17,15,593,5500,-15500,0,2,2
+Chevrolet,Silverado Mud Terrain Tires 4WD,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,15,18,16,552,4200,-9000,0,3,3
+Chevrolet,Silverado Mud Terrain Tires 4WD,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,21,24,23,448,4150,-8750,0,5,4
+Chevrolet,Silverado Mud Terrain Tires 4WD (Sport/off road),Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,21,24,23,451,4150,-8750,0,5,4
+Chevrolet,Silverado Mud Terrain Tires 4WD 4M,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,16,17,17,536,3950,-7750,0,3,3
+Chevrolet,Silverado Mud Terrain Tires 4WD FFV,Silverado,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,FFV,Gasoline or E85,8.0,5.3,15,19,17,524,3950,-7750,0,3,3
+Chevrolet,Suburban 2WD,Suburban,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,15,19,16,544,5150,-13750,0,3,3
+Chevrolet,Suburban 2WD,Suburban,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,15,20,17,530,3950,-7750,0,3,3
+Chevrolet,Suburban 2WD,Suburban,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,21,26,23,442,4150,-8750,0,5,4
+Chevrolet,Suburban 4WD,Suburban,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,14,18,16,572,5150,-13750,0,3,3
+Chevrolet,Suburban 4WD,Suburban,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,14,19,16,571,4200,-9000,0,3,3
+Chevrolet,Suburban 4WD,Suburban,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,20,24,22,460,4350,-9750,0,4,4
+Chevrolet,Tahoe 2WD,Tahoe,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,15,20,17,523,4850,-12250,0,3,3
+Chevrolet,Tahoe 2WD,Tahoe,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,15,20,17,530,3950,-7750,0,3,3
+Chevrolet,Tahoe 2WD,Tahoe,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,22,26,24,427,4000,-8000,0,5,4
+Chevrolet,Tahoe 4WD,Tahoe,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,14,18,16,572,5150,-13750,0,3,3
+Chevrolet,Tahoe 4WD,Tahoe,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,15,19,17,536,3950,-7750,0,3,3
+Chevrolet,Tahoe 4WD,Tahoe,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,20,24,22,460,4350,-9750,0,4,4
+Chevrolet,Trailblazer AWD,Trailblazer,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,,Regular,3.0,1.3,26,29,27,329,2500,-500,0,5,5
+Chevrolet,Trailblazer FWD,Trailblazer,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,3.0,1.3,29,33,31,287,2150,1250,0,6,6
+Chevrolet,Trailblazer FWD FFV,Trailblazer,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (variable gear ratios),FFV,Gasoline or E85,3.0,1.2,30,31,30,297,2250,750,0,6,6
+Chevrolet,Traverse AWD,Traverse,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.5,20,24,21,423,3200,-4000,0,4,4
+Chevrolet,Traverse FWD,Traverse,Standard Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.5,20,26,22,404,3050,-3250,0,4,4
+Chevrolet,Trax,Trax,Small Station Wagons,Front-Wheel Drive,Automatic 6-spd,,Regular,3.0,1.2,28,31,29,306,2300,500,0,6,6
+Chevrolet,Trax FFV,Trax,Small Station Wagons,Front-Wheel Drive,Automatic 6-spd,FFV,Gasoline or E85,3.0,1.2,28,32,30,296,2250,750,0,6,6
+Chrysler,Pacifica,Pacifica,Minivan - 2WD,Front-Wheel Drive,Automatic 9-spd,,Regular,6.0,3.6,19,28,22,401,3050,-3250,0,4,4
+Chrysler,Pacifica Hybrid,Pacifica,Minivan - 2WD,Front-Wheel Drive,Automatic (variable gear ratios),Plug-in Hybrid,Regular Gas and Electricity,6.0,3.6,29,30,30,119,2250,4750,520,8,9
+Chrysler,Voyager,Voyager,Minivan - 2WD,Front-Wheel Drive,Automatic 9-spd,,Regular,6.0,3.6,19,28,22,401,3050,-3250,0,4,4
+Dodge,Charger Daytona R/T AWD 245/55ZR18,Charger,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,91,78,85,0,900,7500,263,9,10
+Dodge,Charger Daytona R/T AWD 255/45R20,Charger,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,100,89,95,0,800,8000,295,9,10
+Dodge,Charger Daytona R/T AWD 275/40R20,Charger,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,89,76,83,0,900,7500,258,9,10
+Dodge,Charger Daytona R/T AWD 305/35ZR20,Charger,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,93,79,86,0,900,7500,267,9,10
+Dodge,Charger Daytona Scat Pack AWD 305/35ZR20,Charger,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,93,79,86,0,900,7500,267,9,10
+Dodge,Charger Daytona Scat Pack AWD 325/35ZR20 Rear,Charger,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,77,68,72,0,1050,6750,223,9,10
+Dodge,Charger Daytona Scat Pack AWD 325/35ZR20 Rear A/S,Charger,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,82,73,78,0,1000,7000,241,9,10
+Dodge,Charger R/T AWD,Charger,Large Cars,All-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.0,17,26,20,444,3350,-4750,0,4,4
+Dodge,Charger Scat Pack AWD,Charger,Large Cars,All-Wheel Drive,Automatic 8-spd,,Premium,6.0,3.0,16,23,19,470,4350,-9750,0,4,4
+Dodge,Durango AWD,Durango,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.6,17,24,20,449,3350,-4750,0,4,4
+Dodge,Durango AWD,Durango,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Midgrade,8.0,5.7,14,21,16,541,4750,-11750,0,3,3
+Dodge,Durango AWD,Durango,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Premium,8.0,6.2,12,17,13,659,6300,-19500,0,1,1
+Dodge,Durango AWD,Durango,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Premium,8.0,6.4,13,19,15,584,5500,-15500,0,2,2
+Dodge,Durango RWD,Durango,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.6,18,25,20,434,3350,-4750,0,4,4
+Ferrari,12Cilindri,12Cilindri,Two Seaters,Rear-Wheel Drive,Automatic (AM8),,Premium,12.0,6.5,12,19,14,619,5850,-17250,0,2,2
+Ferrari,12Cilindri Spider,12Cilindri,Two Seaters,Rear-Wheel Drive,Automatic (AM8),,Premium,12.0,6.5,12,17,14,633,5850,-17250,0,2,2
+Ferrari,296 GTB,296 GTB,Two Seaters,Rear-Wheel Drive,Automatic (AM-S8),Plug-in Hybrid,Premium and Electricity,6.0,2.9,16,22,18,398,4550,-7250,350,4,4
+Ferrari,296 GTS,296 GTS,Two Seaters,Rear-Wheel Drive,Automatic (AM-S8),Plug-in Hybrid,Premium and Electricity,6.0,2.9,15,21,18,403,4550,-8250,330,4,4
+Ferrari,296 Speciale,296 Speciale,Two Seaters,Rear-Wheel Drive,Automatic (AM-S8),Plug-in Hybrid,Premium and Electricity,6.0,2.9,16,22,18,396,4550,-7500,330,4,4
+Ferrari,296 Speciale A,296 Speciale A,Two Seaters,Rear-Wheel Drive,Automatic (AM-S8),Plug-in Hybrid,Premium and Electricity,6.0,2.9,16,22,18,396,4550,-7500,330,4,4
+Ferrari,F80,F80,Two Seaters,All-Wheel Drive,Automatic (AM8),Hybrid,Premium,6.0,2.9,15,20,17,531,4850,-12250,0,3,3
+Ferrari,Purosangue,Purosangue,Compact Cars,All-Wheel Drive,Automatic (AM8),,Premium,12.0,6.5,11,15,12,711,6850,-22250,0,1,1
+Ferrari,Roma Spider,Roma,Minicompact Cars,Rear-Wheel Drive,Automatic (AM8),,Premium,8.0,3.9,17,22,19,467,4350,-9750,0,4,4
+Fiat,500e,500e,Minicompact Cars,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,127,104,116,0,650,8750,149,9,10
+Fiat,500e All Season,500e,Minicompact Cars,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,121,100,110,0,700,8500,141,9,10
+Ford,Bronco 4WD,Bronco,Small Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,4.0,2.3,18,22,20,453,3350,-4750,0,4,4
+Ford,Bronco 4WD,Bronco,Small Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,2.7,17,17,17,525,3950,-7750,0,3,3
+Ford,Bronco 4WD,Bronco,Small Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Manual 7-spd,,Regular,4.0,2.3,18,21,19,452,3550,-5750,0,4,4
+Ford,Bronco Badlands 4WD,Bronco,Small Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,4.0,2.3,17,19,18,507,3700,-6500,0,3,3
+Ford,Bronco Badlands 4WD,Bronco,Small Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Manual 7-spd,,Regular,4.0,2.3,17,18,17,504,3950,-7750,0,3,3
+Ford,Bronco Outer Banks 4WD,Bronco,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,2.7,19,21,20,454,3350,-4750,0,4,4
+Ford,Bronco Raptor 4WD,Bronco,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,3.0,15,16,15,577,4450,-10250,0,2,2
+Ford,Bronco Sasquatch 4WD,Bronco,Small Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,4.0,2.3,17,19,18,494,3700,-6500,0,3,3
+Ford,Bronco Sasquatch 4WD,Bronco,Small Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Manual 7-spd,,Regular,4.0,2.3,17,19,18,489,3700,-6500,0,3,3
+Ford,Bronco Sport 4WD,Bronco Sport,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,21,27,23,386,2900,-2500,0,5,5
+Ford,Bronco Sport 4WD,Bronco Sport,Small Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic 8-spd,,Regular,3.0,1.5,25,30,27,324,2500,-500,0,5,5
+Ford,Bronco Sport Sasquatch 4WD,Bronco Sport,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,3.0,1.5,23,26,24,370,2800,-2000,0,5,5
+Ford,Escape AWD,Escape,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.0,23,31,26,342,2600,-1000,0,5,5
+Ford,Escape AWD,Escape,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,3.0,1.5,26,32,28,317,2400,0,0,5,5
+Ford,Escape AWD HEV,Escape,Small Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.5,42,36,39,225,1700,3500,0,7,7
+Ford,Escape FWD,Escape,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic 8-spd,,Regular,3.0,1.5,27,34,30,298,2250,750,0,6,6
+Ford,Escape FWD PHEV,Escape,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (variable gear ratios),Plug-in Hybrid,Regular Gas and Electricity,4.0,2.5,42,37,40,222,1700,6500,520,8,9
+Ford,Expedition 2WD,Expedition,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (S10),,Regular,6.0,3.5,16,24,19,474,3550,-5750,0,4,4
+Ford,Expedition 4WD,Expedition,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,3.5,15,22,18,501,3700,-6500,0,3,3
+Ford,Explorer AWD,Explorer,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,3.0,18,25,20,439,3350,-4750,0,4,4
+Ford,Explorer AWD,Explorer,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic 10-spd,,Regular,4.0,2.3,20,27,23,394,2900,-2500,0,5,5
+Ford,Explorer RWD,Explorer,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (S10),,Regular,6.0,3.0,18,25,21,423,3200,-4000,0,4,4
+Ford,Explorer RWD,Explorer,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,,Regular,4.0,2.3,20,29,24,377,2800,-2000,0,5,5
+Ford,Explorer Tremor AWD,Explorer,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,4.0,2.3,19,23,21,424,3200,-4000,0,4,4
+Ford,Explorer Tremor AWD,Explorer,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,3.0,17,22,19,467,3550,-5750,0,4,4
+Ford,F150 Pickup 2WD,F150,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (S10),,Regular,6.0,2.7,19,25,21,425,3200,-4000,0,4,4
+Ford,F150 Pickup 2WD,F150,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (S10),,Regular,6.0,3.5,17,25,20,445,3350,-4750,0,4,4
+Ford,F150 Pickup 2WD,F150,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (S10),,Regular,8.0,5.0,16,24,19,472,3550,-5750,0,4,4
+Ford,F150 Pickup 2WD HEV,F150,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (S10),Hybrid,Regular,6.0,3.5,23,25,24,371,2800,-2000,0,5,5
+Ford,F150 Pickup 4WD,F150,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,2.7,18,23,20,444,3350,-4750,0,4,4
+Ford,F150 Pickup 4WD,F150,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,3.5,17,23,19,464,3550,-5750,0,4,4
+Ford,F150 Pickup 4WD,F150,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,8.0,5.0,16,24,19,472,3550,-5750,0,4,4
+Ford,F150 Pickup 4WD HEV,F150,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),Hybrid,Regular,6.0,3.5,22,24,23,388,2900,-2500,0,5,5
+Ford,F150 Pickup Tremor 4WD,F150,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,3.5,16,21,18,494,3700,-6500,0,3,3
+Ford,F150 Pickup Tremor 4WD,F150,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,8.0,5.0,15,20,17,522,3950,-7750,0,3,3
+Ford,F150 RAPTOR 4WD,F150,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,3.5,14,18,16,566,4200,-9000,0,3,3
+Ford,F150 RAPTOR R 4WD,F150,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Premium,8.0,5.2,10,15,12,741,6850,-22250,0,1,1
+Ford,Maverick AWD,Maverick,Small Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.0,22,30,25,355,2700,-1500,0,5,5
+Ford,Maverick FWD,Maverick,Small Pickup Trucks 2WD,Front-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.0,23,32,26,341,2600,-1000,0,5,5
+Ford,Maverick HEV AWD,Maverick,Small Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.5,40,34,37,241,1800,3000,0,7,7
+Ford,Maverick HEV FWD,Maverick,Small Pickup Trucks 2WD,Front-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.5,42,35,38,234,1750,3250,0,7,7
+Ford,Maverick Lariat HEV AWD,Maverick,Small Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.5,39,32,36,248,1850,2750,0,7,7
+Ford,Maverick Lobo AWD,Maverick,Small Pickup Trucks 4WD,4-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,21,30,24,370,2800,-2000,0,5,5
+Ford,Maverick Tremor AWD,Maverick,Small Pickup Trucks 4WD,4-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,21,27,23,386,2900,-2500,0,5,5
+Ford,Mustang,Mustang,Subcompact Cars,Rear-Wheel Drive,Automatic (S10),,Regular,8.0,5.0,16,24,19,468,3550,-5750,0,4,4
+Ford,Mustang,Mustang,Subcompact Cars,Rear-Wheel Drive,Manual 6-spd,,Regular,8.0,5.0,15,23,18,494,3700,-6500,0,3,3
+Ford,Mustang,Mustang,Subcompact Cars,Rear-Wheel Drive,Automatic 10-spd,,Regular,4.0,2.3,22,33,26,341,2600,-1000,0,5,5
+Ford,Mustang Dark Horse,Mustang,Subcompact Cars,Rear-Wheel Drive,Automatic (S10),,Regular,8.0,5.0,14,22,17,525,3950,-7750,0,3,3
+Ford,Mustang Dark Horse,Mustang,Subcompact Cars,Rear-Wheel Drive,Manual 6-spd,,Regular,8.0,5.0,14,22,17,533,3950,-7750,0,3,3
+Ford,Mustang GTD,Mustang,Subcompact Cars,Rear-Wheel Drive,Automatic (AM-S8),,Premium,8.0,5.2,10,17,12,741,6850,-22250,0,1,1
+Ford,Mustang Mach-E AWD,Mustang Mach-E,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,104,96,100,0,750,8250,240,9,10
+Ford,Mustang Mach-E AWD Extended,Mustang Mach-E,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,110,98,104,0,750,8250,300,9,10
+Ford,Mustang Mach-E GT,Mustang Mach-E,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,95,85,90,0,850,7750,280,9,10
+Ford,Mustang Mach-E RWD,Mustang Mach-E,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,111,103,107,0,700,8500,260,9,10
+Ford,Mustang Mach-E RWD Extended,Mustang Mach-E,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,115,104,110,0,700,8500,320,9,10
+Ford,Mustang Mach-E Rally,Mustang Mach-E,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,89,78,84,0,900,7500,255,9,10
+Ford,Ranger 2WD,Ranger,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (S10),,Regular,4.0,2.3,21,25,23,395,2900,-2500,0,5,5
+Ford,Ranger 4WD,Ranger,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,4.0,2.3,19,24,21,421,3200,-4000,0,4,4
+Ford,Ranger 4WD,Ranger,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,2.7,18,23,20,444,3350,-4750,0,4,4
+Ford,Ranger RAPTOR 4WD,Ranger,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,3.0,16,18,17,525,3950,-7750,0,3,3
+GMC,Acadia AWD,Acadia,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.5,20,23,21,423,3200,-4000,0,4,4
+GMC,Acadia FWD,Acadia,Standard Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.5,20,26,22,404,3050,-3250,0,4,4
+GMC,Canyon 2WD,Canyon,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,19,23,20,443,3350,-4750,0,4,4
+GMC,Canyon 4WD,Canyon,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,17,22,19,462,3550,-5750,0,4,4
+GMC,Canyon AT4X 4WD,Canyon,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,17,17,17,527,3950,-7750,0,3,3
+GMC,Canyon AT4X AEV 4WD,Canyon,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,16,16,16,564,4200,-9000,0,3,3
+GMC,Canyon Mud Terrain Tires 4WD,Canyon,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,17,20,18,494,3700,-6500,0,3,3
+GMC,SIERRA EV Ext Range (11kW Charger),Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,75,61,68,0,1100,6500,410,9,10
+GMC,SIERRA EV Ext Range (19kW Charger),Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,69,59,64,0,1200,6000,385,8,10
+GMC,SIERRA EV Std Range (11kW Charger),Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,74,60,67,0,1150,6250,283,9,10
+GMC,Sierra 2WD,Sierra,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,18,21,20,464,3350,-4750,0,4,4
+GMC,Sierra 2WD,Sierra,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,16,20,17,514,3950,-7750,0,3,3
+GMC,Sierra 2WD,Sierra,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,23,28,25,402,3850,-7250,0,5,4
+GMC,Sierra 2WD with Sport Mode,Sierra,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,17,21,19,472,3550,-5750,0,4,4
+GMC,Sierra 2WD with Sport Mode,Sierra,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,16,21,18,495,3700,-6500,0,3,3
+GMC,Sierra 4WD,Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,17,20,18,491,3700,-6500,0,3,3
+GMC,Sierra 4WD,Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,15,19,16,539,5150,-13750,0,3,3
+GMC,Sierra 4WD,Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,15,18,16,550,4200,-9000,0,3,3
+GMC,Sierra 4WD AT4X,Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,14,16,15,601,5500,-15500,0,2,2
+GMC,Sierra 4WD AT4X with Sport Mode,Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,19,20,19,524,5050,-13250,0,4,3
+GMC,Sierra 4WD FFV,Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,FFV,Gasoline or E85,8.0,5.3,15,19,17,524,3950,-7750,0,3,3
+GMC,Sierra 4WD with Sport Mode,Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,17,18,17,513,3950,-7750,0,3,3
+GMC,Sierra 4WD with Sport Mode,Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,15,19,17,522,3950,-7750,0,3,3
+GMC,Sierra 4WD with Sport Mode,Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,22,26,24,428,4000,-8000,0,5,4
+GMC,Sierra Cab Chassis 2WD,Sierra,Special Purpose Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,15,18,16,551,4200,-9000,0,3,3
+GMC,Sierra Cab Chassis 4WD,Sierra,Special Purpose Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,14,16,15,592,4450,-10250,0,2,2
+GMC,Sierra Mud Terrain Tires 4WD,Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.7,16,17,17,536,3950,-7750,0,3,3
+GMC,Sierra Mud Terrain Tires 4WD,Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,14,17,15,593,5500,-15500,0,2,2
+GMC,Sierra Mud Terrain Tires 4WD,Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,14,17,16,567,4200,-9000,0,3,3
+GMC,Sierra Mud Terrain Tires 4WD (Sport Mode),Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,15,18,16,561,4200,-9000,0,3,3
+GMC,Sierra Mud Terrain Tires 4WD FFV,Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,FFV,Gasoline or E85,8.0,5.3,15,19,17,524,3950,-7750,0,3,3
+GMC,Sierra Mud Terrain Tires with Sport Mode,Sierra,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,21,24,23,451,4150,-8750,0,5,4
+GMC,Terrain AWD,Terrain,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,4.0,1.5,24,28,25,356,2700,-1500,0,5,5
+GMC,Terrain AWD  Denali/AT4,Terrain,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,4.0,1.5,24,26,25,358,2700,-1500,0,5,5
+GMC,Terrain FWD,Terrain,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,1.5,26,28,27,329,2500,-500,0,5,5
+GMC,Yukon 2WD,Yukon,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,15,20,17,523,4850,-12250,0,3,3
+GMC,Yukon 2WD,Yukon,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,15,20,17,530,3950,-7750,0,3,3
+GMC,Yukon 2WD,Yukon,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,21,26,23,442,4150,-8750,0,5,4
+GMC,Yukon 4WD,Yukon,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,14,18,16,572,5150,-13750,0,3,3
+GMC,Yukon 4WD,Yukon,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,15,19,17,536,3950,-7750,0,3,3
+GMC,Yukon 4WD,Yukon,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,20,24,22,460,4350,-9750,0,4,4
+GMC,Yukon XL 2WD,Yukon,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,15,19,16,544,5150,-13750,0,3,3
+GMC,Yukon XL 2WD,Yukon,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,15,20,17,530,3950,-7750,0,3,3
+GMC,Yukon XL 2WD,Yukon,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,21,26,23,442,4150,-8750,0,5,4
+GMC,Yukon XL 4WD,Yukon,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,,Premium,8.0,6.2,14,18,16,572,5150,-13750,0,3,3
+GMC,Yukon XL 4WD,Yukon,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,,Regular,8.0,5.3,14,19,16,571,4200,-9000,0,3,3
+GMC,Yukon XL 4WD,Yukon,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 10-spd,Diesel,Diesel,6.0,3.0,20,24,22,460,4350,-9750,0,4,4
+Genesis,Electrified G80,G80,Midsize Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,99,93,96,0,800,8000,300,9,10
+Genesis,Electrified GV70 AWD (19 inch Wheels),GV70,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,103,88,96,0,800,8000,263,9,10
+Genesis,Electrified GV70 AWD (20 inch Wheels),GV70,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,96,80,88,0,850,7750,243,9,10
+Genesis,G70 AWD,G70,Compact Cars,All-Wheel Drive,Automatic (S8),,Premium,6.0,3.3,17,23,19,466,4350,-9750,0,4,4
+Genesis,G70 AWD,G70,Compact Cars,All-Wheel Drive,Automatic (S8),,Premium,4.0,2.5,20,28,23,385,3550,-5750,0,5,5
+Genesis,G70 RWD,G70,Compact Cars,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.3,17,25,20,449,4100,-8500,0,4,4
+Genesis,G70 RWD,G70,Compact Cars,Rear-Wheel Drive,Automatic (S8),,Premium,4.0,2.5,21,29,24,373,3400,-5000,0,5,5
+Genesis,G80 AWD,G80,Large Cars,All-Wheel Drive,Automatic (S8),,Premium,4.0,2.5,20,29,23,382,3550,-5750,0,5,5
+Genesis,G80 AWD,G80,Large Cars,All-Wheel Drive,Automatic (S8),,Premium,6.0,3.5,15,24,18,485,4550,-10750,0,3,3
+Genesis,G90 AWD,G90,Large Cars,All-Wheel Drive,Automatic (S8),,Premium,6.0,3.5,18,26,21,426,3900,-7500,0,4,4
+Genesis,G90 MHEV,G90,Large Cars,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.5,17,24,20,441,4100,-8500,0,4,4
+Genesis,GV60 AWD (19 inch Wheels),GV60,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,107,93,100,0,750,8250,282,9,10
+Genesis,GV60 AWD Advanced (20 inch Wheels),GV60,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,102,89,96,0,800,8000,267,9,10
+Genesis,GV60 AWD Performance,GV60,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,97,83,90,0,850,7750,252,9,10
+Genesis,GV60 RWD,GV60,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,119,101,110,0,700,8500,306,9,10
+Genesis,GV70 AWD,GV70,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,6.0,3.5,18,25,21,433,3900,-7500,0,4,4
+Genesis,GV70 AWD (4 Mode),GV70,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,4.0,2.5,20,28,23,393,3550,-5750,0,5,5
+Genesis,GV70 AWD (5 Mode),GV70,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,4.0,2.5,20,26,22,402,3750,-6750,0,4,4
+Genesis,GV80 AWD,GV80,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,4.0,2.5,19,24,21,427,3900,-7500,0,4,4
+Genesis,GV80 AWD,GV80,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,6.0,3.5,16,22,19,473,4350,-9750,0,4,4
+Genesis,GV80 MHEV,GV80,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.5,17,22,19,467,4350,-9750,0,4,4
+Genesis,GV80 RWD,GV80,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (S8),,Premium,4.0,2.5,20,26,22,403,3750,-6750,0,4,4
+Honda,Accord,Accord,Large Cars,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,1.5,29,37,32,276,2100,1500,0,6,6
+Honda,Accord Hybrid,Accord,Large Cars,Front-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,51,44,48,184,1400,5000,0,8,8
+Honda,Accord Hybrid Sport/Touring,Accord,Midsize Cars,Front-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,46,41,44,201,1500,4500,0,7,7
+Honda,Accord SE,Accord,Midsize Cars,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,1.5,28,36,31,283,2150,1250,0,6,6
+Honda,CR-V AWD,CR-V,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,1.5,27,31,29,310,2300,500,0,6,6
+Honda,CR-V AWD,CR-V,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,40,34,37,237,1800,3000,0,7,7
+Honda,CR-V AWD TrailSport,CR-V,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,38,33,35,252,1900,2500,0,6,6
+Honda,CR-V FWD,CR-V,Midsize Station Wagons,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,1.5,28,33,30,296,2250,750,0,6,6
+Honda,CR-V FWD,CR-V,Midsize Station Wagons,Front-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,43,36,40,223,1700,3500,0,7,7
+Honda,CR-V e-FCEV,CR-V,Midsize Station Wagons,Front-Wheel Drive,Automatic (A1),eFCV,Electricity and Hydrogen,,,36,43,39,0,0,12000,245,9,10
+Honda,Civic 4Dr,Civic,Midsize Cars,Front-Wheel Drive,Manual 6-spd,,Premium,4.0,1.5,27,37,31,285,2650,-1250,0,6,6
+Honda,Civic 4Dr,Civic,Midsize Cars,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,2.0,32,41,36,248,1850,2750,0,7,7
+Honda,Civic 4Dr,Civic,Midsize Cars,Front-Wheel Drive,Automatic (AV-S7),,Regular,4.0,2.0,31,39,34,260,1950,2250,0,6,6
+Honda,Civic 4Dr,Civic,Midsize Cars,Front-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,50,47,49,181,1350,5250,0,8,8
+Honda,Civic 5Dr,Civic,Large Cars,Front-Wheel Drive,Automatic (AV-S7),,Regular,4.0,2.0,30,38,34,268,1950,2250,0,6,6
+Honda,Civic 5Dr,Civic,Large Cars,Front-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,50,45,48,186,1400,5000,0,8,8
+Honda,Civic 5Dr,Civic,Large Cars,Front-Wheel Drive,Manual 6-spd,,Premium,4.0,2.0,22,28,24,364,3400,-5000,0,5,5
+Honda,HR-V AWD,HR-V,Small Station Wagons,All-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,2.0,25,30,27,328,2500,-500,0,5,5
+Honda,HR-V FWD,HR-V,Small Station Wagons,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,2.0,26,32,28,311,2400,0,0,5,5
+Honda,Odyssey,Odyssey,Minivan - 2WD,Front-Wheel Drive,Automatic (S10),,Regular,6.0,3.5,19,28,22,395,3050,-3250,0,4,4
+Honda,Passport AWD,Passport,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S10),,Regular,6.0,3.5,19,25,21,424,3200,-4000,0,4,4
+Honda,Passport AWD Trailsport,Passport,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S10),,Regular,6.0,3.5,18,23,20,446,3350,-4750,0,4,4
+Honda,Pilot AWD,Pilot,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S10),,Regular,6.0,3.5,19,25,21,415,3200,-4000,0,4,4
+Honda,Pilot AWD Touring/Elite/Black,Pilot,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S10),,Regular,6.0,3.5,19,25,21,422,3200,-4000,0,4,4
+Honda,Pilot AWD TrailSport,Pilot,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S10),,Regular,6.0,3.5,18,23,20,444,3350,-4750,0,4,4
+Honda,Pilot FWD,Pilot,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S10),,Regular,6.0,3.5,19,27,22,402,3050,-3250,0,4,4
+Honda,Prelude,Prelude,Subcompact Cars,Front-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,46,41,44,203,1500,4500,0,7,7
+Honda,Prologue AWD Elite,Prologue,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,104,87,95,0,800,8000,283,9,10
+Honda,Prologue AWD Touring,Prologue,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,108,90,99,0,750,8250,294,9,10
+Honda,Prologue FWD,Prologue,Standard Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,113,94,104,0,750,8250,308,9,10
+Honda,Ridgeline AWD,Ridgeline,Standard Pickup Trucks 4WD,All-Wheel Drive,Automatic (S9),,Regular,6.0,3.5,18,24,21,441,3200,-4000,0,4,4
+Honda,Ridgeline AWD TrailSport,Ridgeline,Standard Pickup Trucks 4WD,All-Wheel Drive,Automatic (S9),,Regular,6.0,3.5,18,23,20,446,3350,-4750,0,4,4
+Hyundai,Elantra,Elantra,Midsize Cars,Front-Wheel Drive,Automatic (AM-S7),,Regular,4.0,1.6,28,35,31,288,2150,1250,0,6,6
+Hyundai,Elantra Hybrid,Elantra,Midsize Cars,Front-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,1.6,49,52,50,177,1350,5250,0,8,8
+Hyundai,Elantra Hybrid Blue,Elantra,Midsize Cars,Front-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,1.6,51,58,54,165,1250,5750,0,8,8
+Hyundai,Elantra N,Elantra,Midsize Cars,Front-Wheel Drive,Automatic (AM-S8),,Premium,4.0,2.0,20,27,23,392,3550,-5750,0,5,5
+Hyundai,Elantra N,Elantra,Midsize Cars,Front-Wheel Drive,Manual 6-spd,,Premium,4.0,2.0,21,29,24,366,3400,-5000,0,5,5
+Hyundai,Elantra non-ISG,Elantra,Midsize Cars,Front-Wheel Drive,Automatic (AV-S1),,Regular,4.0,2.0,30,40,34,263,1950,2250,0,6,6
+Hyundai,Elantra w/Stop-Start,Elantra,Midsize Cars,Front-Wheel Drive,Automatic (AV-S1),,Regular,4.0,2.0,31,40,35,254,1900,2500,0,6,6
+Hyundai,Ioniq 5 AWD (19inch Wheels),Ioniq 5,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,116,96,106,0,700,8500,290,9,10
+Hyundai,Ioniq 5 AWD (20inch Wheels),Ioniq 5,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,108,88,98,0,800,8000,269,9,10
+Hyundai,Ioniq 5 AWD XRT,Ioniq 5,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,103,85,94,0,800,8000,259,9,10
+Hyundai,Ioniq 5 N,Ioniq 5,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,84,72,78,0,950,7250,221,9,10
+Hyundai,Ioniq 5 RWD,Ioniq 5,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,129,100,114,0,700,8500,318,9,10
+Hyundai,Ioniq 5 Robo taxi,Ioniq 5,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,73,69,71,0,1050,6750,168,9,10
+Hyundai,Ioniq 5 Standard range,Ioniq 5,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,131,100,115,0,650,8750,245,9,10
+Hyundai,Ioniq 9 AWD,Ioniq 9,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,98,78,88,0,850,7750,320,9,10
+Hyundai,Ioniq 9 AWD Performance,Ioniq 9,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,91,79,85,0,900,7500,311,9,10
+Hyundai,Ioniq 9 RWD,Ioniq 9,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,103,81,92,0,850,7750,335,9,10
+Hyundai,Kona AWD,Kona,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S1),,Regular,4.0,2.0,26,29,27,323,2500,-500,0,5,5
+Hyundai,Kona AWD SX2 1.6T 8AT AWD,Kona,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,1.6,25,28,26,340,2600,-1000,0,5,5
+Hyundai,Kona AWD w/Stop-Start,Kona,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S1),,Regular,4.0,2.0,27,29,28,319,2400,0,0,5,5
+Hyundai,Kona FWD,Kona,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AV-S1),,Regular,4.0,2.0,28,35,31,288,2150,1250,0,6,6
+Hyundai,Kona FWD SX2 1.6T 8AT FWD,Kona,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,4.0,1.6,26,31,28,320,2400,0,0,5,5
+Hyundai,Kona FWD w/Stop-Start,Kona,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AV-S1),,Regular,4.0,2.0,29,34,31,284,2150,1250,0,6,6
+Hyundai,Nexo,Nexo,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),FCV,Hydrogen,,,63,58,60,0,0,12000,395,8,10
+Hyundai,Nexo Blue,Nexo,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),FCV,Hydrogen,,,71,64,68,0,0,12000,442,9,10
+Hyundai,Palisade AWD,Palisade,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,6.0,3.5,18,24,20,444,3350,-4750,0,4,4
+Hyundai,Palisade FWD,Palisade,Standard Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,6.0,3.5,19,25,21,418,3200,-4000,0,4,4
+Hyundai,Palisade Hybrid AWD,Palisade,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,2.5,29,30,29,300,2300,500,0,6,6
+Hyundai,Palisade Hybrid FWD,Palisade,Standard Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,2.5,31,32,31,283,2150,1250,0,6,6
+Hyundai,Palisade Hybrid FWD Blue,Palisade,Standard Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,2.5,33,35,34,258,1950,2250,0,6,6
+Hyundai,Palisade XRT Pro,Palisade,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,6.0,3.5,16,22,19,479,3550,-5750,0,4,4
+Hyundai,Santa Cruz AWD NX4 OB 2.5 AWD 8AT,Santa Cruz,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,21,29,24,367,2800,-2000,0,5,5
+Hyundai,Santa Cruz AWD NX4 OB 2.5T AWD 8AT,Santa Cruz,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,18,25,20,433,3350,-4750,0,4,4
+Hyundai,Santa Cruz FWD,Santa Cruz,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,22,30,25,356,2700,-1500,0,5,5
+Hyundai,Santa Cruz XRT AWD,Santa Cruz,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,18,25,20,435,3350,-4750,0,4,4
+Hyundai,Santa Fe AWD,Santa Fe,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,20,28,23,389,2900,-2500,0,5,5
+Hyundai,Santa Fe AWD XRT,Santa Fe,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,19,25,21,421,3200,-4000,0,4,4
+Hyundai,Santa Fe FWD,Santa Fe,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,20,29,24,374,2800,-2000,0,5,5
+Hyundai,Santa Fe Hybrid AWD,Santa Fe,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,1.6,35,34,34,258,1950,2250,0,6,6
+Hyundai,Santa Fe Hybrid FWD,Santa Fe,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,1.6,37,36,36,244,1850,2750,0,7,7
+Hyundai,Sonata AWD,Sonata,Large Cars,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,24,33,27,327,2500,-500,0,5,5
+Hyundai,Sonata FWD,Sonata,Large Cars,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,25,36,29,310,2300,500,0,6,6
+Hyundai,Sonata FWD,Sonata,Large Cars,Front-Wheel Drive,Automatic (AM-S8),,Regular,4.0,2.5,23,32,27,333,2500,-500,0,5,5
+Hyundai,Sonata FWD w/Stop-Start,Sonata,Large Cars,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,28,38,32,281,2100,1500,0,6,6
+Hyundai,Sonata Hybrid,Sonata,Large Cars,Front-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,2.0,44,51,47,188,1450,4750,0,8,8
+Hyundai,Sonata Hybrid Blue,Sonata,Large Cars,Front-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,2.0,47,56,51,175,1300,5500,0,8,8
+Hyundai,Tucson AWD,Tucson,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,24,30,26,337,2600,-1000,0,5,5
+Hyundai,Tucson FWD,Tucson,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,25,33,28,322,2400,0,0,5,5
+Hyundai,Tucson Hybrid,Tucson,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,1.6,36,37,36,243,1850,2750,0,7,7
+Hyundai,Tucson Hybrid Blue,Tucson,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,1.6,38,38,38,234,1750,3250,0,7,7
+Hyundai,Tucson Plug-in Hybrid,Tucson,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S6),Plug-in Hybrid,Regular Gas and Electricity,4.0,1.6,35,35,35,103,1900,5250,420,8,9
+Hyundai,Venue,Venue,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AV-S1),,Regular,4.0,1.6,29,33,31,291,2150,1250,0,6,6
+Infiniti,QX60 AWD,QX60,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S9),,Premium,4.0,2.0,22,27,24,374,3400,-5000,0,5,5
+Infiniti,QX60 FWD,QX60,Standard Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S9),,Premium,4.0,2.0,22,28,24,371,3400,-5000,0,5,5
+Infiniti,QX80 2WD,QX80,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (S9),,Premium,6.0,3.5,16,20,18,504,4550,-10750,0,3,3
+Infiniti,QX80 4WD,QX80,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S9),,Premium,6.0,3.5,16,19,17,522,4850,-12250,0,3,3
+Jaguar,F-Pace,F-Pace,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,4.0,2.0,22,27,24,376,3400,-5000,0,5,5
+Jaguar,F-Pace MHEV,F-Pace,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,19,25,21,418,3900,-7500,0,4,4
+Jaguar,F-Pace SVR,F-Pace,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,8.0,5.0,15,21,17,519,4850,-12250,0,3,3
+Jeep,Cherokee AWD,Cherokee,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,1.6,39,35,37,241,1800,3000,0,7,7
+Jeep,Compass 4WD,Compass,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.0,23,31,26,335,2600,-1000,0,5,5
+Jeep,Gladiator 4WD,Gladiator,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.6,17,22,19,469,3550,-5750,0,4,4
+Jeep,Grand Cherokee 2WD,Grand Cherokee,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.0,21,27,23,382,2900,-2500,0,5,5
+Jeep,Grand Cherokee 2WD,Grand Cherokee,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.6,19,26,22,407,3050,-3250,0,4,4
+Jeep,Grand Cherokee 4WD,Grand Cherokee,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.0,20,25,22,401,3050,-3250,0,4,4
+Jeep,Grand Cherokee 4WD,Grand Cherokee,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.6,19,26,22,413,3050,-3250,0,4,4
+Jeep,Grand Cherokee 4xe,Grand Cherokee,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 8-spd,Plug-in Hybrid,Regular Gas and Electricity,4.0,2.0,23,24,23,177,2900,1750,470,6,8
+Jeep,Grand Cherokee L 2WD,Grand Cherokee,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.0,21,26,23,390,2900,-2500,0,5,5
+Jeep,Grand Cherokee L 2WD,Grand Cherokee,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.6,19,26,21,416,3200,-4000,0,4,4
+Jeep,Grand Cherokee L 4WD,Grand Cherokee,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.0,20,25,22,401,3050,-3250,0,4,4
+Jeep,Grand Cherokee L 4WD,Grand Cherokee,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.6,18,25,21,430,3200,-4000,0,4,4
+Jeep,Grand Wagoneer 2WD,Grand Wagoneer,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.0,17,24,19,456,3550,-5750,0,4,4
+Jeep,Grand Wagoneer 4WD,Grand Wagoneer,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.0,17,23,19,471,3550,-5750,0,4,4
+Jeep,Grand Wagoneer L 2WD,Grand Wagoneer,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.0,17,24,19,456,3550,-5750,0,4,4
+Jeep,Grand Wagoneer L 4WD,Grand Wagoneer,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.0,16,22,18,491,3700,-6500,0,3,3
+Jeep,Recon MOAB 4WD,Recon,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,80,62,71,0,1050,6750,222,9,10
+Jeep,Wagoneer S AWD (Falken tire),Wagoneer,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,100,85,93,0,800,8000,294,9,10
+Jeep,Wagoneer S AWD (Pirelli tire),Wagoneer,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,90,82,86,0,900,7500,268,9,10
+Jeep,Wrangler 2dr 4WD,Wrangler,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.0,20,23,21,416,3200,-4000,0,4,4
+Jeep,Wrangler 2dr 4WD,Wrangler,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Manual 6-spd,,Regular,6.0,3.6,17,23,19,462,3550,-5750,0,4,4
+Jeep,Wrangler 4dr 4WD,Wrangler,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.0,20,22,21,426,3200,-4000,0,4,4
+Jeep,Wrangler 4dr 4WD,Wrangler,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.6,18,23,20,451,3350,-4750,0,4,4
+Jeep,Wrangler 4dr 4WD,Wrangler,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Manual 6-spd,,Regular,6.0,3.6,16,22,19,476,3550,-5750,0,4,4
+Jeep,Wrangler 4dr 4WD,Wrangler,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 8-spd,,Premium,8.0,6.4,13,16,14,633,5850,-17250,0,2,2
+Jeep,Wrangler 4dr 4xe,Wrangler,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 8-spd,Plug-in Hybrid,Regular Gas and Electricity,4.0,2.0,20,20,20,230,3350,-250,370,5,7
+Kia,Carnival,Carnival,Minivan - 2WD,Front-Wheel Drive,Automatic (S8),,Regular,6.0,3.5,18,25,21,428,3200,-4000,0,4,4
+Kia,Carnival Hybrid,Carnival,Minivan - 2WD,Front-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,1.6,34,31,32,275,2100,1500,0,6,6
+Kia,EV6 AWD GT,EV6,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,87,79,83,0,900,7500,231,9,10
+Kia,EV6 Long Range AWD (19 inch Wheels),EV6,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,117,95,106,0,700,8500,295,9,10
+Kia,EV6 Long Range AWD (20 inch Wheels),EV6,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,106,89,97,0,800,8000,270,9,10
+Kia,EV6 Long Range RWD,EV6,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,128,101,114,0,650,8750,319,9,10
+Kia,EV6 Standard Range RWD,EV6,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,128,103,115,0,650,8750,237,9,10
+Kia,EV9 GT,EV9,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,83,72,78,0,950,7250,260,9,10
+Kia,EV9 Long Range AWD,EV9,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,94,75,84,0,900,7500,283,9,10
+Kia,EV9 Long Range AWD GT-Line,EV9,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,92,72,82,0,900,7500,280,9,10
+Kia,EV9 Long Range RWD,EV9,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,100,78,89,0,850,7750,305,9,10
+Kia,EV9 Standard Range RWD,EV9,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,101,76,88,0,850,7750,230,9,10
+Kia,K4,K4,Midsize Cars,Front-Wheel Drive,Automatic (S8),,Regular,4.0,1.6,26,33,28,314,2400,0,0,5,5
+Kia,K4 4DR w/ DMS,K4,Midsize Cars,Front-Wheel Drive,Automatic (AV-S1),,Regular,4.0,2.0,29,39,33,269,2050,1750,0,6,6
+Kia,K4 Hatchback,K4,Large Cars,Front-Wheel Drive,Automatic (AV-S1),,Regular,4.0,2.0,28,34,30,289,2250,750,0,6,6
+Kia,K4 Hatchback,K4,Large Cars,Front-Wheel Drive,Automatic (S8),,Regular,4.0,1.6,26,33,28,314,2400,0,0,5,5
+Kia,K4 without DMS,K4,Midsize Cars,Front-Wheel Drive,Automatic (AV-S1),,Regular,4.0,2.0,29,39,33,267,2050,1750,0,6,6
+Kia,K5,K5,Large Cars,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,25,36,29,310,2300,500,0,6,6
+Kia,K5,K5,Large Cars,Front-Wheel Drive,Automatic (AM-S8),,Regular,4.0,2.5,23,33,27,331,2500,-500,0,5,5
+Kia,K5 AWD,K5,Large Cars,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,24,33,27,329,2500,-500,0,5,5
+Kia,K5 w/Stop-Start,K5,Large Cars,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,26,37,30,298,2250,750,0,6,6
+Kia,Niro,Niro,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,1.6,53,45,49,181,1350,5250,0,8,8
+Kia,Niro Electric,Niro,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,126,101,113,0,700,8500,253,9,10
+Kia,Niro FE,Niro,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,1.6,53,54,53,167,1250,5750,0,8,8
+Kia,Niro Plug-in Hybrid,Niro,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AM-S6),Plug-in Hybrid,Regular Gas and Electricity,4.0,1.6,49,47,48,71,1400,7250,510,9,10
+Kia,Seltos AWD,Seltos,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,1.6,24,27,25,350,2700,-1500,0,5,5
+Kia,Seltos AWD,Seltos,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S8),,Regular,4.0,2.0,27,31,29,309,2300,500,0,6,6
+Kia,Sorento AWD,Sorento,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,23,28,25,357,2700,-1500,0,5,5
+Kia,Sorento AWD,Sorento,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S8),,Regular,4.0,2.5,20,27,23,388,2900,-2500,0,5,5
+Kia,Sorento FWD,Sorento,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,23,31,26,339,2600,-1000,0,5,5
+Kia,Sorento FWD,Sorento,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AM-S8),,Regular,4.0,2.5,20,29,23,382,2900,-2500,0,5,5
+Kia,Sorento Hybrid AWD,Sorento,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,1.6,32,35,34,264,1950,2250,0,6,6
+Kia,Sorento Hybrid FWD,Sorento,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,1.6,37,36,37,240,1800,3000,0,7,7
+Kia,Sorento Plug-in Hybrid,Sorento,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S6),Plug-in Hybrid,Regular Gas and Electricity,4.0,1.6,33,34,33,110,2050,5000,440,8,9
+Kia,Sportage AWD,Sportage,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,24,30,26,339,2600,-1000,0,5,5
+Kia,Sportage FWD,Sportage,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,25,33,28,317,2400,0,0,5,5
+Kia,Sportage Hybrid AWD,Sportage,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,1.6,35,36,35,251,1900,2500,0,6,6
+Kia,Sportage Hybrid FWD,Sportage,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AM-S6),Hybrid,Regular,4.0,1.6,41,44,42,209,1600,4000,0,7,7
+Kia,Sportage Plug-in Hybrid,Sportage,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S6),Plug-in Hybrid,Regular Gas and Electricity,4.0,1.6,35,36,36,97,1850,5500,470,8,9
+Kia,Sportage X-pro,Sportage,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.5,23,26,24,374,2800,-2000,0,5,5
+Lamborghini,Urus SE,Urus,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Plug-in Hybrid,Premium and Electricity,8.0,4.0,19,21,20,251,4100,-500,450,6,8
+Land Rover,Defender 110,Defender,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),,Premium,4.0,2.0,18,22,20,452,4100,-8500,0,4,4
+Land Rover,Defender 110,Defender,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),,Premium,8.0,5.0,14,18,16,574,5150,-13750,0,3,3
+Land Rover,Defender 110 MHEV,Defender,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.4,15,19,17,534,4850,-12250,0,3,3
+Land Rover,Defender 110 MHEV,Defender,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,18,22,20,453,4100,-8500,0,4,4
+Land Rover,Defender 110 Trophy MHEV,Defender,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,17,18,17,512,4850,-12250,0,3,3
+Land Rover,Defender 130,Defender,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),,Premium,8.0,5.0,14,19,16,567,5150,-13750,0,3,3
+Land Rover,Defender 130 Outbound,Defender,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,17,19,18,500,4550,-10750,0,3,3
+Land Rover,Defender 130 P300 MHEV,Defender,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,17,21,19,468,4350,-9750,0,4,4
+Land Rover,Defender 130 P400 MHEV,Defender,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,16,20,18,491,4550,-10750,0,3,3
+Land Rover,Defender 90,Defender,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),,Premium,4.0,2.0,18,21,19,465,4350,-9750,0,4,4
+Land Rover,Defender 90,Defender,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),,Premium,8.0,5.0,15,19,16,550,5150,-13750,0,3,3
+Land Rover,Defender 90 MHEV,Defender,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,18,23,20,448,4100,-8500,0,4,4
+Land Rover,Discovery,Discovery,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),,Premium,4.0,2.0,19,24,21,425,3900,-7500,0,4,4
+Land Rover,Discovery MHEV,Discovery,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,17,23,19,457,4350,-9750,0,4,4
+Land Rover,Discovery Sport,Discovery,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S9),,Premium,4.0,2.0,19,23,20,437,4100,-8500,0,4,4
+Land Rover,Range Rover Evoque,Range Rover,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S9),,Premium,4.0,2.0,20,27,22,398,3750,-6750,0,4,4
+Land Rover,Range Rover LWB MHEV,Range Rover,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.4,16,22,18,501,4550,-10750,0,3,3
+Land Rover,Range Rover MHEV,Range Rover,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.4,16,23,19,477,4350,-9750,0,4,4
+Land Rover,Range Rover P400 LWB MHEV,Range Rover,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,19,24,21,428,3900,-7500,0,4,4
+Land Rover,Range Rover P400 MHEV,Range Rover,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,19,24,21,428,3900,-7500,0,4,4
+Land Rover,Range Rover SV LWB MHEV,Range Rover,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.4,16,22,18,501,4550,-10750,0,3,3
+Land Rover,Range Rover SV MHEV,Range Rover,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.4,16,23,18,487,4550,-10750,0,3,3
+Land Rover,Range Rover Sport MHEV,Range Rover,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.4,16,23,19,477,4350,-9750,0,4,4
+Land Rover,Range Rover Sport P360 MHEV,Range Rover,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,20,25,22,406,3750,-6750,0,4,4
+Land Rover,Range Rover Sport P400 MHEV,Range Rover,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,20,25,22,406,3750,-6750,0,4,4
+Land Rover,Range Rover Sport SVR MHEV,Range Rover,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,8.0,4.4,16,22,18,497,4550,-10750,0,3,3
+Land Rover,Range Rover Velar,Range Rover,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,4.0,2.0,22,26,23,381,3550,-5750,0,5,5
+Land Rover,Range Rover Velar P340 MHEV,Range Rover,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,19,26,22,407,3750,-6750,0,4,4
+Land Rover,Range Rover Velar P400 MHEV,Range Rover,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.0,19,25,21,420,3900,-7500,0,4,4
+Lexus,ES 350e (19 inch Wheels),ES,Midsize Cars,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,135,118,127,0,600,9000,307,10,10
+Lexus,ES 350e (21 inch Wheels),ES,Midsize Cars,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,129,112,121,0,600,9000,292,10,10
+Lexus,ES 350h,ES,Midsize Cars,Front-Wheel Drive,Automatic (AV-S6),Hybrid,Premium,4.0,2.5,48,44,46,191,1800,3000,0,7,7
+Lexus,ES 350h AWD,ES,Midsize Cars,All-Wheel Drive,Automatic (AV-S6),Hybrid,Premium,4.0,2.5,47,42,44,200,1850,2750,0,7,7
+Lexus,ES 500e AWD (19 inch Wheels),ES,Midsize Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,119,108,114,0,700,8500,276,9,10
+Lexus,ES 500e AWD (21 inch Wheels),ES,Midsize Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,118,105,112,0,700,8500,272,9,10
+Lexus,GX 550,GX,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S10),,Premium,6.0,3.4,15,21,17,505,4850,-12250,0,3,3
+Lexus,IS 350,IS,Compact Cars,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.5,19,27,22,403,3750,-6750,0,4,4
+Lexus,IS 350 AWD,IS,Compact Cars,All-Wheel Drive,Automatic (S6),,Premium,6.0,3.5,19,26,22,408,3750,-6750,0,4,4
+Lexus,LC 500,LC,Subcompact Cars,Rear-Wheel Drive,Automatic (S10),,Premium,8.0,5.0,16,24,18,481,4550,-10750,0,3,3
+Lexus,LC 500 Convertible,LC,Minicompact Cars,Rear-Wheel Drive,Automatic (S10),,Premium,8.0,5.0,15,25,18,489,4550,-10750,0,3,3
+Lexus,LS 500 AWD,LS,Midsize Cars,All-Wheel Drive,Automatic (S10),,Premium,6.0,3.4,17,27,21,434,3900,-7500,0,4,4
+Lexus,LX 600,LX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S10),,Premium,6.0,3.4,17,22,19,477,4350,-9750,0,4,4
+Lexus,LX 700h,LX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S10),Hybrid,Premium,6.0,3.4,19,22,20,439,4100,-8500,0,4,4
+Lexus,NX 350 AWD,NX,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,4.0,2.4,21,28,24,370,3400,-5000,0,5,5
+Lexus,NX 350 AWD F Sport,NX,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,4.0,2.4,21,28,24,370,3400,-5000,0,5,5
+Lexus,NX 350h,NX,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AV-S6),Hybrid,Premium,4.0,2.5,42,38,40,220,2050,1750,0,7,7
+Lexus,NX 350h AWD,NX,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S6),Hybrid,Premium,4.0,2.5,41,37,39,225,2100,1500,0,7,7
+Lexus,RX 350,RX,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Premium,4.0,2.4,22,29,25,354,3300,-4500,0,5,5
+Lexus,RX 350 AWD,RX,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,4.0,2.4,21,28,24,370,3400,-5000,0,5,5
+Lexus,RX 350h AWD,RX,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S6),Hybrid,Premium,4.0,2.5,37,34,36,244,2300,500,0,7,7
+Lexus,RX 500h AWD,RX,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S6),Hybrid,Premium,4.0,2.4,27,28,27,321,3050,-3250,0,5,5
+Lexus,RZ 350e FWD (18 inch wheels),RZ,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,136,115,126,0,600,9000,301,10,10
+Lexus,RZ 350e FWD (20 inch wheels),RZ,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,129,110,120,0,650,8750,284,9,10
+Lexus,RZ 450e AWD (18 inch wheels),RZ,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,120,100,110,0,700,8500,264,9,10
+Lexus,RZ 450e AWD (20 inch wheels - 235/50R20),RZ,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,117,99,108,0,700,8500,257,9,10
+Lexus,"RZ 450e AWD (20 inch wheels - 235/50R20,255/45R20)",RZ,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,102,87,95,0,800,8000,228,9,10
+Lexus,RZ 550e AWD,RZ,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,102,88,95,0,800,8000,229,9,10
+Lexus,TX 350,TX,Standard Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Premium,4.0,2.4,21,27,23,382,3550,-5750,0,5,5
+Lexus,TX 350 AWD,TX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,4.0,2.4,20,26,23,387,3550,-5750,0,5,5
+Lexus,TX 500h AWD,TX,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S6),Hybrid,Premium,4.0,2.4,27,28,27,322,3050,-3250,0,5,5
+Lexus,UX 300h,UX,Compact Cars,Front-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,45,41,43,204,1550,4250,0,7,7
+Lexus,UX 300h,UX,Compact Cars,Front-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.0,45,41,43,204,1550,4250,0,7,7
+Lexus,UX 300h AWD,UX,Compact Cars,All-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,44,40,42,209,1600,4000,0,7,7
+Lexus,UX 300h AWD,UX,Compact Cars,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.0,44,40,42,209,1600,4000,0,7,7
+Lincoln,Aviator AWD,Aviator,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,3.0,17,25,20,447,3350,-4750,0,4,4
+Lincoln,Aviator RWD,Aviator,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (S10),,Regular,6.0,3.0,18,25,21,423,3200,-4000,0,4,4
+Lincoln,Corsair AWD,Corsair,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,21,28,24,376,2800,-2000,0,5,5
+Lincoln,Corsair AWD PHEV,Corsair,Small Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (variable gear ratios),Plug-in Hybrid,Regular Gas and Electricity,4.0,2.5,34,32,33,122,2050,4750,420,6,6
+Lincoln,Corsair FWD,Corsair,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,22,30,25,358,2700,-1500,0,5,5
+Lincoln,Nautilus AWD,Nautilus,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Regular,4.0,2.0,21,29,24,369,2800,-2000,0,5,5
+Lincoln,Nautilus HEV AWD,Nautilus,Small Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,29,31,30,297,2250,750,0,6,6
+Lincoln,Navigator 4WD,Navigator,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,3.5,15,22,17,512,3950,-7750,0,3,3
+Lotus,Emira,Emira,Two Seaters,Rear-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,18,26,21,418,3200,-4000,0,4,4
+Lucid,Air G Touring XR AWD with 20 inch wheels,Air,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,122,117,120,0,650,8750,480,9,10
+Lucid,Air G Touring XR AWD with 21 inch wheels,Air,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,114,109,112,0,700,8500,446,9,10
+Lucid,Air G Touring XR AWD with19 inch wheels,Air,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,129,126,128,0,600,9000,512,10,10
+Lucid,Air Pure RWD with 19 inch wheels,Air,Large Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,149,142,146,0,500,9500,420,10,10
+Lucid,Air Pure RWD with 20 inch wheels,Air,Large Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,132,125,129,0,600,9000,372,10,10
+Lucid,Air Sapphire AWD,Air,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,108,101,105,0,700,8500,427,9,10
+Lucid,Air Touring AWD with 19 inch wheels,Air,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,136,132,134,0,550,9250,431,10,10
+Lucid,Air Touring AWD with 20 inch wheels,Air,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,126,121,123,0,600,9000,396,10,10
+Lucid,Gravity Dream w/20F21R wheels (3R),Gravity,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,101,98,99,0,750,8250,420,9,10
+Lucid,Gravity Dream w/21F22R wheels (3R),Gravity,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,91,87,90,0,850,7750,378,9,10
+Lucid,Gravity Dream w/22F23R wheels (3R),Gravity,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,91,87,90,0,850,7750,378,9,10
+Lucid,Gravity GT w/20F21R wheels (2R),Gravity,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,113,103,108,0,700,8500,450,9,10
+Lucid,Gravity GT w/20F21R wheels (3R),Gravity,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,108,100,104,0,750,8250,437,9,10
+Lucid,Gravity GT w/21F22R wheels (2R),Gravity,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,102,94,98,0,750,8250,407,9,10
+Lucid,Gravity GT w/21F22R wheels (3R),Gravity,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,96,89,92,0,800,8000,386,9,10
+Lucid,Gravity GT w/22F23R wheels (2R),Gravity,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,102,94,98,0,750,8250,407,9,10
+Lucid,Gravity GT w/22F23R wheels (3R),Gravity,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,96,89,92,0,800,8000,386,9,10
+Lucid,Gravity Touring w/20F21R wheels,Gravity,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,115,106,111,0,700,8500,337,9,10
+MINI,Cooper C 2 Door,Cooper,Subcompact Cars,Front-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,27,39,32,278,2550,-750,0,6,6
+MINI,Cooper C Convertible,Cooper,Minicompact Cars,Front-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,27,37,30,287,2750,-1750,0,6,6
+MINI,Cooper S 2 Door,Cooper,Subcompact Cars,Front-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,28,39,32,275,2550,-750,0,6,6
+MINI,Cooper S 4 Door,Cooper,Compact Cars,Front-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,28,39,32,273,2550,-750,0,6,6
+MINI,Cooper S Convertible,Cooper,Minicompact Cars,Front-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,26,36,30,292,2750,-1750,0,6,6
+MINI,Countryman S All4,Countryman,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,24,32,27,324,3050,-3250,0,5,5
+MINI,Countryman SE ALL4 (18 inch Wheels),Countryman,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,99,94,96,0,800,8000,212,9,10
+MINI,Countryman SE ALL4 (19 inch Wheels),Countryman,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,94,88,91,0,850,7750,204,9,10
+MINI,JCW 2 Door,John Cooper Works,Subcompact Cars,Front-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,27,37,30,288,2750,-1750,0,6,6
+MINI,JCW Convertible,John Cooper Works,Minicompact Cars,Front-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,26,35,30,296,2750,-1750,0,6,6
+MINI,JCW Countryman ALL4,Countryman,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,23,30,25,344,3300,-4500,0,5,5
+Maserati,GT2 Stradale,GT2 Stradale,Two Seaters,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,15,25,18,474,4550,-10750,0,3,4
+Maserati,Grancabrio,Grancabrio,Subcompact Cars,All-Wheel Drive,Automatic 8-spd,,Premium,6.0,3.0,17,26,20,430,4100,-8500,0,4,4
+Maserati,Grancabrio Folgore,Grancabrio,Subcompact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,84,82,83,0,900,7500,231,9,10
+Maserati,Grancabrio Trofeo,Grancabrio,Subcompact Cars,All-Wheel Drive,Automatic 8-spd,,Premium,6.0,3.0,17,26,20,430,4100,-8500,0,4,4
+Maserati,Granturismo,Granturismo,Subcompact Cars,All-Wheel Drive,Automatic 8-spd,,Premium,6.0,3.0,18,27,21,412,3900,-7500,0,4,4
+Maserati,Granturismo Trofeo,Granturismo,Subcompact Cars,All-Wheel Drive,Automatic 8-spd,,Premium,6.0,3.0,18,27,21,412,3900,-7500,0,4,4
+Maserati,Grecale Folgore (19 inch wheels),Grecale,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,83,78,81,0,950,7250,268,9,10
+Maserati,Grecale Folgore (20 inch Wheels),Grecale,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,83,78,81,0,950,7250,268,9,10
+Maserati,Grecale Folgore (21 inch wheels),Grecale,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,75,69,72,0,1050,6750,239,9,10
+Maserati,Grecale Modena V6,Grecale,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Premium,6.0,3.0,18,25,20,432,4100,-8500,0,4,4
+Maserati,Grecale Trofeo,Grecale,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 8-spd,,Premium,6.0,3.0,18,25,20,432,4100,-8500,0,4,4
+Maserati,MCPURA,MCPURA,Two Seaters,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,15,25,18,474,4550,-10750,0,3,4
+Maserati,MCPURA Spyder,MCPURA,Two Seaters,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,15,25,18,482,4550,-10750,0,3,3
+Mazda,3 4-Door 2WD,3,Compact Cars,Front-Wheel Drive,Automatic (S6),,Regular,4.0,2.5,27,36,30,294,2250,750,0,6,6
+Mazda,3 4-Door 4WD,3,Compact Cars,4-Wheel Drive,Automatic (S6),,Regular,4.0,2.5,26,34,29,306,2300,500,0,6,6
+Mazda,3 4-Door 4WD,3,Compact Cars,4-Wheel Drive,Automatic (S6),,Regular,4.0,2.5,23,32,27,334,2500,-500,0,5,5
+Mazda,3 5-Door 2WD,3,Midsize Cars,Front-Wheel Drive,Manual 6-spd,,Regular,4.0,2.5,25,34,28,314,2400,0,0,5,5
+Mazda,3 5-Door 2WD,3,Midsize Cars,Front-Wheel Drive,Automatic (S6),,Regular,4.0,2.5,26,34,29,302,2300,500,0,6,6
+Mazda,3 5-Door 4WD,3,Midsize Cars,4-Wheel Drive,Automatic (S6),,Regular,4.0,2.5,25,34,28,317,2400,0,0,5,5
+Mazda,3 5-Door 4WD,3,Midsize Cars,4-Wheel Drive,Automatic (S6),,Regular,4.0,2.5,23,31,26,337,2600,-1000,0,5,5
+Mazda,CX-30 4WD,CX-30,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S6),,Regular,4.0,2.5,24,31,27,329,2500,-500,0,5,5
+Mazda,CX-30 4WD,CX-30,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S6),,Regular,4.0,2.5,22,30,25,353,2700,-1500,0,5,5
+Mazda,CX-5 4WD,CX-5,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S6),,Regular,4.0,2.5,24,30,26,339,2600,-1000,0,5,5
+Mazda,CX-50 4WD,CX-50,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S6),,Regular,4.0,2.5,23,29,25,355,2700,-1500,0,5,5
+Mazda,CX-50 4WD,CX-50,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.5,39,37,38,233,1750,3250,0,7,7
+Mazda,CX-50 4WD,CX-50,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S6),,Regular,4.0,2.5,24,30,26,344,2600,-1000,0,5,5
+Mazda,CX-70 Hybrid Boost High Power 4WD,CX-70,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.3,23,28,25,354,3300,-4500,0,5,5
+Mazda,CX-70 Hybrid Boost Low Power 4WD,CX-70,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Regular,6.0,3.3,24,28,25,350,2700,-1500,0,5,5
+Mazda,CX-70 SC 4WD,CX-70,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Plug-in Hybrid,Premium and Electricity,4.0,2.5,25,28,26,133,3150,2250,520,7,9
+Mazda,CX-90 4WD,CX-90,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Regular,6.0,3.3,23,28,25,358,2700,-1500,0,5,5
+Mazda,CX-90 4WD,CX-90,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,6.0,3.3,23,28,25,354,3300,-4500,0,5,5
+Mazda,CX-90 4WD,CX-90,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Plug-in Hybrid,Premium and Electricity,4.0,2.5,24,28,26,159,3150,1250,500,7,8
+Mazda,MX-5,MX-5,Two Seaters,Rear-Wheel Drive,Manual 6-spd,,Premium,4.0,2.0,26,34,29,305,2850,-2250,0,6,6
+Mazda,MX-5,MX-5,Two Seaters,Rear-Wheel Drive,Automatic (S6),,Premium,4.0,2.0,26,35,29,301,2850,-2250,0,6,6
+Mercedes-Benz,AMG C43 4matic,C-Class,Compact Cars,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,19,27,22,405,3750,-6750,0,4,4
+Mercedes-Benz,AMG CLA35 4matic,CLA-Class,Compact Cars,All-Wheel Drive,Automatic (AM8),Hybrid,Premium,4.0,2.0,22,29,25,361,3300,-4500,0,5,5
+Mercedes-Benz,AMG CLA45 S 4matic,CLA-Class,Compact Cars,All-Wheel Drive,Automatic (AM8),,Premium,4.0,2.0,20,28,23,379,3550,-5750,0,5,5
+Mercedes-Benz,AMG CLE53 4matic Plus (convertible),CLE-Class,Subcompact Cars,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,19,26,22,408,3750,-6750,0,4,4
+Mercedes-Benz,AMG CLE53 4matic Plus (coupe),CLE-Class,Subcompact Cars,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,20,27,23,391,3550,-5750,0,5,5
+Mercedes-Benz,AMG E53 Hybrid 4matic Plus,E-Class,Midsize Cars,All-Wheel Drive,Automatic 9-spd,Plug-in Hybrid,Premium and Electricity,6.0,3.0,22,27,24,115,3400,2500,420,7,9
+Mercedes-Benz,AMG E53 Hybrid 4matic Plus (station wagon),E-Class,Midsize Station Wagons,All-Wheel Drive,Automatic 9-spd,Plug-in Hybrid,Premium and Electricity,6.0,3.0,21,25,22,127,3750,1750,400,7,9
+Mercedes-Benz,AMG EQE 4matic Plus,EQE,Midsize Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,69,71,70,0,1100,6500,220,9,10
+Mercedes-Benz,AMG EQE 4matic Plus (SUV),EQE,Midsize Station Wagons,All-Wheel Drive,Automatic (A1),EV,Electricity,,,76,72,74,0,1000,7000,230,9,10
+Mercedes-Benz,AMG G63,G-Class,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 9-spd,Hybrid,Premium,8.0,4.0,14,16,15,608,5500,-15500,0,2,2
+Mercedes-Benz,AMG GLA35 4matic,GLA-Class,Small Station Wagons,All-Wheel Drive,Automatic (AM8),Hybrid,Premium,4.0,2.0,22,30,25,350,3300,-4500,0,5,5
+Mercedes-Benz,AMG GLB35 4matic,GLB-Class,Midsize Station Wagons,All-Wheel Drive,Automatic (AM8),Hybrid,Premium,4.0,2.0,21,27,23,387,3550,-5750,0,5,5
+Mercedes-Benz,AMG GLC43 4matic,GLC-Class,Small Station Wagons,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,19,26,22,406,3750,-6750,0,4,4
+Mercedes-Benz,AMG GLC43 4matic Coupe,GLC-Class,Small Station Wagons,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,19,25,22,411,3750,-6750,0,4,4
+Mercedes-Benz,AMG GLE53 4matic Plus,GLE-Class,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,18,23,20,439,4100,-8500,0,4,4
+Mercedes-Benz,AMG GLE53 4matic Plus Coupe,GLE-Class,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,18,22,20,454,4100,-8500,0,4,4
+Mercedes-Benz,AMG GLE63 S 4matic Plus,GLE-Class,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,8.0,4.0,15,20,17,528,4850,-12250,0,3,3
+Mercedes-Benz,AMG GLE63 S 4matic Plus Coupe,GLE-Class,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,8.0,4.0,15,21,17,523,4850,-12250,0,3,3
+Mercedes-Benz,AMG GLS63 4matic Plus,GLS-Class,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,8.0,4.0,15,20,17,538,4850,-12250,0,3,3
+Mercedes-Benz,AMG GT 43 (coupe),AMG GT,Subcompact Cars,Rear-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,19,27,22,405,3750,-6750,0,4,4
+Mercedes-Benz,AMG GT 43 4matic Plus,AMG GT,Small Station Wagons,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,19,24,21,421,3900,-7500,0,4,4
+Mercedes-Benz,AMG GT 53 4matic Plus,AMG GT,Small Station Wagons,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,19,24,21,422,3900,-7500,0,4,4
+Mercedes-Benz,AMG GT 55 4matic Plus (coupe),AMG GT,Two Seaters,All-Wheel Drive,Automatic 9-spd,,Premium,8.0,4.0,14,20,16,558,5150,-13750,0,3,3
+Mercedes-Benz,AMG GT 63 4matic Plus,AMG GT,Small Station Wagons,All-Wheel Drive,Automatic 9-spd,,Premium,8.0,4.0,15,21,17,512,4850,-12250,0,3,3
+Mercedes-Benz,AMG GT 63 4matic Plus (coupe),AMG GT,Two Seaters,All-Wheel Drive,Automatic 9-spd,,Premium,8.0,4.0,14,20,16,558,5150,-13750,0,3,3
+Mercedes-Benz,AMG GT 63 PRO 4matic Plus (coupe),AMG GT,Two Seaters,All-Wheel Drive,Automatic 9-spd,,Premium,8.0,4.0,14,20,16,558,5150,-13750,0,3,3
+Mercedes-Benz,AMG SL43,SL-Class,Minicompact Cars,Rear-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,19,27,22,400,3750,-6750,0,4,4
+Mercedes-Benz,AMG SL55 4matic Plus,SL-Class,Minicompact Cars,All-Wheel Drive,Automatic 9-spd,,Premium,8.0,4.0,14,21,16,552,5150,-13750,0,3,3
+Mercedes-Benz,AMG SL63 4matic Plus,SL-Class,Minicompact Cars,All-Wheel Drive,Automatic 9-spd,,Premium,8.0,4.0,14,21,16,552,5150,-13750,0,3,3
+Mercedes-Benz,C300,C-Class,Compact Cars,Rear-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,25,35,29,307,2850,-2250,0,6,6
+Mercedes-Benz,C300 4matic,C-Class,Compact Cars,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,24,33,27,329,3050,-3250,0,5,5
+Mercedes-Benz,CLA250,CLA-Class,Compact Cars,Front-Wheel Drive,Automatic (AM8),Hybrid,Premium,4.0,2.0,26,36,30,298,2750,-1750,0,6,6
+Mercedes-Benz,CLA250 4matic,CLA-Class,Compact Cars,All-Wheel Drive,Automatic (AM8),Hybrid,Premium,4.0,2.0,25,34,29,311,2850,-2250,0,6,6
+Mercedes-Benz,CLA250 Plus with EQ Tech,CLA-Class,Compact Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,112,105,109,0,700,8500,317,9,10
+Mercedes-Benz,CLA250 Plus with EQ Tech (R22),CLA-Class,Compact Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,127,124,126,0,600,9000,374,10,10
+Mercedes-Benz,CLA350 4matic with EQ Tech,CLA-Class,Compact Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,120,115,118,0,650,8750,312,9,10
+Mercedes-Benz,CLE300 4matic (Convertible),CLE-Class,Subcompact Cars,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,23,32,26,340,3150,-3750,0,5,5
+Mercedes-Benz,CLE300 4matic (Coupe),CLE-Class,Subcompact Cars,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,24,33,27,323,3050,-3250,0,5,5
+Mercedes-Benz,CLE450 4matic (Convertible),CLE-Class,Subcompact Cars,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,23,32,26,338,3150,-3750,0,5,5
+Mercedes-Benz,CLE450 4matic (Coupe),CLE-Class,Subcompact Cars,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,23,33,26,339,3150,-3750,0,5,5
+Mercedes-Benz,E350,E-Class,Midsize Cars,Rear-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,25,33,28,316,2950,-2750,0,5,5
+Mercedes-Benz,E350 4matic,E-Class,Midsize Cars,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,24,33,27,327,3050,-3250,0,5,5
+Mercedes-Benz,E450 4matic,E-Class,Midsize Cars,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,22,31,25,355,3300,-4500,0,5,5
+Mercedes-Benz,E450 4matic All-Terrain (wagon),E-Class,Midsize Station Wagons,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,22,31,25,351,3300,-4500,0,5,5
+Mercedes-Benz,EQE 320 4matic,EQE,Midsize Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,87,85,86,0,900,7500,267,9,10
+Mercedes-Benz,EQE 320 4matic (SUV),EQE,Midsize Station Wagons,All-Wheel Drive,Automatic (A1),EV,Electricity,,,84,78,81,0,950,7250,253,9,10
+Mercedes-Benz,EQE 320 Plus,EQE,Midsize Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,94,94,94,0,800,8000,308,9,10
+Mercedes-Benz,EQE 320 Plus (SUV),EQE,Midsize Station Wagons,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,98,87,93,0,800,8000,302,9,10
+Mercedes-Benz,EQS 400 4matic (SUV),EQS,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,80,78,79,0,950,7250,312,9,10
+Mercedes-Benz,EQS 450 4matic,EQS,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,91,93,92,0,850,7750,367,9,10
+Mercedes-Benz,EQS 450 Plus,EQS,Large Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,98,98,98,0,750,8250,390,9,10
+Mercedes-Benz,EQS 550 4matic (SUV),EQS,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,82,78,80,0,950,7250,317,9,10
+Mercedes-Benz,EQS 580 4matic,EQS,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,93,93,93,0,800,8000,371,9,10
+Mercedes-Benz,EQS 680 4matic Maybach (SUV),EQS,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,84,84,84,0,900,7500,300,9,10
+Mercedes-Benz,G 580 with EQ Technology,G-Class,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A2),EV,Electricity,,,68,56,62,0,1200,6000,239,8,10
+Mercedes-Benz,G550,G-Class,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,17,19,18,490,4550,-10750,0,3,3
+Mercedes-Benz,GLA250,GLA-Class,Special Purpose Vehicle 2WD,Front-Wheel Drive,Automatic (AM8),Hybrid,Premium,4.0,2.0,26,34,29,306,2850,-2250,0,6,6
+Mercedes-Benz,GLA250 4matic,GLA-Class,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM8),Hybrid,Premium,4.0,2.0,25,33,28,315,2950,-2750,0,5,5
+Mercedes-Benz,GLB250,GLB-Class,Special Purpose Vehicle 2WD,Front-Wheel Drive,Automatic (AM8),Hybrid,Premium,4.0,2.0,25,33,28,311,2950,-2750,0,5,5
+Mercedes-Benz,GLB250 4matic,GLB-Class,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM8),Hybrid,Premium,4.0,2.0,24,33,27,324,3050,-3250,0,5,5
+Mercedes-Benz,GLC300,GLC-Class,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,24,32,27,323,3050,-3250,0,5,5
+Mercedes-Benz,GLC300 4matic,GLC-Class,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,23,31,26,338,3150,-3750,0,5,5
+Mercedes-Benz,GLC300 4matic (coupe),GLC-Class,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,23,31,26,337,3150,-3750,0,5,5
+Mercedes-Benz,GLE350,GLE-Class,Small Sport Utility Vehicle 4WD,Rear-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,21,28,23,382,3550,-5750,0,5,5
+Mercedes-Benz,GLE350 4matic,GLE-Class,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,4.0,2.0,19,26,22,410,3750,-6750,0,4,4
+Mercedes-Benz,GLE450 4matic,GLE-Class,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,19,25,21,424,3900,-7500,0,4,4
+Mercedes-Benz,GLE450 4matic (coupe),GLE-Class,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,19,25,21,424,3900,-7500,0,4,4
+Mercedes-Benz,GLE580 4matic,GLE-Class,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,8.0,4.0,15,21,18,506,4550,-10750,0,3,3
+Mercedes-Benz,GLS450 4matic,GLS-Class,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,19,24,21,428,3900,-7500,0,4,4
+Mercedes-Benz,GLS580 4matic,GLS-Class,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,8.0,4.0,14,20,16,539,5150,-13750,0,3,3
+Mercedes-Benz,GLS600 4matic Maybach,GLS-Class,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,8.0,4.0,13,18,15,585,5500,-15500,0,2,2
+Mercedes-Benz,Maybach S680 4matic,S-Class,Large Cars,All-Wheel Drive,Automatic 9-spd,,Premium,12.0,6.0,12,20,15,603,5500,-15500,0,2,2
+Mercedes-Benz,S500 4matic,S-Class,Large Cars,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,6.0,3.0,20,29,23,380,3550,-5750,0,5,5
+Mercedes-Benz,S580 4matic,S-Class,Large Cars,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,8.0,4.0,17,27,20,438,4100,-8500,0,4,4
+Mercedes-Benz,S580 4matic Maybach,S-Class,Large Cars,All-Wheel Drive,Automatic 9-spd,Hybrid,Premium,8.0,4.0,16,27,20,451,4100,-8500,0,4,4
+Mercedes-Benz,SL680 Maybach,SL-Class,Minicompact Cars,All-Wheel Drive,Automatic 9-spd,,Premium,8.0,4.0,13,20,16,558,5150,-13750,0,3,3
+Mini,Cooper C 4 Door,Cooper,Compact Cars,Front-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,28,39,32,276,2550,-750,0,6,6
+Mitsubishi,Eclipse Cross 4WD,Eclipse Cross,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (AV-S8),,Regular,4.0,1.5,25,26,25,353,2700,-1500,0,5,5
+Mitsubishi,Eclipse Cross ES 4WD,Eclipse Cross,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (AV-S8),,Regular,4.0,1.5,25,28,26,339,2600,-1000,0,5,5
+Mitsubishi,Outlander 2WD,Outlander,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AV-S8),Hybrid,Regular,4.0,1.5,26,31,28,314,2400,0,0,5,5
+Mitsubishi,Outlander 4WD,Outlander,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (AV-S8),Hybrid,Regular,4.0,1.5,26,30,27,329,2500,-500,0,5,5
+Mitsubishi,Outlander PHEV,Outlander,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),Plug-in Hybrid,Regular Gas and Electricity,4.0,2.4,27,27,27,97,2500,4500,420,8,9
+Mitsubishi,Outlander Sport 4WD,Outlander,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (AV-S6),,Regular,4.0,2.0,23,29,26,344,2600,-1000,0,5,5
+Mitsubishi,Outlander Sport 4WD,Outlander,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (AV-S6),,Regular,4.0,2.4,23,28,25,353,2700,-1500,0,5,5
+Nissan,ARIYA FWD 63kWh,ARIYA,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,109,94,101,0,750,8250,216,9,10
+Nissan,ARIYA FWD 87kWh,ARIYA,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,105,91,98,0,750,8250,289,9,10
+Nissan,ARIYA PLATINUM+ e-4ORCE 87kWh 19in. Wheels,ARIYA,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,93,87,90,0,850,7750,267,9,10
+Nissan,ARIYA e-4ORCE 63kWh,ARIYA,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,101,89,95,0,800,8000,205,9,10
+Nissan,ARIYA e-4ORCE 87kWh,ARIYA,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,97,86,92,0,800,8000,272,9,10
+Nissan,Altima,Altima,Midsize Cars,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,2.5,26,36,30,297,2250,750,0,6,6
+Nissan,Altima AWD,Altima,Midsize Cars,All-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,2.5,25,33,28,316,2400,0,0,5,5
+Nissan,Armada 2WD,Armada,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (S9),,Premium,6.0,3.5,16,20,18,506,4550,-10750,0,3,3
+Nissan,Armada 4WD,Armada,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S9),,Premium,6.0,3.5,16,19,17,524,4850,-12250,0,3,3
+Nissan,Armada 4WD PRO-4X,Armada,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S9),,Premium,6.0,3.5,15,18,16,556,5150,-13750,0,3,3
+Nissan,Frontier 2WD,Frontier,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (S9),,Regular,6.0,3.8,19,24,21,423,3200,-4000,0,4,4
+Nissan,Frontier 4WD,Frontier,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S9),,Regular,6.0,3.8,17,21,19,479,3550,-5750,0,4,4
+Nissan,Frontier 4WD PRO4X,Frontier,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S9),,Regular,6.0,3.8,16,20,18,504,3700,-6500,0,3,3
+Nissan,Kicks,Kicks,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,2.0,28,35,31,287,2150,1250,0,6,6
+Nissan,Kicks AWD,Kicks,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,2.0,27,34,30,299,2250,750,0,6,6
+Nissan,LEAF 75kWh (18 inch alloy Wheels),LEAF,Small Station Wagons,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,122,105,114,0,700,8500,288,9,10
+Nissan,LEAF 75kWh (18 inch steel Wheels),LEAF,Small Station Wagons,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,131,111,121,0,650,8750,303,10,10
+Nissan,LEAF 75kWh (19 inch Wheels),LEAF,Small Station Wagons,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,110,96,103,0,750,8250,259,9,10
+Nissan,Murano AWD,Murano,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S9),,Regular,4.0,2.0,21,27,23,387,2900,-2500,0,5,5
+Nissan,Pathfinder 2WD,Pathfinder,Standard Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S9),,Regular,6.0,3.5,21,27,23,382,2900,-2500,0,5,5
+Nissan,Pathfinder 4WD,Pathfinder,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S9),,Regular,6.0,3.5,21,26,23,390,2900,-2500,0,5,5
+Nissan,Pathfinder 4WD Platinum,Pathfinder,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S9),,Regular,6.0,3.5,20,25,22,408,3050,-3250,0,4,4
+Nissan,Pathfinder 4WD Rock Creek,Pathfinder,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S9),,Premium,6.0,3.5,20,23,21,422,3900,-7500,0,4,4
+Nissan,Rogue AWD,Rogue,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S8),,Regular,3.0,1.5,28,35,31,291,2150,1250,0,6,6
+Nissan,Rogue AWD Rock Creek,Rogue,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S8),,Regular,3.0,1.5,27,32,29,307,2300,500,0,6,6
+Nissan,Rogue FWD,Rogue,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AV-S8),,Regular,3.0,1.5,29,36,32,279,2100,1500,0,6,6
+Nissan,Sentra (2-mode),Sentra,Midsize Cars,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,2.0,30,38,33,269,2050,1750,0,6,6
+Nissan,Sentra (3-mode),Sentra,Midsize Cars,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,2.0,30,38,33,268,2050,1750,0,6,6
+Nissan,Sentra SL/SR,Sentra,Midsize Cars,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,2.0,29,36,32,278,2100,1500,0,6,6
+Nissan,Z,Z,Two Seaters,Rear-Wheel Drive,Manual 6-spd,,Premium,6.0,3.0,18,24,20,435,4100,-8500,0,4,4
+Nissan,Z,Z,Two Seaters,Rear-Wheel Drive,Automatic (S9),,Premium,6.0,3.0,19,28,22,405,3750,-6750,0,4,4
+Nissan,Z NISMO,Z,Two Seaters,Rear-Wheel Drive,Automatic (S9),,Premium,6.0,3.0,17,24,19,469,4350,-9750,0,4,4
+Polestar,3 Long Range Dual Motor (21 Inch Wheels),3,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,95,84,90,0,850,7750,312,9,10
+Polestar,3 Long Range Dual Motor (22 Inch Wheels),3,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,85,76,81,0,950,7250,281,9,10
+Polestar,3 Long Range Dual Motor Performance Pack,3,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,85,76,81,0,950,7250,281,9,10
+Polestar,3 Long Range Single Motor (20 Inch Wheels),3,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,102,88,95,0,800,8000,286,9,10
+Polestar,3 Long Range Single Motor (21 Inch Wheels),3,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,105,89,97,0,800,8000,291,9,10
+Polestar,4 Long Range Dual Motor,4,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,90,80,85,0,900,7500,280,9,10
+Polestar,4 Long Range Dual Motor Performance,4,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,80,74,77,0,1000,7000,255,9,10
+Polestar,4 Long Range Single Motor,4,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,100,90,95,0,800,8000,310,9,10
+Porsche,911 Carrera,911,Minicompact Cars,Rear-Wheel Drive,Automatic (AM-S8),,Premium,6.0,3.0,18,25,21,424,3900,-7500,0,4,4
+Porsche,911 Carrera 4 GTS,911,Minicompact Cars,All-Wheel Drive,Automatic (AM-S8),,Premium,6.0,3.6,17,23,19,468,4350,-9750,0,4,4
+Porsche,911 Carrera 4 GTS Cabriolet,911,Minicompact Cars,All-Wheel Drive,Automatic (AM-S8),,Premium,6.0,3.6,17,23,19,469,4350,-9750,0,4,4
+Porsche,911 Carrera 4S,911,Minicompact Cars,All-Wheel Drive,Automatic (AM-S8),,Premium,6.0,3.0,17,24,20,453,4100,-8500,0,4,4
+Porsche,911 Carrera 4S Cabriolet,911,Minicompact Cars,All-Wheel Drive,Automatic (AM-S8),,Premium,6.0,3.0,17,24,20,446,4100,-8500,0,4,4
+Porsche,911 Carrera Cabriolet,911,Minicompact Cars,Rear-Wheel Drive,Automatic (AM-S8),,Premium,6.0,3.0,18,25,21,429,3900,-7500,0,4,4
+Porsche,911 Carrera GTS,911,Minicompact Cars,Rear-Wheel Drive,Automatic (AM-S8),,Premium,6.0,3.6,17,24,20,453,4100,-8500,0,4,4
+Porsche,911 Carrera GTS Cabriolet,911,Minicompact Cars,Rear-Wheel Drive,Automatic (AM-S8),,Premium,6.0,3.6,17,23,19,467,4350,-9750,0,4,4
+Porsche,911 Carrera S,911,Minicompact Cars,Rear-Wheel Drive,Automatic (AM-S8),,Premium,6.0,3.0,17,24,20,445,4100,-8500,0,4,4
+Porsche,911 Carrera S Cabriolet,911,Minicompact Cars,Rear-Wheel Drive,Automatic (AM-S8),,Premium,6.0,3.0,17,24,20,455,4100,-8500,0,4,4
+Porsche,911 Carrera T,911,Minicompact Cars,Rear-Wheel Drive,Manual 6-spd,,Premium,6.0,3.0,17,25,20,448,4100,-8500,0,4,4
+Porsche,911 Carrera T Cabriolet,911,Minicompact Cars,Rear-Wheel Drive,Manual 6-spd,,Premium,6.0,3.0,17,25,19,469,4350,-9750,0,4,4
+Porsche,911 GT3,911,Two Seaters,Rear-Wheel Drive,Automatic (AM-S7),,Premium,6.0,4.0,14,17,15,593,5500,-15500,0,2,2
+Porsche,911 GT3,911,Two Seaters,Rear-Wheel Drive,Manual 6-spd,,Premium,6.0,4.0,13,18,15,594,5500,-15500,0,2,2
+Porsche,911 GT3 Touring,911,Two Seaters,Rear-Wheel Drive,Automatic (AM-S7),,Premium,6.0,4.0,14,18,15,595,5500,-15500,0,2,2
+Porsche,911 GT3 Touring,911,Two Seaters,Rear-Wheel Drive,Manual 6-spd,,Premium,6.0,4.0,13,18,15,594,5500,-15500,0,2,2
+Porsche,911 Targa 4 GTS,911,Minicompact Cars,All-Wheel Drive,Automatic (AM-S8),,Premium,6.0,3.6,17,23,19,467,4350,-9750,0,4,4
+Porsche,911 Targa 4S,911,Minicompact Cars,All-Wheel Drive,Automatic (AM-S8),,Premium,6.0,3.0,17,24,20,447,4100,-8500,0,4,4
+Porsche,911 Turbo S,911,Minicompact Cars,All-Wheel Drive,Automatic (AM-S8),,Premium,6.0,3.6,15,22,18,503,4550,-10750,0,3,3
+Porsche,911 Turbo S Cabriolet,911,Minicompact Cars,All-Wheel Drive,Automatic (AM-S8),,Premium,6.0,3.6,15,22,18,504,4550,-10750,0,3,3
+Porsche,Cayenne,Cayenne,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,17,23,19,469,4350,-9750,0,4,4
+Porsche,Cayenne Coupe,Cayenne,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,17,23,19,469,4350,-9750,0,4,4
+Porsche,Cayenne GTS,Cayenne,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,8.0,4.0,15,22,18,512,4550,-10750,0,3,3
+Porsche,Cayenne GTS Coupe,Cayenne,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,8.0,4.0,16,22,18,489,4550,-10750,0,3,3
+Porsche,Cayenne S,Cayenne,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,8.0,4.0,16,21,18,492,4550,-10750,0,3,3
+Porsche,Cayenne S Coupe,Cayenne,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,8.0,4.0,16,21,18,492,4550,-10750,0,3,3
+Porsche,Cayenne Turbo GT,Cayenne,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,8.0,4.0,15,20,17,521,4850,-12250,0,3,3
+Porsche,Macan,Macan,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,19,25,21,424,3900,-7500,0,4,4
+Porsche,Macan 4 Electric,Macan,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,104,87,95,0,800,8000,304,9,10
+Porsche,Macan 4 Electric 20in Wheels,Macan,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,111,93,102,0,750,8250,324,9,10
+Porsche,Macan 4S Electric,Macan,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,99,84,92,0,850,7750,290,9,10
+Porsche,Macan Electric,Macan,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,106,89,97,0,800,8000,309,9,10
+Porsche,Macan Electric 20in Wheels,Macan,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,114,96,105,0,700,8500,332,9,10
+Porsche,Macan GTS,Macan,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Premium,6.0,2.9,17,22,19,466,4350,-9750,0,4,4
+Porsche,Macan GTS Electric,Macan,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,99,84,92,0,850,7750,294,9,10
+Porsche,Macan S,Macan,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Premium,6.0,2.9,17,23,19,465,4350,-9750,0,4,4
+Porsche,Macan T,Macan,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,19,25,21,424,3900,-7500,0,4,4
+Porsche,Macan Turbo Electric,Macan,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,99,84,91,0,850,7750,293,9,10
+Porsche,Panamera,Panamera,Large Cars,Rear-Wheel Drive,Automatic (AM-S8),,Premium,6.0,2.9,18,25,21,431,3900,-7500,0,4,4
+Porsche,Panamera 4,Panamera,Large Cars,All-Wheel Drive,Automatic (AM-S8),,Premium,6.0,2.9,18,25,21,425,3900,-7500,0,4,4
+Porsche,Taycan 4 Cross Turismo,Taycan,Midsize Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,84,79,81,0,950,7250,277,9,10
+Porsche,Taycan 4 Perf Battery Plus,Taycan,Compact Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,89,85,87,0,850,7750,294,9,10
+Porsche,Taycan 4 Perf Battery Plus 19in All-Season (M+S),Taycan,Compact Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,94,92,93,0,800,8000,315,9,10
+Porsche,Taycan 4 Performance Battery,Taycan,Compact Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,90,84,87,0,850,7750,251,9,10
+Porsche,Taycan 4S Cross Turismo,Taycan,Midsize Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,82,77,80,0,950,7250,272,9,10
+Porsche,Taycan 4S Perf Battery Plus,Taycan,Compact Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,89,85,87,0,850,7750,295,9,10
+Porsche,Taycan 4S Perf Battery Plus 19in All-Season (M+S),Taycan,Compact Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,94,92,93,0,800,8000,315,9,10
+Porsche,Taycan 4S Performance Battery,Taycan,Compact Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,90,85,88,0,850,7750,252,9,10
+Porsche,Taycan GTS,Taycan,Compact Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,88,85,86,0,900,7500,293,9,10
+Porsche,Taycan GTS Sport Turismo,Taycan,Midsize Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,84,80,82,0,900,7500,279,9,10
+Porsche,Taycan Performance Battery,Taycan,Compact Cars,Rear-Wheel Drive,Automatic (A2),EV,Electricity,,,94,88,91,0,850,7750,274,9,10
+Porsche,Taycan Turbo,Taycan,Compact Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,88,83,86,0,900,7500,292,9,10
+Porsche,Taycan Turbo Cross Turismo,Taycan,Midsize Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,80,76,78,0,950,7250,265,9,10
+Porsche,Taycan Turbo GT,Taycan,Compact Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,86,78,82,0,900,7500,276,9,10
+Porsche,Taycan Turbo GT with Weissach Package,Taycan,Compact Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,85,76,81,0,950,7250,269,9,10
+Porsche,Taycan Turbo S,Taycan,Compact Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,80,78,79,0,950,7250,266,9,10
+Porsche,Taycan Turbo S Cross Turismo,Taycan,Midsize Cars,All-Wheel Drive,Automatic (A2),EV,Electricity,,,79,75,77,0,1000,7000,261,9,10
+Ram,1500 2WD,1500,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.0,18,25,21,433,3200,-4000,0,4,4
+Ram,1500 2WD,1500,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 8-spd,Hybrid,Regular,6.0,3.6,20,25,22,407,3050,-3250,0,4,4
+Ram,1500 2WD,1500,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic 8-spd,Hybrid,Midgrade,8.0,5.7,17,22,19,470,4000,-8000,0,4,4
+Ram,1500 4WD,1500,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Regular,6.0,3.0,18,24,20,444,3350,-4750,0,4,4
+Ram,1500 4WD,1500,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,Hybrid,Midgrade,8.0,5.7,16,20,18,502,4200,-9000,0,3,3
+Ram,1500 4WD,1500,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,Hybrid,Regular,6.0,3.6,19,24,21,417,3200,-4000,0,4,4
+Ram,1500 4WD,1500,Standard Pickup Trucks 4WD,All-Wheel Drive,Automatic 8-spd,,Premium,8.0,6.2,10,14,12,748,6850,-22250,0,1,1
+Ram,1500 HO 4WD,1500,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Premium,6.0,3.0,15,21,17,521,4850,-12250,0,3,3
+Ram,1500 RHO 4WD,1500,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,,Premium,6.0,3.0,14,16,15,602,5500,-15500,0,2,2
+Ram,1500 Warlock 4WD,1500,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic 8-spd,Hybrid,Regular,6.0,3.6,17,18,17,512,3950,-7750,0,3,3
+Rivian,R1S All-Terrain Dual Large (20in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,82,70,76,0,1000,7000,289,9,10
+Rivian,R1S All-Terrain Dual Large Plus (20in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,76,67,72,0,1050,6750,292,9,10
+Rivian,R1S All-Terrain Dual Max (20in),R1S,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,82,73,78,0,950,7250,370,9,10
+Rivian,R1S All-Terrain Performance  Dual Max (20in),R1S,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,82,73,78,0,950,7250,370,9,10
+Rivian,R1S All-Terrain Performance Dual Large (20in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,82,70,76,0,1000,7000,289,9,10
+Rivian,R1S All-Terrain Performance Dual Large Plus (20in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,76,67,72,0,1050,6750,292,9,10
+Rivian,R1S All-Terrain Tri Max (20in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,72,63,68,0,1100,6500,329,9,10
+Rivian,R1S Dual Large (20in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,85,72,79,0,950,7250,300,9,10
+Rivian,R1S Dual Large (22in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,94,77,85,0,900,7500,329,9,10
+Rivian,R1S Dual Large Plus (20in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,85,72,78,0,950,7250,317,9,10
+Rivian,R1S Dual Large Plus (22in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,89,75,82,0,900,7500,330,9,10
+Rivian,R1S Dual Max (20in),R1S,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,86,74,80,0,950,7250,380,9,10
+Rivian,R1S Dual Max (22in),R1S,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,91,77,84,0,900,7500,410,9,10
+Rivian,R1S Dual Standard (20in),R1S,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,85,72,79,0,950,7250,258,9,10
+Rivian,R1S Dual Standard (22in),R1S,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,92,77,85,0,900,7500,270,9,10
+Rivian,R1S Performance Dual Large (20in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,85,72,79,0,950,7250,300,9,10
+Rivian,R1S Performance Dual Large (22in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,94,77,85,0,900,7500,329,9,10
+Rivian,R1S Performance Dual Large Plus (20in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,85,72,78,0,950,7250,317,9,10
+Rivian,R1S Performance Dual Large Plus (22in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,89,75,82,0,900,7500,330,9,10
+Rivian,R1S Performance Dual Max (20in),R1S,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,86,74,80,0,950,7250,380,9,10
+Rivian,R1S Performance Dual Max (22in),R1S,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,91,77,84,0,900,7500,410,9,10
+Rivian,R1S Quad Max (20in AT),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,71,63,67,0,1150,6250,325,9,10
+Rivian,R1S Quad Max (22in UHP),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,75,67,71,0,1050,6750,338,9,10
+Rivian,R1S Quad Max (22in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,80,71,76,0,1000,7000,374,9,10
+Rivian,R1S Tri Max (22in),R1S,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,81,70,76,0,1000,7000,371,9,10
+Rivian,R1T All-Terrain Dual Large (20in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,82,70,76,0,1000,7000,289,9,10
+Rivian,R1T All-Terrain Dual Large Plus (20in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,76,67,72,0,1050,6750,292,9,10
+Rivian,R1T All-Terrain Dual Max (20in),R1T,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,82,73,78,0,950,7250,370,9,10
+Rivian,R1T All-Terrain Performance Dual Large (20in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,82,70,76,0,1000,7000,289,9,10
+Rivian,R1T All-Terrain Performance Dual Large Plus (20in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,76,67,72,0,1050,6750,292,9,10
+Rivian,R1T All-Terrain Performance Dual Max (20in),R1T,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,82,73,78,0,950,7250,370,9,10
+Rivian,R1T All-Terrain Tri Max (20in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,72,63,68,0,1100,6500,329,9,10
+Rivian,R1T Dual Large (20in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,85,72,79,0,950,7250,300,9,10
+Rivian,R1T Dual Large (22in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,94,77,85,0,900,7500,329,9,10
+Rivian,R1T Dual Large Plus (20in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,85,72,78,0,950,7250,317,9,10
+Rivian,R1T Dual Large Plus (22in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,89,75,82,0,900,7500,330,9,10
+Rivian,R1T Dual Max (20in),R1T,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,86,74,80,0,950,7250,380,9,10
+Rivian,R1T Dual Max (22in),R1T,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,93,80,87,0,850,7750,420,9,10
+Rivian,R1T Dual Standard (20in),R1T,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,85,72,79,0,950,7250,258,9,10
+Rivian,R1T Dual Standard (22in),R1T,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,92,77,85,0,900,7500,270,9,10
+Rivian,R1T Performance Dual Large (20in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,85,72,79,0,950,7250,300,9,10
+Rivian,R1T Performance Dual Large (22in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,94,77,85,0,900,7500,329,9,10
+Rivian,R1T Performance Dual Large Plus (20in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,85,72,78,0,950,7250,317,9,10
+Rivian,R1T Performance Dual Large Plus (22in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,89,75,82,0,900,7500,330,9,10
+Rivian,R1T Performance Dual Max (20in),R1T,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,86,74,80,0,950,7250,380,9,10
+Rivian,R1T Performance Dual Max (22in),R1T,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (A1),EV,Electricity,,,93,80,87,0,850,7750,420,9,10
+Rivian,R1T Quad Max (20in AT),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,71,63,67,0,1150,6250,325,9,10
+Rivian,R1T Quad Max (22in UHP),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,75,67,71,0,1050,6750,338,9,10
+Rivian,R1T Quad Max (22in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,80,71,76,0,1000,7000,374,9,10
+Rivian,R1T Tri Max (22in),R1T,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (A1),EV,Electricity,,,81,70,76,0,1000,7000,371,9,10
+Rolls-Royce,Cullinan,Cullinan,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,12.0,6.7,12,19,14,609,5850,-17250,0,2,2
+Rolls-Royce,Cullinan Black Badge,Cullinan,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Premium,12.0,6.7,12,19,14,609,5850,-17250,0,2,2
+Rolls-Royce,Ghost,Ghost,Large Cars,All-Wheel Drive,Automatic (S8),,Premium,12.0,6.7,12,19,14,609,5850,-17250,0,2,2
+Rolls-Royce,Ghost Black Badge,Ghost,Large Cars,All-Wheel Drive,Automatic (S8),,Premium,12.0,6.7,12,19,14,609,5850,-17250,0,2,2
+Rolls-Royce,Ghost Extended,Ghost,Large Cars,All-Wheel Drive,Automatic (S8),,Premium,12.0,6.7,12,19,14,609,5850,-17250,0,2,2
+Rolls-Royce,Phantom,Phantom,Large Cars,Rear-Wheel Drive,Automatic (S8),,Premium,12.0,6.7,12,19,14,609,5850,-17250,0,2,2
+Rolls-Royce,Phantom Extended,Phantom,Large Cars,Rear-Wheel Drive,Automatic (S8),,Premium,12.0,6.7,12,19,14,609,5850,-17250,0,2,2
+Rolls-Royce,Spectre (22 inch Wheels),Spectre,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,74,82,77,0,1000,7000,277,9,10
+Rolls-Royce,Spectre (23 inch Wheels),Spectre,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,67,75,70,0,1100,6500,253,9,10
+Rolls-Royce,Spectre Black Badge (22 inch Wheels),Spectre,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,70,80,74,0,1000,7000,266,9,10
+Rolls-Royce,Spectre Black Badge (23 inch Wheels),Spectre,Compact Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,67,74,70,0,1100,6500,251,9,10
+Subaru,Ascent,Ascent,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S8),,Regular,4.0,2.4,19,26,22,405,3050,-3250,0,4,4
+Subaru,Ascent Limited/Touring/Onyx AWD,Ascent,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S8),,Regular,4.0,2.4,19,25,21,421,3200,-4000,0,4,4
+Subaru,BRZ,BRZ,Minicompact Cars,Rear-Wheel Drive,Manual 6-spd,,Premium,4.0,2.4,20,27,22,399,3750,-6750,0,4,4
+Subaru,BRZ,BRZ,Minicompact Cars,Rear-Wheel Drive,Automatic (S6),,Premium,4.0,2.4,21,30,25,362,3300,-4500,0,5,5
+Subaru,Crosstrek AWD,Crosstrek,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S8),,Regular,4.0,2.5,26,33,29,307,2300,500,0,6,6
+Subaru,Crosstrek Hybrid AWD,Crosstrek,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,36,36,36,246,1850,2750,0,7,7
+Subaru,Crosstrek Wilderness AWD,Crosstrek,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S8),,Regular,4.0,2.5,24,29,26,337,2600,-1000,0,5,5
+Subaru,Forester AWD,Forester,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S8),,Regular,4.0,2.5,26,33,29,310,2300,500,0,6,6
+Subaru,Forester Hybrid AWD,Forester,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,35,34,35,255,1900,2500,0,6,6
+Subaru,Forester Sport/Touring AWD,Forester,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S8),,Regular,4.0,2.5,25,32,28,317,2400,0,0,5,5
+Subaru,Forester Wilderness AWD,Forester,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S8),,Regular,4.0,2.5,24,28,26,347,2600,-1000,0,5,5
+Subaru,Impreza,Impreza,Small Station Wagons,All-Wheel Drive,Automatic (AV-S8),,Regular,4.0,2.0,27,33,29,301,2300,500,0,6,6
+Subaru,Impreza,Impreza,Small Station Wagons,All-Wheel Drive,Automatic (AV-S8),,Regular,4.0,2.5,26,33,29,311,2300,500,0,6,6
+Subaru,Outback AWD,Outback,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S8),,Regular,4.0,2.5,25,31,27,330,2500,-500,0,5,5
+Subaru,Outback AWD,Outback,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S8),,Regular,4.0,2.4,21,29,24,369,2800,-2000,0,5,5
+Subaru,Outback Wilderness AWD,Outback,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S8),,Regular,4.0,2.4,21,27,23,385,2900,-2500,0,5,5
+Subaru,Solterra 20 AWD,Solterra,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,128,105,117,0,650,8750,278,9,10
+Subaru,Solterra AWD,Solterra,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,131,109,120,0,650,8750,288,9,10
+Subaru,Trailseeker 20 inch AWD,Trailseeker,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,125,103,114,0,700,8500,274,9,10
+Subaru,Trailseeker AWD,Trailseeker,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,126,107,117,0,650,8750,281,9,10
+Subaru,Uncharted,Uncharted,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,140,118,129,0,600,9000,308,10,10
+Subaru,Uncharted 20 inch AWD,Uncharted,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,123,101,112,0,650,8750,273,9,10
+Subaru,Uncharted AWD,Uncharted,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,127,106,117,0,650,8750,287,9,10
+Subaru,WRX,WRX,Midsize Cars,All-Wheel Drive,Manual 6-spd,,Premium,4.0,2.4,19,26,22,412,3750,-6750,0,4,4
+Subaru,WRX,WRX,Midsize Cars,All-Wheel Drive,Automatic (AV-S8),,Premium,4.0,2.4,18,25,21,422,3900,-7500,0,4,4
+Tesla,Cybertruck AWD,Cybertruck,Standard Pickup Trucks 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,85,72,79,0,950,7250,325,9,10
+Tesla,Cybertruck Dual Motor AWD,Cybertruck,Standard Pickup Trucks 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,87,70,78,0,950,7250,325,9,10
+Tesla,Cybertruck Long Range (20in Cyber wheels),Cybertruck,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,89,67,78,0,1000,7000,335,9,10
+Tesla,Model 3 Performance,Model 3,Midsize Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,120,107,114,0,650,8750,309,9,10
+Tesla,Model 3 Performance AWD,Model 3,Midsize Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,117,106,111,0,700,8500,314,9,10
+Tesla,Model 3 Premium AWD,Model 3,Midsize Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,133,122,128,0,600,9000,346,10,10
+Tesla,Model 3 Premium RWD,Model 3,Midsize Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,145,128,137,0,550,9250,363,10,10
+Tesla,Model 3 Standard RWD,Model 3,Midsize Cars,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,147,130,139,0,550,9250,321,10,10
+Tesla,Model S,Model S,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,132,116,124,0,600,9000,410,10,10
+Tesla,Model S Plaid,Model S,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,114,105,110,0,700,8500,368,9,10
+Tesla,Model S Plaid (21in wheels),Model S,Large Cars,All-Wheel Drive,Automatic (A1),EV,Electricity,,,97,89,93,0,800,8000,309,9,10
+Tesla,Model X,Model X,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,110,99,105,0,700,8500,352,9,10
+Tesla,Model X Plaid,Model X,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,105,94,100,0,750,8250,335,9,10
+Tesla,Model Y Long Range AWD,Model Y,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,130,115,123,0,600,9000,327,10,10
+Tesla,Model Y Long Range RWD,Model Y,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,144,123,134,0,550,9250,357,10,10
+Tesla,Model Y Performance AWD,Model Y,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,111,100,105,0,700,8500,306,9,10
+Tesla,Model Y Standard AWD,Model Y,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,133,120,127,0,600,9000,294,10,10
+Tesla,Model Y Standard RWD (18in Wheels),Model Y,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,148,129,138,0,550,9250,321,10,10
+Tesla,Model Y Standard RWD (19in Wheels),Model Y,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,142,120,131,0,600,9000,303,10,10
+Toyota,4Runner 2WD,4Runner,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,20,26,22,399,3050,-3250,0,4,4
+Toyota,4Runner 2WD,4Runner,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,20,24,22,403,3050,-3250,0,4,4
+Toyota,4Runner 4WD,4Runner,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,19,25,21,417,3200,-4000,0,4,4
+Toyota,4Runner 4WD,4Runner,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,20,24,21,415,3200,-4000,0,4,4
+Toyota,4Runner Hybrid 4WD,4Runner,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S8),Hybrid,Regular,4.0,2.4,23,24,23,380,2900,-2500,0,5,5
+Toyota,4Runner Hybrid 4WD,4Runner,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Regular,4.0,2.4,22,24,23,380,2900,-2500,0,5,5
+Toyota,C-HR AWD 18inch,C-HR,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,127,107,117,0,650,8750,287,9,10
+Toyota,C-HR AWD 20inch,C-HR,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,122,102,112,0,650,8750,273,9,10
+Toyota,Camry HEV AWD LE,Camry,Midsize Cars,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,50,49,50,178,1350,5250,0,8,8
+Toyota,Camry HEV AWD SE/XLE,Camry,Midsize Cars,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,46,46,46,192,1450,4750,0,7,7
+Toyota,Camry HEV AWD XSE,Camry,Midsize Cars,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,43,43,43,205,1550,4250,0,7,7
+Toyota,Camry HEV FF LE,Camry,Midsize Cars,Front-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,52,49,51,173,1300,5500,0,8,8
+Toyota,Camry HEV FF SE/XLE/XSE,Camry,Midsize Cars,Front-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,47,45,46,191,1450,4750,0,7,7
+Toyota,Corolla,Corolla,Compact Cars,Front-Wheel Drive,Automatic (AV-S10),,Regular,4.0,2.0,31,38,34,265,1950,2250,0,6,6
+Toyota,Corolla (1-mode TM),Corolla,Compact Cars,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,2.0,32,41,35,254,1900,2500,0,6,6
+Toyota,Corolla (3-mode TM),Corolla,Compact Cars,Front-Wheel Drive,Automatic (variable gear ratios),,Regular,4.0,2.0,31,40,34,257,1950,2250,0,6,6
+Toyota,Corolla Cross,Corolla Cross,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AV-S10),,Regular,4.0,2.0,31,33,32,276,2100,1500,0,6,6
+Toyota,Corolla Cross AWD,Corolla Cross,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S10),,Regular,4.0,2.0,29,31,30,295,2250,750,0,6,6
+Toyota,Corolla Cross Hybrid AWD,Corolla Cross,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.0,46,39,42,211,1600,4000,0,7,7
+Toyota,Corolla Hatchback,Corolla,Compact Cars,Front-Wheel Drive,Automatic (AV-S10),,Regular,4.0,2.0,32,41,35,254,1900,2500,0,6,6
+Toyota,Corolla Hatchback FX,Corolla,Compact Cars,Front-Wheel Drive,Automatic (AV-S10),,Regular,4.0,2.0,30,38,33,267,2050,1750,0,6,6
+Toyota,Corolla Hatchback XSE,Corolla,Compact Cars,Front-Wheel Drive,Automatic (AV-S10),,Regular,4.0,2.0,30,38,33,266,2050,1750,0,6,6
+Toyota,Corolla Hybrid,Corolla,Compact Cars,Front-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,1.8,53,46,50,176,1350,5250,0,8,8
+Toyota,Corolla Hybrid AWD,Corolla,Compact Cars,All-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,1.8,51,44,48,183,1400,5000,0,8,8
+Toyota,Corolla Hybrid SE,Corolla,Compact Cars,Front-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,1.8,50,43,47,186,1450,4750,0,8,8
+Toyota,Corolla Hybrid SE AWD,Corolla,Compact Cars,All-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,1.8,47,41,44,199,1500,4500,0,7,7
+Toyota,Crown AWD,Crown,Midsize Cars,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.4,29,32,30,293,2250,750,0,6,6
+Toyota,Crown Hybrid AWD,Crown,Midsize Cars,All-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.5,42,41,41,214,1650,3750,0,7,7
+Toyota,Crown Signia AWD,Crown Signia,Small Station Wagons,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,39,37,38,231,1750,3250,0,7,7
+Toyota,GR Corolla,Corolla,Subcompact Cars,All-Wheel Drive,Manual 6-spd,,Premium,3.0,1.6,21,28,24,368,3400,-5000,0,5,5
+Toyota,GR Corolla,Corolla,Subcompact Cars,All-Wheel Drive,Automatic (S8),,Premium,3.0,1.6,19,27,22,395,3750,-6750,0,4,4
+Toyota,GR Supra,GR Supra,Two Seaters,Rear-Wheel Drive,Automatic (S8),,Premium,4.0,2.0,25,31,27,322,3050,-3250,0,5,5
+Toyota,GR Supra,GR Supra,Two Seaters,Rear-Wheel Drive,Automatic (S8),,Premium,6.0,3.0,22,29,25,349,3300,-4500,0,5,5
+Toyota,GR Supra,GR Supra,Two Seaters,Rear-Wheel Drive,Manual 6-spd,,Premium,6.0,3.0,19,26,21,408,3900,-7500,0,4,4
+Toyota,Grand Highlander AWD LE/XLE,Grand Highlander,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,21,27,23,379,2900,-2500,0,5,5
+Toyota,Grand Highlander AWD Limited/Platinum,Grand Highlander,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,20,26,22,400,3050,-3250,0,4,4
+Toyota,Grand Highlander Hybrid,Grand Highlander,Standard Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,37,34,36,246,1850,2750,0,7,7
+Toyota,Grand Highlander Hybrid AWD,Grand Highlander,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,36,32,34,260,1950,2250,0,6,6
+Toyota,Grand Highlander Hybrid AWD,Grand Highlander,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S6),Hybrid,Regular,4.0,2.4,26,27,27,332,2500,-500,0,5,5
+Toyota,Grand Highlander LE/XLE,Grand Highlander,Standard Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,21,28,24,371,2800,-2000,0,5,5
+Toyota,Grand Highlander Limited,Grand Highlander,Standard Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,21,28,24,366,2800,-2000,0,5,5
+Toyota,Highlander AWD,Highlander,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,21,28,24,371,2800,-2000,0,5,5
+Toyota,Highlander Hybrid AWD,Highlander,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,35,35,35,254,1900,2500,0,6,6
+Toyota,Highlander Hybrid AWD LTD/PLAT,Highlander,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,35,34,35,253,1900,2500,0,6,6
+Toyota,Land Cruiser,Land Cruiser,Standard Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.4,22,25,23,379,3550,-5750,0,5,5
+Toyota,Mirai,Mirai,Compact Cars,Rear-Wheel Drive,Automatic (variable gear ratios),FCV,Hydrogen,,,74,70,72,0,0,12000,402,9,10
+Toyota,Prius,Prius,Midsize Cars,Front-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,57,56,57,155,1200,6000,0,8,8
+Toyota,Prius AWD,Prius,Midsize Cars,All-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,53,54,54,163,1250,5750,0,8,8
+Toyota,Prius AWD XLE/LTD,Prius,Midsize Cars,All-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,49,50,49,179,1350,5250,0,8,8
+Toyota,Prius XLE/LTD,Prius,Midsize Cars,Front-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.0,52,52,52,169,1300,5500,0,8,8
+Toyota,RAV4,RAV4,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,47,40,43,205,1550,4250,0,7,7
+Toyota,RAV4 AWD Limited & XSE,RAV4,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (variable gear ratios),Hybrid,Regular,4.0,2.5,43,37,41,220,1650,3750,0,7,7
+Toyota,RAV4 AWD Limited & XSE,RAV4,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,43,37,41,221,1650,3750,0,7,7
+Toyota,RAV4 AWD SE & LE,RAV4,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,46,39,42,209,1600,4000,0,7,7
+Toyota,RAV4 AWD XLE,RAV4,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,45,38,41,215,1650,3750,0,7,7
+Toyota,RAV4 Hybrid AWD Woodland Edition,RAV4,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,41,35,38,231,1750,3250,0,7,7
+Toyota,Sequoia 2WD,Sequoia,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (S10),Hybrid,Regular,6.0,3.4,21,24,22,395,3050,-3250,0,4,4
+Toyota,Sequoia 2WD,Sequoia,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (S10),Hybrid,Premium,6.0,3.4,21,24,22,395,3750,-6750,0,4,4
+Toyota,Sequoia 4WD,Sequoia,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S10),Hybrid,Regular,6.0,3.4,19,22,20,439,3350,-4750,0,4,4
+Toyota,Sequoia 4WD,Sequoia,Standard Sport Utility Vehicle 4WD,Part-time 4-Wheel Drive,Automatic (S10),Hybrid,Premium,6.0,3.4,19,22,20,439,4100,-8500,0,4,4
+Toyota,Sienna 2WD,Sienna,Minivan - 2WD,Front-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,36,36,36,246,1850,2750,0,7,7
+Toyota,Sienna AWD,Sienna,Minivan - 4WD,All-Wheel Drive,Automatic (AV-S6),Hybrid,Regular,4.0,2.5,35,36,35,253,1900,2500,0,6,6
+Toyota,Tacoma 2WD,Tacoma,Small Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,20,26,23,394,2900,-2500,0,5,5
+Toyota,Tacoma 4WD,Tacoma,Small Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,19,24,21,424,3200,-4000,0,4,4
+Toyota,Tacoma 4WD MT,Tacoma,Small Pickup Trucks 4WD,Part-time 4-Wheel Drive,Manual 6-spd,,Regular,4.0,2.4,18,23,20,452,3350,-4750,0,4,4
+Toyota,Tacoma Hybrid 4WD,Tacoma,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S8),Hybrid,Regular,4.0,2.4,22,24,23,386,2900,-2500,0,5,5
+Toyota,Tacoma Hybrid 4WD,Tacoma,Standard Pickup Trucks 4WD,4-Wheel Drive,Automatic (S8),Hybrid,Regular,4.0,2.4,22,24,23,380,2900,-2500,0,5,5
+Toyota,Tacoma SR5/Sport/Off-Road/Limited 4WD,Tacoma,Small Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,19,23,21,433,3200,-4000,0,4,4
+Toyota,Tacoma SR5/Sport/Off-Road/Limited 4WD,Tacoma,Small Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,20,23,21,420,3200,-4000,0,4,4
+Toyota,Tacoma SR5/Sport/Off-Road/Limited 4WD,Tacoma,Small Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,19,24,21,424,3200,-4000,0,4,4
+Toyota,Tacoma SR5/Sport/PreRunner 2WD,Tacoma,Small Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,20,24,22,403,3050,-3250,0,4,4
+Toyota,Tacoma SR5/Sport/PreRunner 2WD,Tacoma,Small Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (S8),,Regular,4.0,2.4,21,26,23,393,2900,-2500,0,5,5
+Toyota,Tundra 2WD,Tundra,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (S10),,Regular,6.0,3.4,18,23,20,450,3350,-4750,0,4,4
+Toyota,Tundra 2WD,Tundra,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (S10),,Regular,6.0,3.4,18,23,20,444,3350,-4750,0,4,4
+Toyota,Tundra 2WD TRD Perf,Tundra,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (S10),,Premium,6.0,3.4,18,23,20,444,4100,-8500,0,4,4
+Toyota,Tundra 4WD,Tundra,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,3.4,17,22,19,468,3550,-5750,0,4,4
+Toyota,Tundra 4WD,Tundra,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Regular,6.0,3.4,17,22,19,462,3550,-5750,0,4,4
+Toyota,Tundra 4WD TRD Perf,Tundra,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),,Premium,6.0,3.4,17,22,19,462,4350,-9750,0,4,4
+Toyota,Tundra Hybrid 2WD,Tundra,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (S10),Hybrid,Regular,6.0,3.4,20,24,22,407,3050,-3250,0,4,4
+Toyota,Tundra Hybrid 2WD TRD Perf,Tundra,Standard Pickup Trucks 2WD,Rear-Wheel Drive,Automatic (S10),Hybrid,Premium,6.0,3.4,20,24,22,407,3750,-6750,0,4,4
+Toyota,Tundra Hybrid 4WD,Tundra,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),Hybrid,Regular,6.0,3.4,19,22,20,439,3350,-4750,0,4,4
+Toyota,Tundra Hybrid 4WD PRO,Tundra,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),Hybrid,Regular,6.0,3.4,18,20,19,461,3550,-5750,0,4,4
+Toyota,Tundra Hybrid 4WD PRO TRD Perf,Tundra,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),Hybrid,Premium,6.0,3.4,18,20,19,461,4350,-9750,0,4,4
+Toyota,Tundra Hybrid 4WD TRD Per,Tundra,Standard Pickup Trucks 4WD,Part-time 4-Wheel Drive,Automatic (S10),Hybrid,Premium,6.0,3.4,19,22,20,439,4100,-8500,0,4,4
+Toyota,bZ (energy capacity 191 Ah),bZ,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,143,119,131,0,550,9250,314,10,10
+Toyota,bZ (energy capacity 200 Ah),bZ,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,144,117,130,0,600,9000,236,10,10
+Toyota,bZ AWD,bZ,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,131,109,120,0,650,8750,288,9,10
+Toyota,bZ AWD LIMITED,bZ,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,128,105,117,0,650,8750,278,9,10
+Toyota,bZ LIMITED (energy capacity 191 Ah),bZ,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,138,113,125,0,600,9000,299,10,10
+Toyota,bZ LIMITED (energy capacity 200 Ah),bZ,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (A1),EV,Electricity,,,134,111,123,0,600,9000,296,10,10
+Toyota,bZ Woodland AWD 235/60R18,bZ,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,127,107,117,0,650,8750,281,9,10
+Toyota,bZ Woodland AWD 235/65R18,bZ,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,117,100,109,0,700,8500,260,9,10
+Volkswagen,Atlas,Atlas,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,20,27,23,390,2900,-2500,0,5,5
+Volkswagen,Atlas 4motion Peak Edition,Atlas,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,19,25,21,421,3200,-4000,0,4,4
+Volkswagen,Atlas Cross Sport,Atlas,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,20,27,23,390,2900,-2500,0,5,5
+Volkswagen,Atlas Cross Sport 4motion,Atlas,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,20,26,22,407,3050,-3250,0,4,4
+Volkswagen,Atlas SE 4motion,Atlas,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,20,26,22,407,3050,-3250,0,4,4
+Volkswagen,Atlas SEL 4motion,Atlas,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,19,25,21,417,3200,-4000,0,4,4
+Volkswagen,GLI,GLI,Compact Cars,Front-Wheel Drive,Automatic (AM-S7),,Regular,4.0,2.0,26,35,29,307,2300,500,0,6,6
+Volkswagen,GLI,GLI,Compact Cars,Front-Wheel Drive,Manual 6-spd,,Regular,4.0,2.0,26,36,29,306,2300,500,0,6,6
+Volkswagen,GTI,Golf/GTI,Midsize Cars,Front-Wheel Drive,Automatic (AM-S7),,Regular,4.0,2.0,24,32,27,326,2500,-500,0,5,5
+Volkswagen,Golf R,Golf/GTI,Midsize Cars,All-Wheel Drive,Automatic (AM-S7),,Premium,4.0,2.0,22,31,25,349,3300,-4500,0,5,5
+Volkswagen,ID.4,ID.4,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,122,104,113,0,650,8750,291,9,10
+Volkswagen,ID.4 AWD,ID.4,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,108,96,102,0,750,8250,263,9,10
+Volkswagen,Jetta,Jetta,Compact Cars,Front-Wheel Drive,Automatic (S8),,Regular,4.0,1.5,29,40,34,265,1950,2250,0,6,6
+Volkswagen,Jetta Sport/SE/SEL,Jetta,Compact Cars,Front-Wheel Drive,Automatic (S8),,Regular,4.0,1.5,29,40,33,271,2050,1750,0,6,6
+Volkswagen,Taos,Taos,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,4.0,1.5,28,36,31,287,2150,1250,0,6,6
+Volkswagen,Taos 4motion,Taos,Small Sport Utility Vehicle 4WD,4-Wheel Drive,Automatic (S8),,Regular,4.0,1.5,25,33,28,318,2400,0,0,5,5
+Volkswagen,Tiguan,Tiguan,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,25,32,28,320,2400,0,0,5,5
+Volkswagen,Tiguan 4motion,Tiguan,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,22,30,25,351,2700,-1500,0,5,5
+Volkswagen,Tiguan S,Tiguan,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,26,34,29,307,2300,500,0,6,6
+Volkswagen,Tiguan SEL 4Motion,Tiguan,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),,Regular,4.0,2.0,22,29,25,360,2700,-1500,0,5,5
+Volvo,EC40,EC40,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,118,95,106,0,700,8500,298,9,10
+Volvo,EC40 Twin,EC40,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,105,88,97,0,800,8000,268,9,10
+Volvo,EX30 Cross Country (18 Inch Wheels),EX30,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,95,83,89,0,850,7750,203,9,10
+Volvo,EX30 Cross Country (19 Inch Wheels),EX30,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,106,92,99,0,750,8250,227,9,10
+Volvo,EX30 Single motor extended range,EX30,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,127,104,116,0,650,8750,261,9,10
+Volvo,EX30 Twin Performance,EX30,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,116,100,109,0,700,8500,253,9,10
+Volvo,EX40,EX40,Small Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,118,94,106,0,700,8500,296,9,10
+Volvo,EX40 Twin,EX40,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,103,85,94,0,800,8000,260,9,10
+Volvo,EX90,EX90,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,97,86,92,0,850,7750,276,9,10
+Volvo,EX90 (21 Inch Wheels),EX90,Standard Sport Utility Vehicle 2WD,Rear-Wheel Drive,Automatic (A1),EV,Electricity,,,104,91,98,0,800,8000,291,9,10
+Volvo,EX90 Twin Motor,EX90,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,90,82,86,0,900,7500,298,9,10
+Volvo,EX90 Twin Motor (21 Inch Wheels),EX90,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,92,84,88,0,850,7750,305,9,10
+Volvo,EX90 Twin Motor Performance,EX90,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,90,82,86,0,900,7500,298,9,10
+Volvo,EX90 Twin Motor Performance (21 Inch Wheels),EX90,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (A1),EV,Electricity,,,92,84,88,0,850,7750,305,9,10
+Volvo,S90 B5,S90,Midsize Cars,Front-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,24,34,28,318,2950,-2750,0,5,5
+Volvo,V60CC B5 AWD,V60,Small Station Wagons,All-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,23,31,26,338,3150,-3750,0,5,5
+Volvo,V90CC B6 AWD,V90,Midsize Station Wagons,All-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,22,29,25,358,3300,-4500,0,5,5
+Volvo,XC40 B4,XC40,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,25,32,27,326,3050,-3250,0,5,5
+Volvo,XC40 B5 AWD,XC40,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,23,30,26,343,3150,-3750,0,5,5
+Volvo,XC60 B5 AWD,XC60,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,23,30,26,343,3150,-3750,0,5,5
+Volvo,XC60 T8 AWD,XC60,Small Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Plug-in Hybrid,Premium and Electricity,4.0,2.0,28,28,28,122,2950,3000,560,7,9
+Volvo,XC90 B5 AWD,XC90,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,22,27,24,369,3400,-5000,0,5,5
+Volvo,XC90 B6 AWD,XC90,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Hybrid,Premium,4.0,2.0,20,26,23,393,3550,-5750,0,5,5
+Volvo,XC90 T8 AWD,XC90,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,Automatic (S8),Plug-in Hybrid,Premium and Electricity,4.0,2.0,26,27,27,137,3050,2250,530,7,9
