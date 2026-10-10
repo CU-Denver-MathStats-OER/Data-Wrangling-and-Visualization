@@ -1,0 +1,600 @@
+---
+title: "Homework 8: Interactive Graphics with plotly"
+format:
+  html:
+    embed-resources: true
+    toc: true
+editor: visual
+---
+
+**Due Tuesday, October 20 at 11:59 PM**
+
+## Have Questions, Need Help?
+
+------------------------------------------------------------------------
+
+Please reach out anytime you're stuck. I hold drop-in help in my office (Student Commons Building 4223):
+
+- Mondays 11am–12pm
+- Tuesdays 12–1pm
+- Or by appointment at another day/time
+
+I also respond to questions by email. When you need help at 2 a.m. and I'm not available, the [Course AI Tutor](https://chatgpt.com/g/g-6a3d957c8f5081919d1634a5f4ee4ba8-math-3376-data-wrangling-tutor) (free with ChatGPT Edu) is the next best thing. See the AI use note below.
+
+## Generative AI Use Policy: Level 2 (Conceptual Architect)
+
+------------------------------------------------------------------------
+
+You'll be asked to solve problems similar to these during in-class quizzes, so this homework is practice aimed to facilitate learning that is assessed on *quizzes where AI assistance is not allowed*. You are not required to use AI on this assignment. If you do, then use AI to support your thinking, not replace it:
+
+- [**MATH 3376 tutor:**](https://chatgpt.com/g/g-6a3d957c8f5081919d1634a5f4ee4ba8-math-3376-data-wrangling-tutor) use freely — it's built to guide, not hand over answers.
+- **ChatGPT Edu:** fine for brainstorming an approach or debugging; **for code, share your own attempt before asking for help.**
+
+For more information about Level 2 engagement, see [Student AI Use Scale](https://celt.uky.edu/student-ai-use-scale).
+
+## Setup
+
+------------------------------------------------------------------------
+
+This homework is a Quarto document. You may work in RStudio installed on your computer or in Posit Cloud.
+
+Before beginning, make sure the `tidyverse` and `plotly` packages are installed in the R environment you are using. If you need to install a package, install it from the **Console**, not by adding an `install.packages()` command to this Quarto file.
+
+Run the setup chunk below before beginning the questions. You will need to rerun it whenever you start a new R session.
+
+```{r}
+# Run this setup chunk before beginning the homework.
+library(tidyverse)
+library(plotly)
+
+epoch <- read_csv(
+  "https://raw.githubusercontent.com/aspiegler/Data-Wrangling-and-Visualization/main/Data/epoch_notable_ai_models_2026_10_01.csv",
+  show_col_types = FALSE
+)
+
+glimpse(epoch)
+```
+
+
+## Data Dictionary: Epoch AI Notable Models
+
+------------------------------------------------------------------------
+
+Throughout this homework, you will work with a prepared snapshot of Epoch AI's **Notable AI Models** dataset dated October 1, 2026. Each row represents one model included in the dataset. **Epoch AI uses specific notability criteria to select models for inclusion. Consequently, this is a collection of selected AI models rather than a comprehensive record of every AI model developed or released.**
+
+The dataset contains models spanning many decades, and several technical quantities are not reported for every model. Missing values should remain missing unless a question explicitly tells you otherwise.
+
+| Variable | Description |
+|------------------------------------|------------------------------------|
+| `model` | model name |
+| `organization` | organization or organizations associated with the model |
+| `organization_category` | category or categories of the associated organization(s) |
+| `country` | country or countries associated with the organization(s) |
+| `publication_date` | publication or release date used by Epoch AI |
+| `publication_year` | publication year extracted from `publication_date` |
+| `domain` | model domain or domains |
+| `parameters` | reported or estimated number of model parameters |
+| `training_compute_flop` | reported or estimated training compute, measured in floating-point operations (FLOP) |
+| `training_compute_cost_2023_usd` | estimated training-compute cost in 2023 U.S. dollars, when available |
+| `confidence` | Epoch AI's confidence category for the model information |
+| `citations` | citation count recorded in the source snapshot, when available |
+| `model_accessibility` | category describing how the model can be accessed |
+| `open_model_weights` | whether model weights are classified as open (`Yes`/`No`), when available |
+| `notability_criteria` | criterion or criteria under which the model is included as notable |
+| `source_url` | source link associated with the model record |
+
+::: {.callout-important}
+Some categorical fields contain comma-separated values when more than one organization, country, domain, category, or notability criterion applies. Treating the entire string as one category is not the same as separating those component values.
+:::
+
+::: {.callout-note}
+### Data Manipulation with tidyverse
+
+Throughout this assignment, you are encouraged to use functions from `tidyverse` and the **native R pipe `|>`** to organize your data manipulation steps.
+
+You have considerable flexibility in how you write your code, but aim for code that is clear, readable, and easy to follow.
+:::
+
+## Question 1
+
+------------------------------------------------------------------------
+
+The dataset includes historical models as well as recent ones. Begin by looking at how the number of models included in the Epoch AI dataset has changed over time.
+
+### Question 1a
+
+------------------------------------------------------------------------
+
+In the first code chunk, create a data frame named `year_counts` that:
+
+- keeps models published in 2010 or later;
+- contains one row per `publication_year`; and
+- includes a variable named `n_models` giving the number of models in the dataset for that year.
+
+Print `year_counts` to examine the results.
+
+In the second code chunk, use **native `plot_ly()`** to create an interactive bar chart of `n_models` by `publication_year`. Use `layout()` to give both axes descriptive labels.
+
+
+#### Solution Question 1a
+
+------------------------------------------------------------------------
+
+```{r}
+# Solution Question 1a
+# Part 1: Create and inspect year_counts.
+
+```
+
+```{r}
+# Part 2: Create an interactive bar chart.
+
+```
+
+### Question 1b
+
+------------------------------------------------------------------------
+
+A reader looks at the graph and says:
+
+> *"This graph shows how many AI models were released each year."*
+
+**Refer to the description of the dataset in the data dictionary above.** Explain why that statement goes beyond what this dataset and graph establish. Then:
+
+- describe one pattern you do think the graph supports about the **models included in the Epoch AI Notable Models dataset**; and
+- explain one caution you should use when comparing the 2026 count with counts from completed calendar years, given that this dataset is an October 1, 2026 snapshot.
+
+#### Solution Question 1b
+
+------------------------------------------------------------------------
+
+*(Type your answer in the space below.)*
+
+## Question 2
+
+------------------------------------------------------------------------
+
+A natural question is whether models with more parameters also tend to require more training compute. Both quantities span enormous ranges, so compare them after taking base-10 logarithms.
+
+### Question 2a
+
+------------------------------------------------------------------------
+
+In the first code chunk, create a data frame named `size_compute` that keeps only models with non-missing values of both `parameters` and `training_compute_flop`. Add:
+
+- `log_parameters = log10(parameters)`; and
+- `log_training_compute = log10(training_compute_flop)`.
+
+Display the first six rows of `size_compute` to verify that the data preparation worked as expected.
+
+In the second code chunk, use **native `plot_ly()`** to create an interactive scatterplot with:
+
+- `log_parameters` on the horizontal axis;
+- `log_training_compute` on the vertical axis;
+- `publication_year` mapped to the `color` attribute; and
+- `type = "scatter"` and `mode = "markers"`.
+
+**Customize the hover information** for each point so it displays the model name, organization, publication year, log parameter count, and log training compute. Use `layout()` to give both axes descriptive labels.
+
+#### Solution Question 2a
+
+------------------------------------------------------------------------
+
+```{r}
+# Solution Question 2a
+# Part 1: Create and inspect size_compute.
+
+```
+
+```{r}
+# Part 2: Create the interactive scatterplot.
+
+```
+
+### Question 2b
+
+------------------------------------------------------------------------
+
+Use the graph from Question 2a to address the following.
+
+1.  Describe the relationship between model size and training compute visible in the graph.
+2.  What does the color information suggest about where more recent models tend to appear in this relationship?
+3.  Does the graph show that parameter count alone determines training compute? Explain using the pattern of points rather than simply answering yes or no.
+4.  Use your customized hover labels to identify **two models with fairly similar log parameter counts but noticeably different log training compute**. Name the models and report the approximate values you compared.
+
+#### Solution Question 2b
+
+------------------------------------------------------------------------
+
+*(Type your answer in the space below.)*
+
+## Question 3
+
+------------------------------------------------------------------------
+
+The Epoch AI dataset contains information about the computational resources used to train AI models, but `training_compute_flop` is not available for every model. Missing values can affect the conclusions we draw from visualizations and analyses of training compute.
+
+In this question, you will examine how the availability of training-compute data has changed over time.
+
+### Question 3a
+
+------------------------------------------------------------------------
+
+In the first code chunk, create a data frame named `compute_coverage` for models published from 2018 through 2026. It should contain one row per `publication_year` and the following variables:
+
+- `n_models`: number of models in the dataset that year;
+- `n_with_compute`: number of those models with a non-missing `training_compute_flop`; and
+- `pct_with_compute`: percentage of models that year with a reported or estimated training-compute value.
+
+Print `compute_coverage` to examine the results.
+
+In the second code chunk, create a `ggplot2` line plot with points showing `pct_with_compute` against `publication_year`. Include a descriptive title and axis labels, with percent as the units on the vertical axis. You may find the `geom_line()` function useful. Although we haven't explicitly covered `geom_line()` in Module 11, it works similarly to other `ggplot2` geoms you've encountered. Make your plot interactive using `ggplotly()`.
+
+#### Solution Question 3a
+
+------------------------------------------------------------------------
+
+```{r}
+# Solution Question 3a
+# Part 1: Create and inspect compute_coverage.
+
+```
+
+```{r}
+# Part 2: Create a ggplot2 line plot and make it interactive.
+
+```
+
+### Question 3b
+
+------------------------------------------------------------------------
+
+Use the table and graph from Question 3a to answer the following.
+
+1.  Describe how the percentage of models with available training-compute information changes across the most recent years in the dataset.
+2. How should that pattern affect your confidence in claims about how training compute for notable AI models has changed over time? Explain why missing training-compute values matter when interpreting trends.
+
+Do not speculate about **why** a value is missing unless the dataset provides evidence for your explanation.
+
+#### Solution Question 3b
+
+------------------------------------------------------------------------
+
+*(Type your answer in the space below.)*
+
+## Question 4
+
+------------------------------------------------------------------------
+
+Models developed by different types of organizations may have different distributions of training compute. Investigate this using interactive side-by-side boxplots.
+
+The `organization_category` variable sometimes lists multiple categories separated by commas. For this question, compare models classified **exclusively** as `"Industry"` or `"Academia"` rather than trying to split multi-category entries.
+
+### Question 4a
+
+------------------------------------------------------------------------
+
+In the first code chunk, create a data frame named `organization_compute` that:
+
+- keeps models published in 2010 or later;
+- keeps only models whose `organization_category` is exactly `"Industry"` or `"Academia"`;
+- keeps only models with available `training_compute_flop`; and
+- creates `log_training_compute = log10(training_compute_flop)`.
+
+Display the first six rows of `organization_compute` to verify that the data preparation worked as expected.
+
+In the second code chunk, print a table showing how many models remain in each of the two organization categories. You do not need to store the output.
+
+In the third code chunk, use `ggplot2` to create side-by-side boxplots of `log_training_compute` by `organization_category`.
+
+- Display individual model observations as points alongside the boxplots, and use `ggplotly()` to make the graphic interactive.
+- Customize the hover information so a reader can identify the **model name** and **log training compute** of an individual point.
+- Include a descriptive title and axis labels, including units.
+- You are encouraged to customize the appearance of your plot using `theme()`, colors, or other formatting options to improve its readability and visual appeal.
+
+::: {.callout-tip}
+The sections *Creating Interactive Box Plots Using `ggplot2` and `ggplotly()`* and *Creating Interactive Scatter Plots Using `ggplot2` and `ggplotly()`* in Module 11 provide useful starting points.
+
+- Consider using `geom_jitter()` to display individual observations. Apply horizontal jitter without changing the vertical positions of the points.
+- Be careful not to display outliers twice when combining boxplots and individual points.
+- To identify individual models when hovering over points, try mapping `model` to the `group` aesthetic inside `geom_jitter()`. Although this does not change the appearance of the plot, it makes model names available to `ggplotly()` through its `tooltip` argument.
+:::
+
+#### Solution Question 4a
+
+------------------------------------------------------------------------
+
+```{r}
+# Solution Question 4a
+# Part 1: Filter the data and calculate log10 training compute.
+# Print first six rows to inspect your work.
+
+```
+
+```{r}
+# Part 2: Count the models in each organization category.
+
+```
+
+```{r}
+# Part 3: Create interactive boxplots with individual model observations.
+
+```
+
+### Question 4b
+
+------------------------------------------------------------------------
+
+Use the interactive boxplots to answer the following.
+
+1.  Compare the centers and spreads of the two distributions. Which category generally has higher training compute among the models included in this comparison?
+2.  Use hover information to identify one model that has an unusually high or low training-compute value **relative to others in its own category**. Give its name and approximate `log_training_compute` value.
+3.  Explain why these plots do **not** establish that organization category causes differences in training compute. Consider one way the groups of models might differ besides organization category.
+
+#### Solution Question 4b
+
+------------------------------------------------------------------------
+
+*(Type your answer in the space below.)*
+
+## Question 5
+
+------------------------------------------------------------------------
+
+A boxplot summarizes a distribution using a small set of statistics. A density plot offers another way to compare the overall shapes of distributions. Here, compare the sizes of models published in two time periods.
+
+### Question 5a
+
+------------------------------------------------------------------------
+
+In the first code chunk, create a data frame named `parameter_periods` that:
+
+- keeps models published in 2010 or later with a non-missing `parameters` value;
+- creates `log_parameters = log10(parameters)`; and
+- creates a categorical variable `period` with the labels `"2010–2022"` for publication years 2010 through 2022 and `"2023–2026"` for years 2023 through 2026.
+
+Display the first six rows of `parameter_periods` to verify that the data preparation worked as expected.
+
+In the second code chunk, print the number of models in each period. You do not need to store the output.
+
+In the third code chunk, use **`ggplot2`** to create **overlapping density plots** of `log_parameters`, one density curve for each `period`.
+
+- Map `period` to fill, and use **transparency** so the distributions can be distinguished where they overlap.
+- Include a descriptive title, both axis labels, and a legend title.
+- Make the plot interactive using `ggplotly()` so the cursor can display values on the density curves.
+
+#### Solution Question 5a
+
+------------------------------------------------------------------------
+
+```{r}
+# Solution Question 5a
+# Part 1: Prepare two publication periods.
+# Print first six rows to inspect your work.
+
+```
+
+```{r}
+# Part 2: Count the models in each period.
+
+```
+
+```{r}
+# Part 3: Create interactive density plots to compare parameter distributions
+
+```
+
+### Question 5b
+
+------------------------------------------------------------------------
+
+Use your density plot and group-count table to answer the following.
+
+1.  Compare the approximate locations of the two distributions. Which publication period generally has models with larger parameter counts?
+2.  Describe one feature of the distributions besides their centers, such as overlap, spread, or shape.
+3.  The two periods contain different numbers of models. Explain why a higher peak in a **density** plot does not necessarily mean that period contains more models.
+
+#### Solution Question 5b
+
+------------------------------------------------------------------------
+
+*(Type your answer in the space below.)*
+
+## Question 6
+
+------------------------------------------------------------------------
+
+The Epoch AI dataset includes notable models developed by organizations such as OpenAI, Google, Meta AI, and Anthropic. Some organizations appear under different names in the dataset. For example, Google's models may be attributed to `Google`, `Google DeepMind`, or `DeepMind`. To make comparisons easier, we will combine related organization names into four groups.
+
+Run the following code to create the data frame `organization_models` containing models from these organizations published between 2016 and 2026. The resulting data frame includes a new variable, `organization_group`, identifying the four organizations we want to compare.
+
+```{r}
+# Run code as is to create organization_models
+organization_models <- epoch |>
+  filter(
+    publication_year >= 2016,
+    publication_year <= 2026,
+    organization %in% c(
+      "OpenAI",
+      "Google", "Google DeepMind", "DeepMind",
+      "Google Brain", "Google Research",
+      "Meta AI", "Facebook AI Research", 
+      "Facebook AI", "Facebook",
+      "Anthropic"
+    )
+  ) |>
+  mutate(
+    organization_group = case_when(
+      organization == "OpenAI" ~ "OpenAI",
+      organization %in% c(
+        "Google", "Google DeepMind", "DeepMind",
+        "Google Brain", "Google Research"
+      ) ~ "Google",
+      organization %in% c(
+        "Meta AI", "Facebook AI Research", 
+        "Facebook AI", "Facebook"
+      ) ~ "Meta AI",
+      organization == "Anthropic" ~ "Anthropic"
+    )
+  )
+```
+
+### Question 6a
+
+------------------------------------------------------------------------
+
+In the first code chunk, use `organization_models` to create a data frame named `organization_years` containing the number of notable models published by each organization in each year. Display the first six rows of `organization_years` to verify that the data preparation worked as expected.
+
+In the second code chunk, use native `plot_ly()` to create an interactive grouped bar chart comparing these annual counts.
+
+- Put publication year on the horizontal axis and the number of models on the vertical axis.
+- Use different colors for the four organizations.
+- Display the organizations' bars side by side for each year.
+- Include a descriptive title, axis labels, and legend.
+- Make sure the hover information identifies the organization group, publication year, and model count.
+
+
+#### Solution Question 6a
+
+------------------------------------------------------------------------
+
+```{r}
+# Solution Question 6a
+
+# Part 1: Count models by organization and year.
+# Print first six rows to inspect your work.
+
+```
+
+```{r}
+# Part 2: Create an interactive grouped bar chart.
+
+```
+
+### Question 6b
+
+------------------------------------------------------------------------
+
+Use your interactive graph to answer the following questions.
+
+1. Compare the patterns for Google and OpenAI. How has the number of notable models represented for each organization changed over time?
+2. Identify one year in which the four organizations differ noticeably. Describe what the graph shows for that year.
+3. Explain why the organization with the most models represented in this graph cannot necessarily be considered the organization that developed the most AI models overall.
+
+:::{.callout-note}
+The dataset includes information through October 1, 2026. Keep in mind that the count for 2026 does not represent a complete calendar year.
+:::
+
+#### Solution Question 6b
+
+------------------------------------------------------------------------
+
+*(Type your answer in the space below.)*
+
+## Question 7
+
+------------------------------------------------------------------------
+
+The Epoch AI dataset contains many other possible relationships to investigate. For this final question, choose a question about the data that **you** find interesting and use an interactive graphic to investigate it.
+
+**Your question must be meaningfully different from Questions 1–6.**
+
+If you use `domain`, `country`, `organization`, `organization_category`, or `notability_criteria`, remember that some rows contain multiple comma-separated values. Be clear about how you treat those entries.
+
+### Question 7a
+
+------------------------------------------------------------------------
+
+State your question in one or two sentences. Briefly identify the variables you plan to use and the type of interactive plot you think will help answer the question.
+
+#### Solution Question 7a
+
+------------------------------------------------------------------------
+
+*(Type your question and plan in the space below.)*
+
+### Question 7b
+
+------------------------------------------------------------------------
+
+In the first code chunk, use `dplyr` as needed to prepare the data and store the result. Display the first six rows of your data frame to verify that the data preparation worked as expected. If your data frame has only a few rows, you may display the entire data frame instead.
+
+
+In the second code chunk, create **one interactive visualization** that helps answer your question.
+
+You may either:
+
+- create a `ggplot2` graphic and make it interactive with `ggplotly()`; or
+- create the graphic directly with `plot_ly()`.
+
+Make the graph understandable to a reader who has not seen the raw data. Include descriptive labels and units where appropriate. Handle missing values appropriately for the variables you use. Use the interactive features in a way that helps investigate or communicate your question rather than adding complexity only for decoration.
+
+
+#### Solution Question 7b
+
+------------------------------------------------------------------------
+
+```{r}
+# Solution Question 7b
+# Part 1: Prepare the data and inspect the output.
+
+```
+
+```{r}
+# Part 2: Explore your question with an interactive visualization.
+
+```
+
+### Question 7c
+
+------------------------------------------------------------------------
+
+Briefly explain what you learned from your visualization.
+
+- Refer to at least one specific feature, value, comparison, or observation visible in the graph.
+- State one limitation or caution that matters when interpreting what your graph shows.
+
+#### Solution Question 7c
+
+------------------------------------------------------------------------
+
+*(Type your interpretation in the space below.)*
+
+### Question 7: Process & AI Reflection
+
+------------------------------------------------------------------------
+
+This question asked you to develop your own investigation rather than follow a prescribed plotting task. Briefly reflect on the following.
+
+- **Developing your investigation.** What made you choose your question? How did you decide which variables and display would help answer it? Describe anything you changed after you began exploring the data.
+- **Using interactivity.** What did the interactive features of your final plot help you discover or communicate that would have been harder to see in a static plot?
+- **AI use (if any).** If you used AI, which tool did you use, what was your prompt, what did it return, and what did you change? If you did not use AI, describe what you used instead.
+
+#### Solution Question 7 Reflection
+
+------------------------------------------------------------------------
+
+*(Type your reflection here.)*
+
+## Save Your Work!
+
+------------------------------------------------------------------------
+
+Before submitting:
+
+1.  Run all code in your Quarto document and make sure it completes without unintended errors.
+2.  Check that all required code, written responses, and **Process & AI Reflection** responses are included.
+3.  Render your completed Quarto document to HTML.
+4.  Open the rendered HTML file and confirm that:
+    - all relevant code output is visible;
+    - all plots appear correctly; and
+    - the Plotly graphics are interactive.
+5.  Save your completed Quarto source file (`.qmd`).
+6.  Submit **both files** in Canvas:
+    - your completed `.qmd` file; and
+    - your rendered `.html` file.
+
+The HTML output for this assignment is configured as a self-contained file, so you should not need to submit a separate supporting `_files` folder.
+
+**Congrats! You are done with Homework 8!**
+
