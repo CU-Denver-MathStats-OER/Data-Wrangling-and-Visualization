@@ -1,0 +1,299 @@
+#------------------------------------------------- WARNING --------------------------------------------
+# 
+# The data you have obtained from this automated Natural Resources Conservation Service 
+# database are subject to revision regardless of indicated Quality Assurance level. 
+# Data are released on condition that neither the NRCS nor the United States Government 
+# may be held liable for any damages resulting from its use. 
+# 
+# SNOTEL air temperature data contains a known bias. This bias is rooted in the sensor 
+# conversion equation and varies through the output range. Solutions are in development. 
+# For more information go to Air Temperature Bias Correction. 
+# 
+# Help and Tutorials: https://www.nrcs.usda.gov/sites/default/files/2023-03/Report%20Generator%20Help%20Guide.pdf
+# Air Temperature Bias Correction: https://www.nrcs.usda.gov/wps/portal/wcc/home/snowClimateMonitoring/temperature/temperatureBiasCorrection/
+# 
+# Support Contact: FPACITServiceDesk@usda.gov
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Reporting Frequency: Daily
+# Date Range: 2026-04-01 to 2026-04-01
+# Report Instantaneous Data As: Start of Day
+#
+# Data for the following site(s) are contained in this file:
+#
+#	SNOTEL 1344: Alta Lakes, CO
+#	SNOTEL 303: Apishapa, CO
+#	SNOTEL 1030: Arapaho Ridge, CO
+#	SNOTEL 305: Arrow, CO
+#	SNOTEL 322: Bear Lake, CO
+#	SNOTEL 1061: Bear River, CO
+#	SNOTEL 327: Beartown, CO
+#	SNOTEL 1041: Beaver Ck Village, CO
+#	SNOTEL 335: Berthoud Summit, CO
+#	SNOTEL 345: Bison Lake, CO
+#	SNOTEL 1185: Black Mesa, CO
+#	SNOTEL 1161: Black Mountain, CO
+#	SNOTEL 369: Brumley, CO
+#	SNOTEL 938: Buckskin Joe, CO
+#	SNOTEL 913: Buffalo Park, CO
+#	SNOTEL 378: Burro Mountain, CO
+#	SNOTEL 380: Butte, CO
+#	SNOTEL 386: Cascade, CO
+#	SNOTEL 387: Cascade #2, CO
+#	SNOTEL 1326: Castle Peak, CO
+#	SNOTEL 1101: Chapman Tunnel, CO
+#	SNOTEL 1059: Cochetopa Pass, CO
+#	SNOTEL 408: Columbine, CO
+#	SNOTEL 409: Columbine Pass, CO
+#	SNOTEL 904: Columbus Basin, CO
+#	SNOTEL 412: Copeland Lake, CO
+#	SNOTEL 415: Copper Mountain, CO
+#	SNOTEL 426: Crosho, CO
+#	SNOTEL 430: Culebra #2, CO
+#	SNOTEL 431: Cumbres Trestle, CO
+#	SNOTEL 438: Deadman Hill, CO
+#	SNOTEL 457: Dry Lake, CO
+#	SNOTEL 936: Echo Lake, CO
+#	SNOTEL 465: El Diente Peak, CO
+#	SNOTEL 467: Elk River, CO
+#	SNOTEL 1252: Elkhead Divide, CO
+#	SNOTEL 1120: Elliot Ridge, CO
+#	SNOTEL 1325: Elwood Pass, CO
+#	SNOTEL 1186: Fool Creek, CO
+#	SNOTEL 485: Fremont Pass, CO
+#	SNOTEL 1057: Glen Cove, CO
+#	SNOTEL 1058: Grayback, CO
+#	SNOTEL 505: Grizzly Peak, CO
+#	SNOTEL 1102: Hayden Pass, CO
+#	SNOTEL 1187: High Lonesome, CO
+#	SNOTEL 531: Hoosier Pass, CO
+#	SNOTEL 1122: Hourglass Lake, CO
+#	SNOTEL 538: Idarado, CO
+#	SNOTEL 542: Independence Pass, CO
+#	SNOTEL 547: Ivanhoe, CO
+#	SNOTEL 935: Jackwhacker Gulch, CO
+#	SNOTEL 551: Joe Wright, CO
+#	SNOTEL 970: Jones Pass, CO
+#	SNOTEL 556: Kiln, CO
+#	SNOTEL 564: Lake Eldora, CO
+#	SNOTEL 565: Lake Irene, CO
+#	SNOTEL 580: Lily Pond, CO
+#	SNOTEL 586: Lizard Head Pass, CO
+#	SNOTEL 589: Lone Cone, CO
+#	SNOTEL 1123: Long Draw Resv, CO
+#	SNOTEL 940: Lost Dog, CO
+#	SNOTEL 602: Loveland Basin, CO
+#	SNOTEL 607: Lynx Pass, CO
+#	SNOTEL 905: Mancos, CO
+#	SNOTEL 618: Mc Clure Pass, CO
+#	SNOTEL 1040: Mccoy Park, CO
+#	SNOTEL 914: Medano Pass, CO
+#	SNOTEL 622: Mesa Lakes, CO
+#	SNOTEL 937: Michigan Creek, CO
+#	SNOTEL 624: Middle Creek, CO
+#	SNOTEL 1014: Middle Fork Camp, CO
+#	SNOTEL 629: Mineral Creek, CO
+#	SNOTEL 632: Molas Lake, CO
+#	SNOTEL 1124: Moon Pass, CO
+#	SNOTEL 658: Nast Lake, CO
+#	SNOTEL 1031: Never Summer, CO
+#	SNOTEL 663: Niwot, CO
+#	SNOTEL 669: North Lost Trail, CO
+#	SNOTEL 675: Overland Res., CO
+#	SNOTEL 680: Park Cone, CO
+#	SNOTEL 682: Park Reservoir, CO
+#	SNOTEL 688: Phantom Valley, CO
+#	SNOTEL 701: Porphyry Creek, CO
+#	SNOTEL 709: Rabbit Ears, CO
+#	SNOTEL 1324: Rat Creek, CO
+#	SNOTEL 1032: Rawah, CO
+#	SNOTEL 713: Red Mountain Pass, CO
+#	SNOTEL 717: Ripple Creek, CO
+#	SNOTEL 718: Roach, CO
+#	SNOTEL 939: Rough And Tumble, CO
+#	SNOTEL 1100: Saint Elmo, CO
+#	SNOTEL 1128: Sargents Mesa, CO
+#	SNOTEL 1251: Sawtooth, CO
+#	SNOTEL 737: Schofield Pass, CO
+#	SNOTEL 739: Scotch Creek, CO
+#	SNOTEL 1060: Sharkstooth, CO
+#	SNOTEL 762: Slumgullion, CO
+#	SNOTEL 773: South Colony, CO
+#	SNOTEL 780: Spud Mountain, CO
+#	SNOTEL 793: Stillwater Creek, CO
+#	SNOTEL 797: Stump Lakes, CO
+#	SNOTEL 802: Summit Ranch, CO
+#	SNOTEL 825: Tower, CO
+#	SNOTEL 827: Trapper Lake, CO
+#	SNOTEL 829: Trinchera, CO
+#	SNOTEL 838: University Camp, CO
+#	SNOTEL 839: Upper Rio Grande, CO
+#	SNOTEL 840: Upper San Juan, CO
+#	SNOTEL 1141: Upper Taylor, CO
+#	SNOTEL 1005: Ute Creek, CO
+#	SNOTEL 842: Vail Mountain, CO
+#	SNOTEL 843: Vallecito, CO
+#	SNOTEL 1188: Wager Gulch, CO
+#	SNOTEL 1160: Weminuche Creek, CO
+#	SNOTEL 857: Whiskey Ck, CO
+#	SNOTEL 1042: Wild Basin, CO
+#	SNOTEL 869: Willow Creek Pass, CO
+#	SNOTEL 870: Willow Park, CO
+#	SNOTEL 874: Wolf Creek Summit, CO
+#	SNOTEL 1033: Zirkel, CO
+# 
+# Data items provided in this file:
+#
+# Element Name           Value Type               Function Type  Function Duration             Base Data  Measurement Units  Sensor Depth  Element Code  Description                                                                                        
+# Snow Water Equivalent  Value                    None           Instantaneous - Start of Day  N/A        Inches             N/A           WTEQ          Depth of water that would theoretically result if the entire snowpack were melted instantaneously  
+# Snow Water Equivalent  Median (1991-2020)       None           Instantaneous - Start of Day  N/A        Inches             N/A           WTEQ          Depth of water that would theoretically result if the entire snowpack were melted instantaneously  
+# Snow Water Equivalent  % of median (1991-2020)  None           Instantaneous - Start of Day  N/A        Inches             N/A           WTEQ          Depth of water that would theoretically result if the entire snowpack were melted instantaneously  
+# 
+# Quality Control flags included:
+#
+# Flag    Name                Description
+#  V      Valid               Validated Data
+#  N      No Profile          No profile for automated validation
+#  E      Edit                Edit, minor adjustment for sensor noise
+#  K      Estimate            Estimate
+#  C      Correction          A different equation has been applied to the original sensor voltage
+#  B      Back Estimate       Regression-based estimate for homogenizing collocated Snow Course and Snow Pillow data sets
+#  X      External Estimate   External estimate
+#  S      Suspect             Suspect data
+#  M      Missing             Value is missing
+# 
+# Quality Assurance flags included:
+#
+# Flag    Name                Description
+#  U      Unknown             Unknown
+#  R      Raw                 No Human Review
+#  P      Provisional         Preliminary Human Review
+#  A      Approved            Processing and Final Review Completed
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Reporting Frequency: Daily; Date Range: 2026-04-01 to 2026-04-01
+#
+# As of: Oct 10, 2026, 2:53:00 PM GMT-08:00
+#
+Date,Station Name,Station Id,County,Latitude,Longitude,Elevation (ft),Snow Water Equivalent (in) Start of Day Values,Median Snow Water Equivalent (1991-2020) (in) Start of Day Values,Snow Water Equivalent % of Median (1991-2020)
+2026-04-01,Alta Lakes,1344,San Miguel,37.88929,-107.84484,11290,9.9,,
+2026-04-01,Apishapa,303,Huerfano,37.33067,-105.06766,10000,0.0,3.8,0
+2026-04-01,Arapaho Ridge,1030,Grand,40.35098,-106.38141,10960,9.3,21.0,44
+2026-04-01,Bear Lake,322,Larimer,40.31176,-105.64670,9490,9.4,16.8,56
+2026-04-01,Bear River,1061,Routt,40.06152,-107.00948,9100,3.0,10.4,29
+2026-04-01,Beartown,327,San Juan,37.71433,-107.51240,11580,1.2,20.6,6
+2026-04-01,Beaver Ck Village,1041,Eagle,39.59871,-106.51113,8530,0.0,11.7,0
+2026-04-01,Berthoud Summit,335,Grand,39.80364,-105.77786,11300,7.5,18.2,41
+2026-04-01,Bison Lake,345,Garfield,39.76458,-107.35628,10950,9.4,22.6,42
+2026-04-01,Black Mesa,1185,Dolores,37.78968,-108.18376,11580,11.3,,
+2026-04-01,Black Mountain,1161,Larimer,40.88790,-105.66404,8940,2.5,10.6,24
+2026-04-01,Brumley,369,Lake,39.08758,-106.54231,10570,0.4,10.4,4
+2026-04-01,Buckskin Joe,938,Park,39.30378,-106.11316,11160,2.1,9.9,21
+2026-04-01,Buffalo Park,913,Grand,40.22838,-106.59620,9240,3.0,14.1,21
+2026-04-01,Burro Mountain,378,Rio Blanco,39.87504,-107.59902,9290,0.4,15.2,3
+2026-04-01,Butte,380,Gunnison,38.89435,-106.95327,10190,3.4,13.0,26
+2026-04-01,Cascade,386,San Juan,37.65083,-107.80602,8900,,9.3,
+2026-04-01,Cascade #2,387,San Juan,37.65751,-107.80287,8990,0.2,5.6,4
+2026-04-01,Castle Peak,1326,Pitkin,39.00074,-106.83912,11510,11.5,,
+2026-04-01,Chapman Tunnel,1101,Pitkin,39.26210,-106.62944,10090,4.0,14.2,28
+2026-04-01,Cochetopa Pass,1059,Saguache,38.16273,-106.59880,10020,0.0,4.1,0
+2026-04-01,Columbine,408,Jackson,40.39591,-106.60437,9170,3.5,22.0,16
+2026-04-01,Columbine Pass,409,Montrose,38.41819,-108.38313,9160,0.0,16.1,0
+2026-04-01,Columbus Basin,904,La Plata,37.44146,-108.02468,10780,8.8,23.5,37
+2026-04-01,Copeland Lake,412,Boulder,40.20733,-105.56950,8570,0.0,1.4,0
+2026-04-01,Copper Mountain,415,Summit,39.48917,-106.17154,10500,4.5,14.3,31
+2026-04-01,Crosho,426,Rio Blanco,40.16749,-107.05769,8960,0.0,11.2,0
+2026-04-01,Culebra #2,430,Costilla,37.20939,-105.19988,10560,0.0,12.6,0
+2026-04-01,Cumbres Trestle,431,Conejos,37.01877,-106.45275,10030,2.0,24.5,8
+2026-04-01,Deadman Hill,438,Larimer,40.80572,-105.77018,10240,7.2,15.8,46
+2026-04-01,Dry Lake,457,Routt,40.53370,-106.78140,8240,3.2,20.0,16
+2026-04-01,Echo Lake,936,Clear Creek,39.65539,-105.59358,10660,0.0,7.0,0
+2026-04-01,El Diente Peak,465,Dolores,37.78607,-108.02235,10210,0.2,13.2,2
+2026-04-01,Elk River,467,Routt,40.84758,-106.96861,8710,1.8,17.8,10
+2026-04-01,Elkhead Divide,1252,Routt,40.79637,-107.10113,8780,2.8,,
+2026-04-01,Elliot Ridge,1120,Summit,39.86380,-106.42473,10550,8.5,18.6,46
+2026-04-01,Elwood Pass,1325,Rio Grande,37.40563,-106.64136,11680,4.9,,
+2026-04-01,Fool Creek,1186,Grand,39.86866,-105.86765,11130,10.6,,
+2026-04-01,Fremont Pass,485,Summit,39.38014,-106.19784,11310,6.9,15.7,44
+2026-04-01,Glen Cove,1057,Teller,38.87602,-105.07605,11410,0.0,4.2,0
+2026-04-01,Grayback,1058,Rio Grande,37.47051,-106.53790,11620,0.0,,
+2026-04-01,Grizzly Peak,505,Summit,39.64646,-105.86940,11110,7.1,16.4,43
+2026-04-01,Hayden Pass,1102,Saguache,38.29303,-105.85027,10700,0.0,13.0,0
+2026-04-01,High Lonesome,1187,Grand,40.03590,-105.75472,10630,8.2,,
+2026-04-01,Hoosier Pass,531,Summit,39.36092,-106.05999,11600,6.2,15.0,41
+2026-04-01,Hourglass Lake,1122,Larimer,40.57717,-105.62584,9380,0.0,11.5,0
+2026-04-01,Idarado,538,Ouray,37.93389,-107.67620,9780,0.0,13.6,0
+2026-04-01,Independence Pass,542,Pitkin,39.07543,-106.61154,10570,5.4,15.8,34
+2026-04-01,Ivanhoe,547,Pitkin,39.29228,-106.54907,10540,7.3,13.4,54
+2026-04-01,Jackwhacker Gulch,935,Clear Creek,39.57096,-105.80355,11030,4.0,12.2,33
+2026-04-01,Joe Wright,551,Larimer,40.53285,-105.88747,10140,5.1,19.6,26
+2026-04-01,Jones Pass,970,Grand,39.76450,-105.90655,10430,1.6,13.9,12
+2026-04-01,Kiln,556,Pitkin,39.31720,-106.61501,9610,1.2,11.7,10
+2026-04-01,Lake Eldora,564,Boulder,39.93659,-105.59031,9700,0.4,12.4,3
+2026-04-01,Lake Irene,565,Grand,40.41446,-105.81941,10680,9.8,23.3,42
+2026-04-01,Lily Pond,580,Conejos,37.38028,-106.54823,11070,0.0,11.4,0
+2026-04-01,Lizard Head Pass,586,Dolores,37.79895,-107.92475,10190,0.3,15.0,2
+2026-04-01,Lone Cone,589,San Miguel,37.89169,-108.19636,9730,0.0,14.6,0
+2026-04-01,Long Draw Resv,1123,Larimer,40.51154,-105.76540,9980,7.6,17.2,44
+2026-04-01,Lost Dog,940,Routt,40.81557,-106.74833,9350,6.1,22.4,27
+2026-04-01,Loveland Basin,602,Clear Creek,39.67428,-105.90264,11410,10.8,18.8,57
+2026-04-01,Lynx Pass,607,Routt,40.07832,-106.67095,8910,0.0,10.8,0
+2026-04-01,Mancos,905,Montezuma,37.43109,-108.17005,10020,0.0,14.7,0
+2026-04-01,Mc Clure Pass,618,Gunnison,39.12899,-107.28834,8760,0.0,16.0,0
+2026-04-01,Mccoy Park,1040,Eagle,39.60231,-106.54400,9500,0.2,14.1,1
+2026-04-01,Medano Pass,914,Saguache,37.85192,-105.43666,9650,0.0,0.7,0
+2026-04-01,Mesa Lakes,622,Mesa,39.05738,-108.05756,10160,1.1,16.6,7
+2026-04-01,Michigan Creek,937,Park,39.43579,-105.91072,10700,0.7,10.5,7
+2026-04-01,Middle Creek,624,Mineral,37.61779,-107.03932,11260,5.1,17.8,29
+2026-04-01,Middle Fork Camp,1014,Grand,39.79565,-106.02802,8960,0.0,10.8,0
+2026-04-01,Mineral Creek,629,San Juan,37.84737,-107.72657,10030,0.2,14.8,1
+2026-04-01,Molas Lake,632,San Juan,37.74929,-107.68933,10610,0.1,18.1,1
+2026-04-01,Moon Pass,1124,Saguache,37.96627,-106.55857,11110,0.0,5.8,0
+2026-04-01,Nast Lake,658,Pitkin,39.29695,-106.60786,8710,0.0,7.6,0
+2026-04-01,Never Summer,1031,Jackson,40.40392,-105.95567,10300,11.6,19.7,59
+2026-04-01,Niwot,663,Boulder,40.03581,-105.54520,9940,3.2,12.2,26
+2026-04-01,North Lost Trail,669,Gunnison,39.07818,-107.14388,9190,2.1,16.8,13
+2026-04-01,Overland Res.,675,Delta,39.09035,-107.63583,9890,0.4,11.2,4
+2026-04-01,Park Cone,680,Gunnison,38.81982,-106.58962,9600,2.0,9.6,21
+2026-04-01,Park Reservoir,682,Delta,39.04433,-107.87951,9990,10.2,23.7,43
+2026-04-01,Phantom Valley,688,Grand,40.39803,-105.84606,9030,0.0,9.6,0
+2026-04-01,Porphyry Creek,701,Gunnison,38.48864,-106.33967,10790,0.7,15.4,5
+2026-04-01,Rabbit Ears,709,Routt,40.36735,-106.74118,9390,4.1,24.9,16
+2026-04-01,Rat Creek,1324,Mineral,37.93571,-106.98192,11680,1.3,,
+2026-04-01,Rawah,1032,Jackson,40.70794,-106.00727,9100,0.0,10.6,0
+2026-04-01,Red Mountain Pass,713,San Juan,37.89168,-107.71389,11060,5.1,22.3,23
+2026-04-01,Ripple Creek,717,Rio Blanco,40.10844,-107.29383,10340,10.3,25.7,40
+2026-04-01,Roach,718,Larimer,40.87498,-106.04675,9710,4.5,15.0,30
+2026-04-01,Rough And Tumble,939,Park,39.02611,-106.08063,10420,0.0,5.9,0
+2026-04-01,Saint Elmo,1100,Chaffee,38.69985,-106.36805,10420,0.0,10.9,0
+2026-04-01,Sargents Mesa,1128,Saguache,38.28560,-106.37085,11490,0.0,10.5,0
+2026-04-01,Sawtooth,1251,Boulder,40.13632,-105.58486,9640,11.9,,
+2026-04-01,Schofield Pass,737,Gunnison,39.01467,-107.04933,10640,11.2,29.6,38
+2026-04-01,Scotch Creek,739,Dolores,37.64562,-108.00833,9160,0.1,9.8,1
+2026-04-01,Sharkstooth,1060,Montezuma,37.50356,-108.11405,10730,0.4,18.8,2
+2026-04-01,Slumgullion,762,Hinsdale,37.99076,-107.20392,11560,0.0,13.6,0
+2026-04-01,South Colony,773,Custer,37.96647,-105.53671,10790,3.0,17.6,17
+2026-04-01,Spud Mountain,780,San Juan,37.69883,-107.77841,10660,0.8,22.6,4
+2026-04-01,Stillwater Creek,793,Grand,40.22532,-105.91980,8760,0.0,,
+2026-04-01,Stump Lakes,797,La Plata,37.47647,-107.63348,11230,3.1,16.2,19
+2026-04-01,Summit Ranch,802,Summit,39.71803,-106.15770,9350,0.0,10.9,0
+2026-04-01,Tower,825,Routt,40.53740,-106.67655,10610,21.9,42.0,52
+2026-04-01,Trapper Lake,827,Garfield,39.99881,-107.23618,9750,0.5,,
+2026-04-01,Trinchera,829,Costilla,37.35296,-105.23259,10860,0.0,10.2,0
+2026-04-01,University Camp,838,Boulder,40.03307,-105.57562,10330,8.6,15.2,57
+2026-04-01,Upper Rio Grande,839,Hinsdale,37.72172,-107.25971,9370,0.0,4.8,0
+2026-04-01,Upper San Juan,840,Mineral,37.48563,-106.83528,10140,1.7,27.0,6
+2026-04-01,Upper Taylor,1141,Gunnison,38.99071,-106.74504,10710,0.0,12.6,0
+2026-04-01,Ute Creek,1005,Costilla,37.61480,-105.37322,10720,0.0,11.8,0
+2026-04-01,Vail Mountain,842,Eagle,39.61765,-106.38019,10290,0.0,18.8,0
+2026-04-01,Vallecito,843,La Plata,37.48524,-107.50748,10740,0.3,14.2,2
+2026-04-01,Wager Gulch,1188,Hinsdale,37.88248,-107.36428,11110,0.0,,
+2026-04-01,Weminuche Creek,1160,Hinsdale,37.51968,-107.32139,10730,0.2,15.0,1
+2026-04-01,Whiskey Ck,857,Las Animas,37.21423,-105.12262,10260,0.0,10.0,0
+2026-04-01,Wild Basin,1042,Boulder,40.20100,-105.60250,9410,7.0,15.5,45
+2026-04-01,Willow Creek Pass,869,Grand,40.34734,-106.09520,9520,6.2,12.6,49
+2026-04-01,Willow Park,870,Larimer,40.43397,-105.73588,10710,6.7,16.4,41
+2026-04-01,Wolf Creek Summit,874,Mineral,37.47903,-106.80234,10930,8.2,28.4,29
+2026-04-01,Zirkel,1033,Jackson,40.79492,-106.59544,9320,4.3,27.6,16
