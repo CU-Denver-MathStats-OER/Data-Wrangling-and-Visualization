@@ -1,0 +1,499 @@
+---
+title: "Homework 9: Mapping Healthcare Access in Colorado"
+format:
+  html:
+    embed-resources: true
+    toc: true
+editor: visual
+---
+
+**Due: Tuesday, October 27 at 11:59 PM**
+
+## Have Questions, Need Help?
+
+------------------------------------------------------------------------
+
+Please reach out anytime you're stuck. I hold drop-in help in my office (Student Commons Building 4223):
+
+- Mondays 11am–12pm
+- Tuesdays 12–1pm
+- Or by appointment at another day/time
+
+I also respond to questions by email. When you need help at 2 a.m. and I'm not available, the [Course AI Tutor](https://chatgpt.com/g/g-6a3d957c8f5081919d1634a5f4ee4ba8-math-3376-data-wrangling-tutor) (free with ChatGPT Edu) is the next best thing. See the AI use note below.
+
+## Generative AI Use Policy: Level 2 (Conceptual Architect)
+
+------------------------------------------------------------------------
+
+You'll be asked to solve problems similar to these during in-class quizzes, so this homework is practice aimed to facilitate learning that is assessed on *quizzes where AI assistance is not allowed*. You are not required to use AI on this assignment. If you do, then use AI to support your thinking, not replace it:
+
+- [**MATH 3376 tutor:**](https://chatgpt.com/g/g-6a3d957c8f5081919d1634a5f4ee4ba8-math-3376-data-wrangling-tutor) use freely — it's built to guide, not hand over answers.
+- **ChatGPT Edu:** fine for brainstorming an approach or debugging; **for code, share your own attempt before asking for help.**
+
+For more information about Level 2 engagement, see [Student AI Use Scale](https://celt.uky.edu/student-ai-use-scale).
+
+## Setup
+
+------------------------------------------------------------------------
+
+This homework is a Quarto document. You may work in RStudio on your computer or in Posit Cloud. Make sure `tidyverse` and `sf` are installed in your R environment. If you need to install either package, use the **Console**, not an `install.packages()` command in this document.
+
+All data come from our course GitHub repository. The setup chunk below automatically downloads and extracts the Colorado county shapefile into `data/co_counties` when necessary. The companion shapefile files are handled for you. **You do not need to download, unzip, or upload data files manually.** In Question 2 you will import the CSV directly from GitHub using `read_csv()` and the URL stored in `data_url`.
+
+Run the setup chunk before working on questions and whenever you start a new R session or render the document. An internet connection is required to import the CSV and to download the shapefile the first time.
+
+```{r}
+# Load packages used throughout the homework.
+library(tidyverse)
+library(sf)
+library(plotly)
+
+# CSV location on the course GitHub repository. Import this in Question 2.
+data_url <- "https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Data/cdc_co_healthcare_access.csv"
+
+# Download the county shapefile and its companion files when needed.
+county_zip_url <- "https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Data/co_counties.zip"
+county_dir <- file.path("data", "co_counties")
+county_parts <- paste0("Colorado_County_Boundaries.",
+                       c("shp", "shx", "dbf", "prj", "cpg"))
+county_files <- file.path(county_dir, county_parts)
+
+if (!all(file.exists(county_files))) {
+  dir.create(county_dir, recursive = TRUE, showWarnings = FALSE)
+  zip_file <- tempfile(fileext = ".zip")
+  download.file(county_zip_url, zip_file, mode = "wb")
+  unzip(zip_file, exdir = county_dir)
+  unlink(zip_file)
+}
+
+if (!all(file.exists(county_files))) {
+  stop("County shapefile files are missing. Check the GitHub ZIP link.")
+}
+```
+
+## About the Data: Healthcare Access and Preventive Services
+
+------------------------------------------------------------------------
+
+This assignment uses county-level data from [**CDC PLACES: Local Data for Better Health, 2025 release**](https://www.cdc.gov/places/index.html). The prepared CSV covers Colorado's 64 counties. PLACES reports **modeled prevalence estimates** derived from health surveys and population information. These are not direct counts of all residents and are not necessarily measurements collected during 2025.
+
+All indicators in this assignment are **crude prevalence percentages**, not age-adjusted estimates. A value of `17.2` means **17.2%**, and does not need to be multiplied by 100. Importantly, **not all percentages refer to the same population**: some apply to all adults, while others apply only to adults in particular age or health-status groups.
+
+### Data Dictionary
+
+------------------------------------------------------------------------
+
+| Variable | Description |
+|----|----|
+| `CountyName` | Colorado county name. |
+| `CountyFIPS` | Five-character county identifier; preserve the leading zero in codes beginning with `08`. |
+| `ACCESS2_CrudePrev` | Estimated percent of adults **ages 18–64** with no current health insurance. |
+| `DENTAL_CrudePrev` | Estimated percent of **all adults** who visited a dentist or dental clinic within the previous year. |
+| `CHECKUP_CrudePrev` | Estimated percent of **all adults** who visited a doctor for a routine checkup within the previous year. |
+| `CHOLSCREEN_CrudePrev` | Estimated percent of **all adults** who had their cholesterol checked within the previous five years. |
+| `BPMED_CrudePrev` | Estimated percent of **adults with diagnosed high blood pressure** who report taking medication for high blood pressure. |
+| `COLON_SCREEN_CrudePrev` | Estimated percent of **adults ages 45–75** who are up to date on colorectal cancer screening. |
+
+The Colorado county shapefile includes `LABEL` (county name), `US_FIPS` (five-character county identifier), and county geometries.
+
+::: callout-important
+Higher percentages of reported care do not necessarily demonstrate better access or care quality. Geographic patterns in these modeled estimates also cannot demonstrate individual causes and effects.
+:::
+
+**Sources:** [CDC PLACES methodology](https://www.cdc.gov/places/methodology/) and [CDC prevention measure definitions](https://www.cdc.gov/places/measure-definitions/prevention.html). The 2025 release includes estimates based on earlier years of survey and population information.
+
+::: callout-note
+### Working with spatial data
+
+Use `sf` for geometries and `dplyr` and `ggplot2` for data manipulation and visualization. If you use a pipe, you must use the native R pipe `|>` rather than `%>%`. Look at the plots and check your code output; a command that runs successfully can still produce a misleading map.
+:::
+
+## Question 1
+
+------------------------------------------------------------------------
+
+First, explore the geographic boundaries that we will use to map the CDC estimates.
+
+### Question 1a
+
+------------------------------------------------------------------------
+
+Use `st_read()` to import `data/co_counties/Colorado_County_Boundaries.shp` into an `sf` object called `co_counties`.
+
+Use R commands to report how many counties the object contains, identify its geometry column, and display the names of the attribute columns.
+
+#### Solution Question 1a
+
+------------------------------------------------------------------------
+
+*(Run the code chunk below. Then type your interpretation in the space below the output.)*
+
+```{r}
+# Solution Question 1a
+```
+
+### Question 1b
+
+------------------------------------------------------------------------
+
+Use `st_geometry()` with **base R `plot()`** to draw a map showing all Colorado county boundaries. Choose a simple fill and a contrasting border color. Briefly explain why the boundary map alone cannot answer questions about health insurance or preventive services.
+
+#### Solution Question 1b
+
+------------------------------------------------------------------------
+
+*(Use the code chunk below. Then type your interpretation in the space below the output.)*
+
+```{r}
+# Solution Question 1b
+```
+
+## Question 2
+
+------------------------------------------------------------------------
+
+The shapefile contains county geometry, while the CDC CSV contains estimates for those counties. We need to combine them before making choropleth maps.
+
+### Question 2a
+
+------------------------------------------------------------------------
+
+Use `read_csv()` to import the CSV **directly from GitHub** using `data_url` (defined in Setup) into a data frame named `care`. Make sure `CountyFIPS` is imported as **character**, and display the first six rows and the column types.
+
+Briefly explain why importing geographic identifiers as numbers could cause trouble when joining these two datasets.
+
+#### Solution Question 2a
+
+------------------------------------------------------------------------
+
+*(Use the code chunk below. Then type your interpretation in the space below the output.)*
+
+```{r}
+# Solution Question 2a
+```
+
+### Question 2b
+
+------------------------------------------------------------------------
+
+Use a `dplyr` `*_join()` function to combine care with `co_counties` into a new `sf` object named `co_care`. The resulting object should retain all 64 Colorado counties and their geographic boundaries, along with the corresponding healthcare data from care.
+
+Use the five-character geographic identifier columns, even though their **names differ** in the two datasets. Verify that the result still contains all 64 Colorado counties and that `ACCESS2_CrudePrev` has no missing values after the join.
+
+Then explain one reason why joining by a geographic identifier may be preferable to joining by a county name.
+
+#### Solution Question 2b
+
+------------------------------------------------------------------------
+
+*(Use the code chunk below. Then type your interpretation in the space below the output.)*
+
+```{r}
+# Solution Question 2b
+```
+
+## Question 3
+
+------------------------------------------------------------------------
+
+The first substantive question concerns **lack of health insurance** among adults ages 18–64.
+
+### Question 3a
+
+------------------------------------------------------------------------
+
+Use `ggplot2` and `geom_sf()` to create a choropleth map of `ACCESS2_CrudePrev`. Use a continuous viridis scale, a descriptive title, and a legend title that makes clear the values are **percentages of adults ages 18–64**.
+
+#### Solution Question 3a
+
+------------------------------------------------------------------------
+
+*(Use the code chunk below.)*
+
+```{r}
+# Solution Question 3a
+```
+
+### Question 3b
+
+------------------------------------------------------------------------
+
+Experiment with at least one alternative color palette for the map you created in Question 3a. You can change the option argument in `scale_fill_viridis_c()`, or explore other color scales and customize the colors yourself.
+
+- Display a second version of your map using the alternative palette.
+- Which of the two palettes do you prefer? Briefly explain why.
+
+#### Solution Question 3b
+
+------------------------------------------------------------------------
+
+*(Use the code chunk below. Then type your answer in the space below the output.)*
+
+```{r}
+# Solution Question 3b
+```
+
+### Question 3c
+
+------------------------------------------------------------------------
+
+Using `dplyr`, identify the **three counties with the highest** and **three with the lowest** estimated percentages of adults ages 18–64 without insurance. Display county names and estimated percentages.
+
+A reader sees a high-percentage county and says, *"That county must have the largest number of uninsured residents."* Explain why the choropleth map alone does not establish this conclusion.
+
+#### Solution Question 3c
+
+------------------------------------------------------------------------
+
+*(Use the code chunk below. Then type your interpretation in the space below the output.)*
+
+```{r}
+# Solution Question 3c
+```
+
+## Question 4
+
+------------------------------------------------------------------------
+
+Let's compare the insurance map with an indicator of preventive healthcare use: visits to a dentist or dental clinic.
+
+### Question 4a
+
+------------------------------------------------------------------------
+
+Run the following code without changing it. The map renders, but **every county has the same fill color**, even though `DENTAL_CrudePrev` varies among counties.
+
+```{r, eval=exists("co_care")}
+# Instructor-provided code: do not modify.
+ggplot(co_care, aes(fill = "DENTAL_CrudePrev")) +
+  geom_sf() +
+  labs(
+    title = "Dental visits in Colorado",
+    fill = "Dental visits"
+  ) +
+  theme_minimal()
+```
+
+Explain why the map has a single fill color, referring specifically to what belongs **inside `aes()`**. The code does not produce an error, so don't simply say that the plot needs different colors.
+
+#### Solution Question 4a
+
+------------------------------------------------------------------------
+
+*(Type your answer in the space below.)*
+
+### Question 4b
+
+------------------------------------------------------------------------
+
+Create a **corrected** choropleth map of `DENTAL_CrudePrev`. Use a continuous color scale of your choice. You may use the palette you preferred in Question 3 or experiment with another. Use a meaningful title and a legend title clearly identifying that the values are **percentages of adults** who reported a dental visit in the previous year.
+
+#### Solution Question 4b
+
+------------------------------------------------------------------------
+
+*(Use the code chunk below.)*
+
+```{r}
+# Solution Question 4b
+```
+
+### Question 4: Process & AI Reflection
+
+------------------------------------------------------------------------
+
+This question asked you to diagnose a plot that executed but did not represent the intended variable. Briefly reflect on the following.
+
+- **Debugging.** What did you inspect or recall to find the mistake, and how did you check the corrected map?
+- **AI use (if any).** If you used AI, which tool did you use, what was your prompt, what did it return, and what did you change? If you did not use AI, describe what you used instead.
+
+#### Solution Question 4 Reflection
+
+------------------------------------------------------------------------
+
+*(Type your reflection in the space below.)*
+
+## Question 5
+
+------------------------------------------------------------------------
+
+Investigate whether counties with higher percentages of uninsured adults also tend to report lower percentages of dental visits.
+
+### Question 5a
+
+------------------------------------------------------------------------
+
+Use `ggplot2` to create a scatterplot investigating the relationship between the estimated percentage of adults ages 18–64 without health insurance (`ACCESS2_CrudePrev`) and the percentage of adults reporting a dental visit in the previous year (`DENTAL_CrudePrev`) across Colorado counties.
+
+- Place the uninsured percentage on the horizontal axis and the dental visit percentage on the vertical axis.
+- Include a meaningful title and clearly labeled axes that identify the populations represented.
+
+#### Solution Question 5a
+
+------------------------------------------------------------------------
+
+*(Use the code chunk below.)*
+
+```{r}
+# Solution Question 5a
+```
+
+### Question 5b
+
+------------------------------------------------------------------------
+
+Based on your scatterplot, describe the direction and apparent strength of the county-level association. A reader argues that the plot proves that an uninsured individual is less likely to visit the dentist. Explain why a relationship based on **county estimates** does not, by itself, establish this claim about individuals.
+
+Also identify a difference in the **populations covered** by the two CDC variables that matters when interpreting the comparison.
+
+#### Solution Question 5b
+
+------------------------------------------------------------------------
+
+*(Type your answer in the space below.)*
+
+### Question 5c
+
+------------------------------------------------------------------------
+
+Compare the choropleth maps from Questions 3a and 4b to investigate geographic patterns in health insurance coverage and dental visits.
+
+- Use `dplyr` to display the uninsured and dental visit percentages for at least two counties of interest.
+- Describe one interesting geographic pattern or contrast you observe between the two maps.
+- Support your observation with at least two named counties and their corresponding percentages for both healthcare indicators.
+
+#### Solution Question 5c
+
+------------------------------------------------------------------------
+
+*(Use the code chunk below. Then type your interpretation in the space below the output.)*
+
+```{r}
+# Solution Question 5c
+```
+
+## Question 6
+
+------------------------------------------------------------------------
+
+Two measures of preventive service use do not necessarily reveal the same geographic pattern. Compare **routine checkups** with **dental visits**.
+
+### Question 6a
+
+------------------------------------------------------------------------
+
+Create a choropleth map of `CHECKUP_CrudePrev` using `geom_sf()`. Include an informative title, a continuous fill scale of your choice, and an accurately labeled percentage legend. Convert your map into an **interactive map** using `ggplotly()`. When hovering over a county, the tooltip should display the following information for that county:
+
+- The county name.
+- The estimated percentage of adults reporting a routine checkup in the previous year.
+- The estimated percentage of adults reporting a dental visit in the previous year.
+
+Starting with `co_care`, create a new `sf` object named `co_care_label` that includes the information needed for your tooltips. Do not overwrite `co_care`.
+
+Use your interactive map to identify the routine checkup and dental visit percentages for Custer and Larimer counties.
+
+#### Solution Question 6a
+
+------------------------------------------------------------------------
+
+*(Use the code chunk below. Then type your answer in the space below the output.)*
+
+```{r}
+# Solution Question 6a
+```
+
+### Question 6b
+
+------------------------------------------------------------------------
+
+Compare the checkup map with your dental-visit map from Question 4b. Describe a difference in their geographic patterns, using the counties in Question 6a or other specific observations as evidence.
+
+Why would it be misleading to describe the two maps as measuring exactly the same kind of healthcare use, even though both measures refer to services received by adults?
+
+#### Solution Question 6b
+
+------------------------------------------------------------------------
+
+*(Type your answer in the space below.)*
+
+## Question 7
+
+------------------------------------------------------------------------
+
+The dataset contains additional healthcare measures beyond those used above. For this final question, **develop your own question** about geographic differences in access to or use of healthcare services in Colorado, and create a visualization to investigate it.
+
+Your question must be meaningfully different from Questions 1–6. You may use any of the indicators in the data dictionary and **do not need to find outside data**. You may use a map or another type of visualization covered earlier in the course if it better addresses your question. Remember that some measures refer to different eligible populations.
+
+### Question 7a
+
+------------------------------------------------------------------------
+
+State your question in one or two sentences. Identify the variable(s) you will use, and explain briefly why your chosen type of visualization could help answer the question.
+
+#### Solution Question 7a
+
+------------------------------------------------------------------------
+
+*(Type your answer in the space below.)*
+
+### Question 7b
+
+------------------------------------------------------------------------
+
+In the first code chunk, prepare or select the data needed for your investigation and display the first six rows (or the full result if shorter). In the second chunk, create **one visualization** that investigates your question. Make the plot understandable without consulting the raw data, with appropriate labels, units, and an informative title.
+
+#### Solution Question 7b
+
+------------------------------------------------------------------------
+
+*(Use the code chunks below.)*
+
+```{r}
+# Solution Question 7b Part 1
+```
+
+```{r}
+# Solution Question 7b Part 2
+```
+
+### Question 7c
+
+------------------------------------------------------------------------
+
+Explain what you learned from your visualization. Support your interpretation with at least one specific observation, such as a named county, a numerical value, or a visible geographic pattern. Identify one limitation or caution relevant to your findings, especially if you compare indicators with different eligible populations.
+
+#### Solution Question 7c
+
+------------------------------------------------------------------------
+
+*(Type your answer in the space below.)*
+
+### Question 7: Process & AI Reflection
+
+------------------------------------------------------------------------
+
+This final question asked you to select and investigate an issue yourself. Briefly reflect on the following.
+
+- **Developing your question.** Why did you choose the issue and visualization you used? Did anything about the results lead you to change your approach?
+- **AI use (if any).** If you used AI, which tool did you use, what was your prompt, what did it return, and what did you change? If you did not use AI, describe what you used instead.
+
+#### Solution Question 7 Reflection
+
+------------------------------------------------------------------------
+
+*(Type your reflection in the space below.)*
+
+## Save Your Work!
+
+------------------------------------------------------------------------
+
+Before submitting:
+
+1.  Run your completed Quarto code chunks and check for unintended errors.
+2.  Check that each answer and requested **Process & AI Reflection** is complete.
+3.  Render the completed Quarto document to HTML.
+4.  Open the HTML and check that all maps, other plots, and code output appear correctly.
+5.  Save the completed `.qmd` source file.
+6.  Submit **both** your `.qmd` source and rendered `.html` file in Canvas.
+
+The HTML is configured as a self-contained file, so you should not need to submit a separate `_files` folder.
