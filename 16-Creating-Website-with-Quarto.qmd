@@ -23,7 +23,7 @@ This is helpful for distinguishing yourself from competitors by showcasing who y
 It is very easy to create a personal webpage using Quarto websites and GitHub.
 We will walk through the process of creating a very simple professional website that you can further customize to suit your own needs.
 
-# What is git?
+## What is git?
 
 ------------------------------------------------------------------------
 
@@ -41,18 +41,12 @@ From <https://git-scm.com/>:
 
 By default, git tracks files changed in a directory or repository locally, i.e., on our actual computer, which can create some potential challenges:
 
--   git does not backup your code or changes, which could potentially be problematic.
+-   Git stores version history locally, but does not by itself provide a separate off-computer copy of your files. That could be problematic if your computer fails.
 -   A centralized repository must be available when multiple contributors are working on the same project. There needs to be a way of easily managing each person's contributions and keeping track of the development and stable branches of the code.
 
-GitHub provides one of the most population solutions for these two issues.
+GitHub provides one of the most popular solutions for these two issues.
 
-## Verfiying and/or Installing git
-
-------------------------------------------------------------------------
-
-[See instructions](https://github.com/git-guides/install-git) for checking if you already have git installed or how to install git if you don't.
-
-# What is GitHub?
+## What is GitHub?
 
 ------------------------------------------------------------------------
 
@@ -75,7 +69,7 @@ GitHub is a great place to:
 -   Put project repositories to demonstrate your coding skills and abilities.
 -   Host a professional website that advertises to potential employers or clients about how wonderful you are.
 
-## Setting Up an Account in GitHub
+### Setting Up an Account in GitHub
 
 ------------------------------------------------------------------------
 
@@ -86,7 +80,7 @@ To begin this process:
 -   Otherwise select **Sign up** and create a new account. It is FREE!
 
 
-## Creating a GitHub Repository
+### Creating a GitHub Repository
 
 ----
 
@@ -94,13 +88,17 @@ From the main page, create a GitHub repository.
   
 -   For your personal website, the repository name should be `username.github.io`. Obviously, replace `username` with your actual user name). @fig-create-username-github-io-repository displays an example of this.
 -   For a project website, use the name of the project directory. I use "demosite" for the website we create in this module.
+-   Select **Public** for the repository. GitHub Pages is available for public repositories with a free GitHub account.
+-   Select **Add a README file** when creating the repository. This gives you an initial file in the repository and makes the browser-based upload steps below easier to follow.
+-   Click **Create repository**.
 
+You only need to create **one** repository for the website. A project website such as `demosite` is sufficient for this activity; you do not need to create a separate `username.github.io` repository.
 
 ![Creating a username.github.io respository from the GitHub homepage](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/create_username_github_io_respository.png){#fig-create-username-github-io-repository}
 
 
 
-# What is Quarto?
+## What is Quarto?
 
 ------------------------------------------------------------------------
 
@@ -118,7 +116,7 @@ More helpfully, Quarto is the spiritual successor to R Markdown that was built f
 -   Julia
 -   Observable JavaScript.
 
-Quarto's development is sponsored by Posit (<https://posit.co/>), which was formally known as R Studio.
+Quarto's development is sponsored by Posit (<https://posit.co/>), which was formally known as RStudio.
 
 ![Posit Logo](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/posit_logo.svg){height="100"}
 
@@ -129,21 +127,16 @@ You can use Quarto to create:
 -   Blogs
 -   Websites.
 
-If you have successfully produced material using R Markdown, then you should feel at home producing materials using Quarto (and may want to shift future content production to Quarto documents).
-
-The R Markdown ecosystem was very mature when the decision to develop Quarto was made, so Quarto is designed to better integrate the various document types, options, and customizations available in R Markdown.
-Essentially, Quarto attempts to take the strengths of R Markdown while correcting some of its weaknesses.
-
 Quarto documents can be edited in:
 
--   R Studio (my favorite)
+-   RStudio/Posit Cloud
 -   VS Code
 -   JupyterLab
 -   Any text editor.
 
-R Studio provides the most feature-rich environment for creating Quarto documents.
+RStudio (or Posit Cloud) provides the most feature-rich environment for creating Quarto documents.
 
-To open a new Quarto document in R Studio:
+To open a new Quarto document in RStudio:
 
 1.  From the File menu click File → New File → Quarto Document.
 2.  Make the appropriate changes.
@@ -152,13 +145,13 @@ To open a new Quarto document in R Studio:
 Click the Render button, ![Render button](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/render_button.png){height="2em"}, to render the default Quarto document.
 
 
-# Creating a Starter Quarto website
+## Creating a Starter Quarto website
 
 ------------------------------------------------------------------------
 
 The initial step to creating a Quarto website is to create a new Quarto website project.
 
-## In R Studio
+### In RStudio
 
 ------------------------------------------------------------------------
 
@@ -178,17 +171,17 @@ The initial step to creating a Quarto website is to create a new Quarto website 
 
 6.  Regarding the check boxes, I'd recommend
 
-    -   Checking the box next to "Create a git repository". Since we will be hosting the website on GitHub, you want to do this. If you are hosting your website elsewhere, then you can probably uncheck this box. Note: if you don't have this option, then it probably means that you don't have git installed. Instructions for installing git are currently found at <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>. After installing git, restart R Studio and the option should be present.
+    -   The "Create a git repository" box is **optional if you will upload your files through the GitHub website**, as described in this module. You do not need local git or terminal commands to use that method. If you plan to use the optional terminal method in the appendix, you can check this box. If the box is missing and you intend to use git locally, see <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>. After installing git, restart RStudio.
     -   Uncheck the boxes next to "Use renv with this project". **renv** is a package for project-local R dependency management. Unless you're running completed R code on your webpages, then this isn't needed
     -   Uncheck "Use visual markdown editor". The visual markdown editor provides standard word processor like interface to your project. For me, this causes more problems than it solves, so I don't use this. You may have a different preference.
 
 7.  Click "Create Project".
 
-See @fig-project-options for the recommended choices.
+See @fig-project-options for an example of the project-creation options. The screenshot reflects an earlier workflow in which a local git repository was recommended; it is optional for the browser-based method used here.
 
 ![Recommended options when creating a Quarto website](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/create_quarto_website.png){#fig-project-options}
 
-## In Posit Cloud
+### In Posit Cloud
 
 ------------------------------------------------------------------------
 
@@ -201,7 +194,7 @@ A Posit Cloud Project has been created that contains all of the files listed abo
 
 3.  In the main folder, there is a subfolder named `demosite` containing the files listed in the section below.
 
-## What Files are Created?
+### What Files are Created?
 
 ------------------------------------------------------------------------
 
@@ -211,7 +204,7 @@ After clicking "Create Project", a new project will be created in the specified 
 -   `.gitignore`: a file that contains files and directories that git isn't supposed to track.
 -   `index.qmd`: the file that controls the default home page for your website.
 -   `about.qmd`: a file that's supposed to add a page to your website with information about you. This is really an optional file.
--   `*.Rproj`: the R project file associated with your website. Open this to reopen your R Studio workspace.
+-   `*.Rproj`: the R project file associated with your website. Open this to reopen your RStudio workspace.
 -   `styles.css`: a file to create custom styles for use on your website.
 
 The available files are enough to create an initial version of your website.
@@ -221,7 +214,7 @@ A complete description of available website options is available at <https://qua
 To host your Quarto website using GitHub pages, you will need to change the output directory of your project.
 We discuss that next.
 
-# Changing the Output Directory of a Quarto website
+## Changing the Output Directory of a Quarto website
 
 ------------------------------------------------------------------------
 
@@ -242,16 +235,56 @@ project:
   output-dir: docs
 ```
 
-After making this change:
+When Quarto renders a website, it converts each .qmd page into an HTML file. For example, `index.qmd` becomes `index.html`, and `about.qmd` becomes `about.html`. The `_quarto.yml` file controls how these pages are organized into a website, including navigation, titles, and themes. Quarto also generates supporting files needed to display the website correctly.
 
--   Navigate back to `index.qmd`
--   Click the Render button,![Render button](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/render_button.png){height="2em"} .
+::: {.callout-important}
+**Rendering an individual `.qmd` file does not guarantee that changes to other pages have been rendered.** Before publishing your website, you should render the entire website so that all HTML files reflect your latest changes.
+:::
 
-The "docs" folder will now appear in the Files pane.
+## Rendering a Quarto Website
 
-You are now ready to push your website to GitHub so that it can be rendered using GitHub Pages.
+------------------------------------------------------------------------
 
-# Publishing a Quarto Website on GitHub Pages
+
+GitHub Pages publishes the rendered files in the `docs` folder, not the `.qmd` files. Before uploading your website to GitHub, **render the entire website** to ensure all HTML pages reflect your latest changes.
+
+### Rendering in RStudio Desktop
+
+------------------------------------------------------------------------
+
+
+1. Open your Quarto website project in RStudio.
+2. In the **Build** tab, click **Render Website** (or **Render Project**, depending on your version).
+
+This renders all `.qmd` pages and updates the `docs` folder.
+
+### Rendering in Posit Cloud
+
+------------------------------------------------------------------------
+
+
+1. Open the **Terminal** tab, located next to the Console tab in the lower-left pane of Posit Cloud (directly below the Editor pane). If you don't see a Terminal tab, select **Tools → Terminal → New Terminal** from the menu.
+
+2. Use the `cd` (**change directory**) command to navigate to the `demosite` folder containing your website files. Type the following command in the Terminal and press Enter:
+
+   ```bash
+   cd /cloud/project/demosite
+   ```
+   
+3. To render the entire website, type the following command in the Terminal and press Enter.
+
+   ```bash
+   quarto render
+   ```
+
+**For both methods:** Verify that the `docs` folder contains `index.html`, `about.html`, and any other pages you created.
+
+::: {.callout-important}
+Whenever you finish editing your website and want to publish your changes to GitHub Pages, **render the entire website again before uploading the updated files**.
+:::
+
+
+## Publishing a Quarto Website on GitHub Pages
 
 ------------------------------------------------------------------------
 
@@ -260,8 +293,8 @@ GitHub Pages (<https://pages.github.com/>) is a feature of GitHub that allows yo
 The websites are hosted directly from your GitHub repository, meaning that you can:
 
 -   Keep a git repository of your website
--   Push changes of your website to GitHub
--   See the changed website almost instantly on GitHub.
+-   Upload or push changes of your website to GitHub
+-   See the changed website after GitHub Pages finishes publishing the update.
 
 If your GitHub username is `username` and your website is contained in the `demosite` repository, then your rendered website will be `https://username.github.io/demosite/`.
 
@@ -272,86 +305,118 @@ If your GitHub username is `username` and your website is contained in the `demo
 
 If you are creating a personal website, then it is best to host it as `https://username.github.io`.
 
-## Pushing and Pulling Changes to the Remote (Main) GitHub Branch
+### Uploading and Updating Files Through the GitHub Website
 
 ------------------------------------------------------------------------
 
-After creating your website locally on your computer, you need to `push` the changes to the remote (or main) repository you want to be hosted by GitHub pages. There are different methods for pushing the changes, I will present two possible methods. 
+Now that you have rendered your entire Quarto website and verified that the docs folder contains the necessary files, you are ready to upload your website to GitHub.
 
-1. Using terminal commands. This is slightly more advanced, but much more convenient (I think).
-2. Dragging files into the GitHub website. This is **much** easier, but much **less** convenient (I think).
+There are different ways to manage the files in a GitHub repository. **For this module, we will use the GitHub website in a web browser.** You will not need to know any git terminal commands.
 
-If you are working from Posit Cloud, then syncing Posit Cloud directories with GitHub repositories is possible but more complicated. 
+The steps below describe the **initial upload**, **updating files**, and **removing old files**. If you prefer to work with git from a terminal, see the appendix at the end of this document.
 
-- If you want to use terminal commands, see the [Posit Cloud documentation](https://docs.posit.co/cloud/guide/advanced/#working-with-github).
-- Or you can Export the Cloud Project to your computer. Then use the dragging files method outlined after the terminal commands section.  
-
- 
-### Using Terminal Commands
+#### Step 1: Locate Your Website Files on Your Computer
 
 ------------------------------------------------------------------------
 
-One way to sync changes back and forth between the main (remote) branch and the local branch is using terminal commands. Run each of the commands in sequence from the terminal (Mac/Linux) or command prompt (Windows):
+**If you are using RStudio installed on your own computer:** your Quarto project directory is already on your computer. Open the folder containing `_quarto.yml`.
 
-```
-git init
-git add *
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/aspiegler/practice.git
-git push -u origin main
-```
+**If you are using Posit Cloud:** after rendering the website, use the **Export** action for your Posit Cloud project to download the project as a `.zip` file. Extract (unzip) that file on your computer, and open the extracted project directory. For the provided Posit Cloud starter project, the website files are in the `demosite` subdirectory.
 
+**Do not upload the `.zip` file itself to GitHub.** GitHub Pages needs the individual website files and folders.
 
-Each time you make changes to a local file that you want to `commit` and  `push` the edits to the main branch, run the sequence of commands below, where you replace `<filename>` with the name of the file:
-
-```
-git commit <filename> -m "message explaining changes" 
-git push
-```
-
-**If you have made changes to several files** that you want to commit all at once, then you can add the option `-a` which specifies commit ALL changes. The options `-am` together specifies you want to commit *all* changes and will type a *message* to explain the commit.
-
-```
-git commit -am "message explaining changes"
-git push
-```
-
-If you have added a new file or subdirectory, you need to first run the command `git add filename` (for one file) or `git add *` to add all new files to version control. Then run the `git commit -am "my message"` and `git push`.
-
-
-Each time changes have been made to the main branch (from another user or your own changes made from another computer), you need to `pull` those changes to your local branch:
-
-```
-git pull
-```
-
-The command `git status` is helpful when managing versions as well!
-
-### Dragging Files into GitHub Website
+#### Step 2: Upload the Files to Your GitHub Repository
 
 ------------------------------------------------------------------------
 
-If you're not familiar with doing this manually, then you can literally copy the contents of your project directory to GitHub.
+1.  In a web browser, sign in to <https://github.com/> and open the repository you created for your website.
+2.  On the repository's main page, select **Add file → Upload files**. (If you created the repository with a README as instructed earlier, you should see an existing file and this menu.)
+3.  Select the needed files **inside** your website's project directory and drag them into the upload area (or use **choose your files**). Include the files needed to edit the project, such as `_quarto.yml`, `index.qmd`, `about.qmd`, and `styles.css`, **and the entire `docs` folder** containing your rendered website. Also include any images or other files used by your pages. Do not drag the enclosing project folder itself.
+    -   Preserve the folder structure: upload the contents of the project directory, **not another enclosing project folder**.
+    -   Do not upload a `.zip` archive in place of the website files.
+    -   If your computer shows hidden folders such as `.git` or `.Rproj.user`, you do not need to upload those folders. Likewise, temporary Quarto cache files are not needed to publish the site.
+4.  Review the displayed file list and paths before finishing the upload. The important check is that the rendered homepage will be at `docs/index.html` in the repository, **not** `demosite/docs/index.html` (or some other extra nested directory).
+5.  Under the commit options, enter a descriptive message such as `Initial website upload`. Select the option to **commit directly to the `main` branch** if it is available. Finish by selecting **Commit changes** (the wording may differ slightly in GitHub's interface).
+6.  Return to the repository's main page and verify that your files are present. In particular, click `docs` and check that `index.html` is inside it.
 
--   On <https://GitHub.com>, navigate to your website's repository.
--   Click `Add file -> Upload Files` and use a file manager on your computer to drag all files into the GitHub repo.
+GitHub places a limit on browser uploads of **100 files at once** and **25 MiB per individual file**. If your site has more than 100 files, you may need to upload the files in smaller batches while keeping their folder paths correct. This can happen with interactive graphics and large `site_libs` directories. See [GitHub's file-upload documentation](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository).
 
+For a project named `demosite`, the GitHub repository should resemble this:
 
-## Publishing to GitHub Pages
+```text
+# Top level of your GitHub repository
+_quarto.yml
+index.qmd
+about.qmd
+styles.css
+docs/
+    index.html
+    about.html
+    site_libs/
+    ... other rendered files ...
+```
+
+The `docs` directory may contain additional files and folders depending on the content of your website.
+
+#### Step 3: Updating Files After Making Changes
+
+------------------------------------------------------------------------
+
+When you edit your website in RStudio or Posit Cloud, **the files in GitHub do not update automatically**. You must upload the updated files.
+
+1.  Save your changes in RStudio and **render the entire website** again using **Build → Render Website**.
+2.  If you are using Posit Cloud, export the revised project and unzip it on your computer again.
+3.  In your GitHub repository, use **Add file → Upload files** and upload the revised files. Uploading a changed file with the same name **to the same path** replaces its previous version when you commit the change.
+4.  Remember to upload the updated rendered files in `docs`, **not just the revised `.qmd` files**. If you changed the site title, navigation, stylesheet, or theme, several rendered files may need to be replaced.
+5.  Enter a commit message such as `Update website`, commit directly to `main`, and check the website after GitHub Pages republishes it.
+
+**For example:** Editing `index.qmd` locally but uploading only `index.qmd` to GitHub will not update the published homepage. GitHub Pages is serving `docs/index.html`, so that updated file must also be uploaded. The same applies to any changed support files in `docs`.
+
+#### Step 4: Deleting Files You No Longer Need
+
+------------------------------------------------------------------------
+
+Uploading new files **does not automatically delete** files that you have removed from the project on your computer. If you delete `favorites.qmd` from your project, for example, its old copy may remain in GitHub until you also delete it there.
+
+To delete an obsolete file using the GitHub website:
+
+1.  Open your repository and navigate to the file you want to remove.
+2.  Use the file's menu (often the `...` menu) and choose **Delete file**.
+3.  Enter a commit message and commit the deletion to `main`.
+4.  If the deleted page also has an old rendered HTML file (such as `docs/favorites.html`), delete that file from GitHub as well. If the page was linked from your navbar, update `_quarto.yml`, rerender, and upload the updated files.
+
+Be careful not to delete the `docs` folder or its `index.html` file: GitHub Pages needs them for the publishing method used here.
+
+#### A Quick Check Before Publishing or Updating
+
+------------------------------------------------------------------------
+
+-   Does the repository contain `_quarto.yml` and `index.qmd` at the top level?
+-   Is the rendered homepage at **`docs/index.html`**, with no extra enclosing folder?
+-   Have you uploaded the **current rendered files** from `docs`, including supporting assets?
+-   Have you **committed** your uploads or deletions to the `main` branch?
+-   If something isn't displaying properly, have you compared the repository's files with the files in your most recently rendered `docs` folder?
+
+### Publishing to GitHub Pages
 
 ------------------------------------------------------------------------
 
 -   On <https://GitHub.com>, navigate to your website's repository.
 -   Click on the Settings button, ![GitHub Settings button](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/github_settings_button.png){height="2em"}.
 -   On the Navigation bar, click "Pages".
--   If you've set the output directory for your website to "docs" (which you should have done earlier), then toggle the "/(root)" option to "/docs" and click the "Save" button. @fig-github-pages demonstrates this.
+-   Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+-   Set **Branch** to `main` and **Folder** to `/docs`, then click **Save**. @fig-github-pages demonstrates the folder selection in an older version of the GitHub interface. The current page may look somewhat different.
+-   Before publishing, GitHub Pages should find `index.html` at the top level of the selected `/docs` folder. If it is instead under another subfolder, return to the file-upload instructions above and correct the directory structure.
 
 ![Selecting GitHub Pages Settings](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/github_pages.png){#fig-github-pages}
 
-**In a few minutes**, you should see the initial version of your website at `https://username.github.io` or `https://username.github.io/name` depending on the type of site you created.
+**After GitHub Pages finishes deploying**, you should see the initial version of your website at `https://username.github.io` or `https://username.github.io/name` depending on the type of site you created. GitHub indicates that publishing or updating a site can take up to about 10 minutes. You can find the website's actual address and the **Visit site** link under **Settings → Pages**.
 
-# Changing the Main Title of a Quarto website
+**Disable Jekyll processing:** GitHub Pages normally uses Jekyll when publishing from a branch. Quarto produces the HTML for us, so we do not need Jekyll to rebuild it. Create an empty file named `.nojekyll` in the root of the publishing source (`docs`) using **Add file → Create new file** while inside the `docs` folder in GitHub. If GitHub requires text in the file to permit committing it, a short note is harmless: GitHub checks for the file's presence. Commit this file to `main`. The [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) explains the `.nojekyll` convention.
+
+If the website does not appear or does not show your recent changes, check that the repository is public, GitHub Pages is configured for **`main` / `/docs`**, `docs/index.html` exists, and the latest files were committed to `main`. You can also try refreshing the published page after the deployment finishes.
+
+## Changing the Main Title of a Quarto website
 
 ------------------------------------------------------------------------
 
@@ -371,9 +436,15 @@ For your personal website, it makes sense to use something like:
 -   "First name Middle initial Last name", e.g., Amy R. Tan"
 -   Your brand identity, e.g., "Assistant to the Regional Data Manager"
 
-Change the title to something you prefer and click the Render button, ![Render button](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/render_button.png){height="2em"}, to render a Quarto website with a custom title.
+Change the title to something you prefer and save your changes.
 
-# Adding or Removing a Page from a Quarto Website
+Next, **render the entire website** using **Build → Render Website** in RStudio Desktop or the `quarto render` command in Posit Cloud, as described earlier.
+
+Then **upload all the website files and folders** to your GitHub repository, preserving the directory structure, even if some files have not changed. Remember to commit your changes. If using Posit Cloud, you will first need to export and unzip the updated project.
+
+Finally, refresh your published website to verify that the new title appears.
+
+## Adding or Removing a Page from a Quarto Website
 
 ------------------------------------------------------------------------
 
@@ -425,11 +496,11 @@ We add a new row with `- favorites.qmd` as in the code below.
 ```
 
 To remove a page from your Quarto website, simply delete its line from the `navbar` section.
-Don't remove the `index.qmd` row unless you want to break your website.
+Keep the `index.qmd` **file**, since it provides the homepage. You can remove its navbar row if you do not want a separate Home link in the navigation bar.
 
-Navigate to a `.qmd` file and click the Render button, ![Render button](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/render_button.png){height="2em"}, to render the Quarto website that now has added a new page.
+Render the entire website to preview your changes. In RStudio Desktop, select **Build → Render Website**. In Posit Cloud, run `quarto render` from the Terminal in your website project directory.
 
-# Changing the Color and Style Theme of a Quarto Website
+## Changing the Color and Style Theme of a Quarto Website
 
 ------------------------------------------------------------------------
 
@@ -498,9 +569,9 @@ by editing the appropriate section of `_quarto.yml`.
     monofont: courier new
 ```
 
-Navigate to a `.qmd` file and click the Render button, ![Render button](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/render_button.png){height="2em"}, to render the Quarto website that now has added a new page.
+Render the entire website to preview your changes. In RStudio Desktop, select **Build → Render Website**. In Posit Cloud, run `quarto render` from the Terminal in your website project directory.
 
-# Using a Quarto Website "about" Template
+## Using a Quarto Website "about" Template
 
 ------------------------------------------------------------------------
 
@@ -558,7 +629,7 @@ Go to the [Images directory in our course GitHub repository ](https://github.com
 -   [`resume.pdf`](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/resume.pdf)
 
 
-## Using the about Template and Adding an Image and Title
+### Using the about Template and Adding an Image and Title
 
 ------------------------------------------------------------------------
 
@@ -582,7 +653,7 @@ about:
 ---
 ```
 
-## Adding Links to an about Template
+### Adding Links to an about Template
 
 ------------------------------------------------------------------------
 
@@ -606,7 +677,7 @@ We add the following rows under the `about` section of our YAML header, which wi
       href: resume.pdf
 ```
 
-## Adding Partial Page Content to an about Template
+### Adding Partial Page Content to an about Template
 
 ------------------------------------------------------------------------
 
@@ -634,9 +705,9 @@ a highly paid position.
 :::
 ```
 
-Click the Render button, ![Render button](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/render_button.png){height="2em"}, to render the Quarto website.
+Render the entire website to preview your changes. In RStudio Desktop, select **Build → Render Website**. In Posit Cloud, run `quarto render` from the Terminal in your website project directory.
 
-# Fixing a Broken File Link on a Quarto Website
+## Fixing a Broken File Link on a Quarto Website
 
 ------------------------------------------------------------------------
 
@@ -644,7 +715,7 @@ Linking to a file in a Quarto website is slightly more complicated than linking 
 
 Notice that `resume.pdf` on the demosite isn't available.
 It isn't available because it is not in the docs folder used to render the website.
-(You can verify this by navigating to the docs older in the Files pane of R Studio).
+(You can verify this by navigating to the docs older in the Files pane of RStudio).
 There are two options to correct this:
 
 1.  Manually copy `resume.pdf` to the docs folder. Don't do this.
@@ -658,4 +729,75 @@ resources: resume.pdf
 about:
 ```
 
-Click the Render button, ![Render button](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/render_button.png){height="2em"}, to render the Quarto website with a corrected file link to `resume.pdf`.
+Render the entire website to preview your changes. In RStudio Desktop, select **Build → Render Website**. In Posit Cloud, run `quarto render` from the Terminal in your website project directory.
+
+
+## Publishing Your Updated Website to GitHub
+
+------------------------------------------------------------------------
+
+Once your website looks the way you want locally, you're ready to publish the updated version to GitHub Pages.
+
+1. **Render the entire website** to ensure all HTML files reflect your latest changes.
+
+2. **Upload all website files and folders** to your GitHub repository using the browser-based drag-and-drop method described earlier. This includes your `.qmd` files, `_quarto.yml`, the entire `docs` folder, and any other files used by your website (such as images or `styles.css`). Preserve the directory structure, even for files that haven't changed. If using Posit Cloud, first export and unzip the updated project.
+
+3. **Commit your changes** to save the updates to your GitHub repository.
+
+4. **Refresh your published website** after GitHub Pages finishes deploying the changes. Your public website should now match the version you created locally.
+
+::: {.callout-important}
+Upload the **contents** of your Quarto website project folder, not the enclosing folder itself. The `_quarto.yml` file and `docs` folder should be at the top level of your GitHub repository.
+:::
+
+## Appendix: Managing the Repository with Git Terminal Commands (Optional)
+
+------------------------------------------------------------------------
+
+The main instructions above use GitHub in a web browser. This appendix is an alternative for students who already use git or would like to learn the terminal method. Do **not** mix browser uploads and local `git push` operations without first syncing changes; otherwise your local and remote versions may differ.
+
+### Verfiying and/or Installing git
+
+------------------------------------------------------------------------
+
+[See instructions](https://github.com/git-guides/install-git) for checking if you already have git installed or how to install git if you don't.
+
+
+### Connecting a Local Git Repository to GitHub
+
+------------------------------------------------------------------------
+
+Open a terminal in your Quarto project directory. **The example commands below assume the GitHub repository was created without a README or other initial files.** If you followed the main instructions and created the GitHub repository with a README, it is better to clone that existing repository first and place your website project files in the cloned directory instead of starting a separate local history. If you checked **Create a git repository** when creating the RStudio project, you can skip `git init` because it has already been initialized. Otherwise run it once. Replace `USERNAME` and `REPOSITORY` with your actual GitHub username and website repository name.
+
+```bash
+git init
+git add -A
+git commit -m "Initial website upload"
+git branch -M main
+git remote add origin https://github.com/USERNAME/REPOSITORY.git
+git push -u origin main
+```
+
+If the remote repository was initialized with a README before your local repository was connected to it, these histories will not be identical. Rather than forcing a push, follow an established Git workflow to reconcile them or continue using the browser method in the main instructions. GitHub authentication is also required for HTTPS pushes; a GitHub account password alone will not work. See [GitHub's authentication guidance](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github).
+
+### Sending Subsequent Updates
+
+------------------------------------------------------------------------
+
+After saving changes and rendering the entire site, use these commands in the project directory:
+
+```bash
+git add -A
+git commit -m "Update website"
+git push
+```
+
+`git add -A` includes newly created files, modifications, and deletions. This is more reliable than using `git commit -am`, which does not stage new files.
+
+If changes were made on GitHub or another computer, first fetch and incorporate the remote changes before pushing again:
+
+```bash
+git pull
+```
+
+The command `git status` is helpful for seeing what has changed and which files have not yet been committed. If you use Posit Cloud and want to sync git directly from there rather than exporting files, see the [Posit Cloud documentation](https://docs.posit.co/cloud/guide/advanced/#working-with-github).
