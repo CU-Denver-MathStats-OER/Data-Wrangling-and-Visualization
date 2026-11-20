@@ -234,6 +234,7 @@ From there you can:
 
 - Open a published report and copy its public URL.
 - Edit the report's title and description.
+- Customize the URL in the Settings of the report.
 - View previous versions or delete a publication.
 
 See the [Posit Connect Cloud documentation](https://docs.posit.co/connect-cloud/user/manage/content_settings.html) for additional information about managing published reports.
