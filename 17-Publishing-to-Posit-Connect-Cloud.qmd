@@ -1,0 +1,278 @@
+---
+title: "Publishing Reports with Posit Connect Cloud"
+author: "Adam Spiegler"
+format:
+  html:
+    embed-resources: true
+    theme: flatly
+editor: source
+editor_options:
+  markdown:
+    wrap: sentence
+license: "CC BY-NC-SA"
+title-block-banner: true
+---
+
+[Posit Connect Cloud](https://connect.posit.cloud/) is an online service for publishing and sharing Quarto documents, websites, and other data science projects.
+For your final project, you will use Posit Connect Cloud to publish your Quarto report as a publicly available website.
+
+- You can use RStudio on your computer or through Posit Cloud to develop and write reports.
+- Posit Connect Cloud is where you share work so others can view it in a web browser.
+- **One member of your final project group will publish the completed report and share the URL.**
+
+The [Quarto publishing guide](https://quarto.org/docs/publishing/posit-connect-cloud.html) describes several ways to publish:
+
+1.  Publish directly from RStudio using its `Publish` button.
+2. Use the `quarto publish` command from the Terminal to render and publish your report.
+3.  Connect a GitHub repository so changes pushed to GitHub are published automatically.
+    - We will not cover this method, though you have already worked with GitHub Pages.
+
+::: {.callout-important}
+**Reports published using a free Posit Connect Cloud account are public.** Anyone with the URL can view the report without signing in.
+Only publish information you are comfortable sharing publicly.
+Your final group project should not contain passwords, private information, or other sensitive data.
+:::
+
+## Callout Blocks in Quarto
+
+---
+
+Before we get started with publishing, let's look at one additional Quarto feature you might find useful for your final project. You've probably noticed the colored boxes throughout these notes that highlight important information, tips, or warnings. These are called callout blocks, and they're easy to add to your own Quarto documents.
+
+The [Quarto Callout Block help page](https://quarto.org/docs/authoring/callouts.html) explains that callouts are useful for drawing attention to important or supplemental information.
+
+There are five different callout types available for Quarto documents:
+
+- `note`
+- `warning`
+- `important`
+- `tip`
+- `caution`
+
+The syntax for a callout block is as follows:
+
+- A callout block begins with `::: {.callout-<type>}`, where `<type>` is one of the five types listed above.
+- Then enter the text in the callout block.
+- Close the callout block with three colons `:::`.
+
+::: {.callout-note}
+We will be eating meat, mashed potatoes, and asparagus for dinner, followed by a chocolate pudding for dessert.
+:::
+
+::: {.callout-warning}
+If you don't eat your meat, you can't have any pudding.
+:::
+
+::: {.callout-important}
+Asparagus is a good source of folate, vitamin K, and fiber.
+:::
+
+::: {.callout-tip}
+You can mix asparagus with the mashed potatoes to help cover up the taste.
+:::
+
+::: {.callout-caution}
+How can you have any pudding if you don't eat your meat?
+:::
+
+## Creating a Free Posit Connect Cloud Account
+
+---
+
+Before attempting to publish your first report, create a free Posit Connect Cloud account.
+
+- Go to <https://connect.posit.cloud/>.
+- Click the `Sign Up` button and follow the prompts to create an account.
+- If you already have a Posit Cloud account, I recommend using the same email address when registering for Posit Connect Cloud.
+- Once your account has been created, sign in to Posit Connect Cloud.
+
+::: {.callout-note}
+**Posit Cloud and Posit Connect Cloud are not the same service.** You may use Posit Cloud to work on your Quarto document in RStudio.
+Posit Connect Cloud is where you publish the finished report so others can view it in a web browser.
+:::
+
+
+## Publishing a Quarto Document to Posit Connect Cloud
+
+---
+
+Once you have created your Posit Connect Cloud account, you are ready to publish your Quarto document.
+
+You can continue working on your Quarto documents in RStudio or Posit Cloud as you have throughout the semester.
+Before publishing, be sure your document is complete and renders properly.
+
+- Open your Quarto (`.qmd`) document in RStudio.
+- Click the `Render` button to generate your HTML report.
+- Look over the rendered document to make sure your text, tables, figures, and any interactive visualizations display correctly.
+- If you notice anything that needs improvement, make your edits and render the document again.
+
+**Once you are satisfied with your rendered HTML report, you are ready to publish!**
+
+::: {.callout-note}
+**You can update your published report at any time!** If you notice a mistake or want to make improvements after publishing, you can edit your original Quarto document and publish it again.
+Your updated report will replace the previous version at the same web address, so there is no need to create a new website each time you make changes.
+:::
+
+### Step 1: Install the rsconnect Package
+
+---
+
+RStudio uses the `rsconnect` package to publish documents to Posit Connect Cloud.
+
+Run the following command in the RStudio Console to install the package, if you have not already installed it.
+
+``` r
+install.packages("rsconnect")
+```
+
+- You only need to install this package once in your RStudio environment.
+- You do NOT need to run a `library(rsconnect)` command to use RStudio's Publish button.
+
+### Step 2: Publish Your Document
+
+---
+
+With your Quarto (`.qmd`) document open in RStudio, and after you have successfully rendered it to HTML:
+
+1.  Click the `Publish` button near the top of the Quarto editor.
+2.  Select `Posit Connect Cloud` as your publishing destination.
+3.  Select `Publish finished document only`. This will publish the HTML document that you have already rendered.
+4.  If this is your first time publishing, you will need to connect RStudio to your Posit Connect Cloud account.
+
+### Step 3: Connect RStudio to Your Posit Connect Cloud Account
+
+---
+
+You only need to connect your account the first time you publish from a particular RStudio environment.
+
+1.  Click `Connect Account` to begin setting up the connection.
+2.  Follow the prompts to authorize RStudio to access your Posit Connect Cloud account.
+3.  A web browser may open asking you to sign in to Posit Connect Cloud.
+4.  If prompted, authorize the connection between RStudio and Posit Connect Cloud.
+5.  Return to RStudio and complete the connection process.
+
+
+### Step 4: Publish and View Your Report
+
+---
+
+After connecting your account:
+
+1.  Follow the remaining prompts to publish your document.
+2.  If asked to provide a title for your report, enter an appropriate and descriptive title.
+3.  Click `Publish` to upload your HTML report to Posit Connect Cloud.
+4.  Once publishing is complete, your report should open in a web browser.
+
+**Congratulations! Your report is now published online!**
+
+Posit Connect Cloud provides a URL (web address) that you can share with others.
+
+- Copy the URL of your published report.
+- Open the URL in a new browser window to make sure everything looks correct.
+- I recommend also opening the URL in a private/incognito browser window to verify that someone who is not signed into your account can view it.
+
+### Step 5: Updating Your Published Report
+
+---
+
+What happens if you notice a mistake or want to improve something after publishing your report?
+
+No problem!
+You can edit your original Quarto document and publish an updated version.
+
+1.  Open your original `.qmd` file in RStudio.
+2.  Make any changes or corrections.
+3.  Click `Render` to generate an updated HTML report.
+4.  Click `Publish` again.
+5.  Select your previously published report as the destination, rather than creating a new publication.
+
+Your updated report will replace the previous version at the same URL.
+
+::: {.callout-note}
+**Remember:** Editing your Quarto document or rendering it to HTML does NOT automatically update your published report.
+You need to publish again for your changes to appear online.
+:::
+
+## Optional: Publishing Using the Quarto Command Line
+
+---
+
+Instead of using the `Publish` button in RStudio, you can also publish your Quarto document directly from the Terminal using the `quarto publish` command.
+
+- Make sure you have [Quarto](https://quarto.org/docs/get-started/) version 1.9 or newer installed. Current versions of RStudio generally include Quarto.
+  - From the Terminal, run `quarto --version` to check.
+  - If your version is older than 1.9, download and install the latest version of Quarto from [quarto.org](https://quarto.org/docs/get-started/).
+- Open the Terminal in RStudio and navigate to the folder containing your `.qmd` file.
+- Run the following command, replacing `report.qmd` with the name of your Quarto document.
+
+``` bash
+quarto publish posit-connect-cloud report.qmd
+```
+
+The first time you publish, Quarto will ask you to authorize access to your Posit Connect Cloud account.
+Follow the prompts to sign in and authorize the connection using your web browser.
+
+Once publishing is complete, a web browser will open displaying your published report.
+You now have a web address you can share with others!
+
+**To update your published report**, make changes to your original `.qmd` file and click `Render` to verify that everything looks correct.
+Then run the same `quarto publish` command again to update your published report.
+The command will automatically render and publish your updated document.
+
+For additional information, see the [Quarto documentation on publishing to Posit Connect Cloud](https://quarto.org/docs/publishing/posit-connect-cloud.html).
+
+When you publish using `quarto publish`, Quarto creates a file named `_publish.yml` that records information about where your document was published. Keep this file so Quarto can update your existing publication rather than creating a new one.
+
+
+
+## Managing Content in Posit Connect Cloud
+
+---
+
+The management interface at <https://connect.posit.cloud/> displays your published content.
+From there you can:
+
+- Open a published report and copy its public URL.
+- Edit the report's title and description.
+- View previous versions or delete a publication.
+
+See the [Posit Connect Cloud documentation](https://docs.posit.co/connect-cloud/user/manage/content_settings.html) for additional information about managing published reports.
+
+## Customizing the Appearance of Your Quarto Report
+
+---
+
+Quarto provides many options for customizing the appearance of your HTML reports and making them easier to navigate.
+
+For example, you can:
+
+- Choose different themes to change the colors, fonts, and overall appearance of your report.
+- Add an automatically generated **Table of Contents** based on the section headings (`#`, `##`, `###`, etc.) in your Quarto document.
+- Choose where the Table of Contents appears, such as along the left or right side of your report, and which heading levels to include.
+- Automatically number the sections of your report.
+
+Many of these features can be controlled by adding a few options to the YAML header of your Quarto document.
+
+If you want to explore ways to make your final project report more visually appealing and easier to navigate, check out these Quarto resources:
+
+- [HTML Basics](https://quarto.org/docs/output-formats/html-basics.html): Learn how to add and customize a Table of Contents, section numbering, and other HTML features.
+- [HTML Themes](https://quarto.org/docs/output-formats/html-themes.html): Explore different built-in themes and ways to customize the appearance of your report.
+- For example, try the following YAML settings to change the theme, display a Table of Contents on the left side, and automatically number the sections of your report.
+
+```yaml
+format:
+  html:
+    embed-resources: true
+    theme: minty
+    toc: true
+    toc-location: left
+    toc-depth: 3
+    number-sections: true
+```
+
+## Before Submitting Your Final Project
+
+---
+
+Be sure your published report is complete and the public URL works when you are not signed in.
+Keep your original `.qmd` file and any additional files needed to reproduce your analysis, and follow the final project instructions in Canvas for what to submit.
